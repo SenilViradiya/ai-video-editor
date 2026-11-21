@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-21T09:08:53.227Z",
+  "outputPath": "output\\final-hybrid-reel.mp4",
+  "expected": {
+    "width": 2160,
+    "height": 3840,
+    "fps": 30,
+    "durationSeconds": 58.466667,
+    "durationInFrames": 1754,
+    "orientation": "portrait",
+    "scaled": false,
+    "fpsConversion": "60-to-30",
+    "maxWidth": 2160,
+    "maxHeight": 3840
+  },
+  "actual": {
+    "width": 2160,
+    "height": 3840,
+    "fps": 30,
+    "durationSeconds": 58.466667,
+    "videoCodec": "h264",
+    "pixelFormat": "yuvj420p",
+    "audioStreams": 1,
+    "color": {
+      "range": "pc",
+      "space": "bt709",
+      "transfer": "bt709",
+      "primaries": "bt709"
+    }
+  },
+  "checks": {
+    "dimensions": true,
+    "fps": true,
+    "duration": true,
+    "audioPresent": true,
+    "sourceIdentity": true,
+    "planIdentity": true,
+    "outputPath": true
+  },
+  "passed": true
+}

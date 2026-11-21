@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-21T06:14:23.868Z",
+  "primaryMediaId": "primary_source-22f5e379254e",
+  "entries": [
+    {
+      "id": "primary_source-22f5e379254e",
+      "role": "primary_source",
+      "path": "input/raw-video/talking-head.mp4",
+      "sha256": "22f5e379254e6d569f450d663078a5914cbe3da016b180f4dc4019b149e68e41",
+      "metadata": {
+        "width": 2160,
+        "height": 3840,
+        "sampleAspectRatio": null,
+        "fps": 60,
+        "durationSeconds": 58.466667,
+        "audioStreams": 1,
+        "videoCodec": "hevc",
+        "audioCodec": "aac",
+        "color": {
+          "range": "pc",
+          "space": "bt709",
+          "transfer": "bt709",
+          "primaries": "bt709"
+        }
+      },
+      "proxyOf": null,
+      "analysisStatus": "metadata_verified"
+    },
+    {
+      "id": "reference-14fb1070ba2e",
+      "role": "reference",
+      "path": "references/Video-48791.mp4",
+      "sha256": "14fb1070ba2e24b55d0f6a72924845081392e3cff39839d114d1cef9bff0f871",
+      "metadata": {
+        "width": 720,
+        "height": 1280,
+        "sampleAspectRatio": "1:1",
+        "fps": 30,
+        "durationSeconds": 61.076042,
+        "audioStreams": 1,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "color": {
+          "range": "tv",
+          "space": "bt709",
+          "transfer": "bt709",
+          "primaries": "bt709"
+        }
+      },
+      "proxyOf": null,
+      "analysisStatus": "metadata_verified"
+    },
+    {
+      "id": "reference-9054205fa17a",
+      "role": "reference",
+      "path": "references/Video-76284.mp4",
+      "sha256": "9054205fa17ae695ab18cf8e3c5b6e3758ddb4909f2d271fd3c9e94033a79ec0",
+      "metadata": {
+        "width": 720,
+        "height": 1280,
+        "sampleAspectRatio": "1:1",
+        "fps": 30,
+        "durationSeconds": 63.849375,
+        "audioStreams": 1,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "color": {
+          "range": "tv",
+          "space": "bt709",
+          "transfer": "bt709",
+          "primaries": "bt709"
+        }
+      },
+      "proxyOf": null,
+      "analysisStatus": "metadata_verified"
+    },
+    {
+      "id": "reference-b934731872f3",
+      "role": "reference",
+      "path": "references/Video-96207.mp4",
+      "sha256": "b934731872f33e301bb20a782c8406e3a5182229cdaaa5b07b9671b3893acd53",
+      "metadata": {
+        "width": 720,
+        "height": 1280,
+        "sampleAspectRatio": "1:1",
+        "fps": 30,
+        "durationSeconds": 51.518708,
+        "audioStreams": 1,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "color": {
+          "range": "tv",
+          "space": "bt709",
+          "transfer": "bt709",
+          "primaries": "bt709"
+        }
+      },
+      "proxyOf": null,
+      "analysisStatus": "metadata_verified"
+    },
+    {
+      "id": "proxy-c3ae7b754daa",
+      "role": "proxy",
+      "path": "public/raw-video.mp4",
+      "sha256": "c3ae7b754daaaa58342602b3871aebd4dc532aee909f0a67753280d4b930da6e",
+      "metadata": {
+        "width": 1080,
+        "height": 1920,
+        "sampleAspectRatio": null,
+        "fps": 30,
+        "durationSeconds": 58.466667,
+        "audioStreams": 1,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "color": {
+          "range": "tv",
+          "space": "bt709",
+          "transfer": "bt709",
+          "primaries": "bt709"
+        }
+      },
+      "proxyOf": "primary_source-22f5e379254e",
+      "analysisStatus": "metadata_verified"
+    }
+  ]
+}

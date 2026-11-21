@@ -1,0 +1,30 @@
+﻿[
+    {
+        "name":  "talking-head.mp4",
+        "path":  "E:\\video edit project\\input\\raw-video\\talking-head.mp4",
+        "metadataFile": "analysis\\source-metadata\\talking-head.json",
+        "framesPattern": "analysis\\reference-analysis\\frames\\raw-upload-%02d.jpg",
+        "silenceFile": "analysis\\audio\\talking-head-silence.txt"
+    },
+    {
+        "name":  "Video-48791.mp4",
+        "path":  "E:\\video edit project\\references\\Video-48791.mp4",
+        "metadataFile":  "analysis\\source-metadata\\Video-48791.json",
+        "framesPattern":  "analysis\\reference-analysis\\frames\\Video-48791-%02d.jpg",
+        "silenceFile":  "analysis\\audio\\Video-48791-silence.txt"
+    },
+    {
+        "name":  "Video-76284.mp4",
+        "path":  "E:\\video edit project\\references\\Video-76284.mp4",
+        "metadataFile":  "analysis\\source-metadata\\Video-76284.json",
+        "framesPattern":  "analysis\\reference-analysis\\frames\\Video-76284-%02d.jpg",
+        "silenceFile":  "analysis\\audio\\Video-76284-silence.txt"
+    },
+    {
+        "name":  "Video-96207.mp4",
+        "path":  "E:\\video edit project\\references\\Video-96207.mp4",
+        "metadataFile":  "analysis\\source-metadata\\Video-96207.json",
+        "framesPattern":  "analysis\\reference-analysis\\frames\\Video-96207-%02d.jpg",
+        "silenceFile":  "analysis\\audio\\Video-96207-silence.txt"
+    }
+]

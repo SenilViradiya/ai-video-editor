@@ -1,0 +1,45 @@
+{
+  "source": "references/Video-48791.mp4, references/Video-76284.mp4, references/Video-96207.mp4",
+  "observed": {
+    "canvas": "720x1280 vertical, 30 fps, SDR BT.709",
+    "pacing": "Frequent visual changes and short inserts, generally every 1-3 seconds.",
+    "captions": {
+      "fontTreatment": "Heavy sans-serif, white or yellow emphasis, dark outline/shadow",
+      "placement": "Centered lower third or centered over the visual",
+      "animation": "Short pop/fade-in emphasis; keyword highlighting",
+      "branding": "Small persistent upper-left label with a yellow accent"
+    },
+    "visuals": {
+      "framing": "Vertical full-frame composition",
+      "motion": "Subtle punch-ins and quick reframing",
+      "inserts": "Illustrative/diagrammatic B-roll and comparison panels",
+      "transitions": "Hard cuts and simple wipes; no elaborate branded transition required"
+    },
+    "sound": {
+      "dialogue": "Speech-forward mix",
+      "musicAndEffects": "Not added because no licensed supplied music or effects were provided"
+    }
+  },
+  "timecodedExamples": [
+    {
+      "reference": "references/Video-48791.mp4",
+      "timecode": "00:00-00:03",
+      "observations": ["Centered lower-third captions", "Fast opening visual change", "High-contrast white/yellow emphasis"]
+    },
+    {
+      "reference": "references/Video-76284.mp4",
+      "timecode": "00:08-00:12",
+      "observations": ["Punch-in reframing", "Illustrative insert", "Hard cut pacing"]
+    },
+    {
+      "reference": "references/Video-96207.mp4",
+      "timecode": "00:20-00:24",
+      "observations": ["Warning-state color treatment", "Keyword emphasis", "Simple wipe transition"]
+    }
+  ],
+  "limitations": [
+    "Reference videos were analyzed from representative frames; no protected branding or reference footage was reused.",
+    "The raw Gujarati speech was transcribed for timing, but the available small model produced unreliable Gujarati text. Existing burned-in source captions were preserved instead of generating potentially incorrect replacements.",
+    "No supplied B-roll, music, or sound effects were present."
+  ]
+}

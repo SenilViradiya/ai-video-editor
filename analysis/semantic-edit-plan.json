@@ -1,0 +1,290 @@
+{
+  "schemaVersion": "1.0",
+  "planId": "semantic-plan-1795237382060",
+  "sourceMediaId": "primary_source-22f5e379254e",
+  "generatedAt": "2026-11-21T05:03:02.061Z",
+  "sourceDurationSeconds": 58.466667,
+  "sourceFps": 60,
+  "events": [
+    {
+      "id": "semantic-skin-7640",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 7.64,
+        "endSeconds": 7.86,
+        "text": "Kanala ko skin kere tha kereche",
+        "word": "skin"
+      },
+      "concept": "skin",
+      "meaning": "The transcript explicitly mentions skin.",
+      "visualExplanation": "Emphasize the verified keyword SKIN without adding a factual claim.",
+      "referenceTechniqueId": "ref-lower-third-pop",
+      "effectType": "kinetic-label",
+      "layout": {
+        "anchor": "top",
+        "x": 70,
+        "y": 180,
+        "width": 940,
+        "height": 190
+      },
+      "text": "SKIN",
+      "accentColor": "#44d7ff",
+      "audioCues": [],
+      "confidence": 0.34144505858421326,
+      "reviewStatus": "review_required",
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+    },
+    {
+      "id": "semantic-skin-8980",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 8.98,
+        "endSeconds": 9.2,
+        "text": "Kone skin matin nishachi produ use kaltanati",
+        "word": "skin"
+      },
+      "concept": "skin",
+      "meaning": "The transcript explicitly mentions skin.",
+      "visualExplanation": "Emphasize the verified keyword SKIN without adding a factual claim.",
+      "referenceTechniqueId": "ref-lower-third-pop",
+      "effectType": "kinetic-label",
+      "layout": {
+        "anchor": "top",
+        "x": 70,
+        "y": 180,
+        "width": 940,
+        "height": 190
+      },
+      "text": "SKIN",
+      "accentColor": "#44d7ff",
+      "audioCues": [],
+      "confidence": 0.7213161587715149,
+      "reviewStatus": "review_required",
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+    },
+    {
+      "id": "semantic-product-9840",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 9.84,
+        "endSeconds": 10.1,
+        "text": "Kone skin matin nishachi produ use kaltanati",
+        "word": "produ"
+      },
+      "concept": "product",
+      "meaning": "The transcript contains a product-related token.",
+      "visualExplanation": "Emphasize the verified keyword PRODUCT without adding a factual claim.",
+      "referenceTechniqueId": "ref-lower-third-pop",
+      "effectType": "diagram",
+      "layout": {
+        "anchor": "top",
+        "x": 70,
+        "y": 180,
+        "width": 940,
+        "height": 190
+      },
+      "text": "PRODUCT",
+      "accentColor": "#ffb000",
+      "audioCues": [],
+      "confidence": 0.29158763587474823,
+      "reviewStatus": "review_required",
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+    },
+    {
+      "id": "semantic-skin-16560",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 16.56,
+        "endSeconds": 16.82,
+        "text": "SKIN kere produ use kereonu chalu kereche",
+        "word": "SKIN"
+      },
+      "concept": "skin",
+      "meaning": "The transcript explicitly mentions skin.",
+      "visualExplanation": "Emphasize the verified keyword SKIN without adding a factual claim.",
+      "referenceTechniqueId": "ref-lower-third-pop",
+      "effectType": "kinetic-label",
+      "layout": {
+        "anchor": "top",
+        "x": 70,
+        "y": 180,
+        "width": 940,
+        "height": 190
+      },
+      "text": "SKIN",
+      "accentColor": "#44d7ff",
+      "audioCues": [],
+      "confidence": 0.4604585797060281,
+      "reviewStatus": "review_required",
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+    },
+    {
+      "id": "semantic-product-17000",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 17,
+        "endSeconds": 17.16,
+        "text": "SKIN kere produ use kereonu chalu kereche",
+        "word": "produ"
+      },
+      "concept": "product",
+      "meaning": "The transcript contains a product-related token.",
+      "visualExplanation": "Emphasize the verified keyword PRODUCT without adding a factual claim.",
+      "referenceTechniqueId": "ref-lower-third-pop",
+      "effectType": "diagram",
+      "layout": {
+        "anchor": "top",
+        "x": 70,
+        "y": 180,
+        "width": 940,
+        "height": 190
+      },
+      "text": "PRODUCT",
+      "accentColor": "#ffb000",
+      "audioCues": [],
+      "confidence": 0.6576997935771942,
+      "reviewStatus": "review_required",
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+    },
+    {
+      "id": "semantic-skin-20480",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 20.48,
+        "endSeconds": 20.7,
+        "text": "Vaan bada ni skin type alagi lago haiche",
+        "word": "skin"
+      },
+      "concept": "skin",
+      "meaning": "The transcript explicitly mentions skin.",
+      "visualExplanation": "Emphasize the verified keyword SKIN without adding a factual claim.",
+      "referenceTechniqueId": "ref-lower-third-pop",
+      "effectType": "kinetic-label",
+      "layout": {
+        "anchor": "top",
+        "x": 70,
+        "y": 180,
+        "width": 940,
+        "height": 190
+      },
+      "text": "SKIN",
+      "accentColor": "#44d7ff",
+      "audioCues": [],
+      "confidence": 0.8765401840209961,
+      "reviewStatus": "approved",
+      "decisionReason": "Direct transcript keyword with sufficient word confidence."
+    },
+    {
+      "id": "semantic-product-23640",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 23.64,
+        "endSeconds": 23.92,
+        "text": "Hedle bhija matakam kete produ thamaaramata yogi oe hujurudinati",
+        "word": "produ"
+      },
+      "concept": "product",
+      "meaning": "The transcript contains a product-related token.",
+      "visualExplanation": "Emphasize the verified keyword PRODUCT without adding a factual claim.",
+      "referenceTechniqueId": "ref-lower-third-pop",
+      "effectType": "diagram",
+      "layout": {
+        "anchor": "top",
+        "x": 70,
+        "y": 180,
+        "width": 940,
+        "height": 190
+      },
+      "text": "PRODUCT",
+      "accentColor": "#ffb000",
+      "audioCues": [],
+      "confidence": 0.8687030673027039,
+      "reviewStatus": "approved",
+      "decisionReason": "Direct transcript keyword with sufficient word confidence."
+    },
+    {
+      "id": "semantic-product-43040",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 43.04,
+        "endSeconds": 43.32,
+        "text": "Jana tindamarees ki ne yu ira jana tending te produ teksal malashi",
+        "word": "produ"
+      },
+      "concept": "product",
+      "meaning": "The transcript contains a product-related token.",
+      "visualExplanation": "Emphasize the verified keyword PRODUCT without adding a factual claim.",
+      "referenceTechniqueId": "ref-lower-third-pop",
+      "effectType": "diagram",
+      "layout": {
+        "anchor": "top",
+        "x": 70,
+        "y": 180,
+        "width": 940,
+        "height": 190
+      },
+      "text": "PRODUCT",
+      "accentColor": "#ffb000",
+      "audioCues": [],
+      "confidence": 0.001772694755345583,
+      "reviewStatus": "review_required",
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+    },
+    {
+      "id": "semantic-serum-48460",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 48.46,
+        "endSeconds": 48.64,
+        "text": "Anatomarees ki ne kodek nu nighet serum use kereonu",
+        "word": "serum"
+      },
+      "concept": "serum",
+      "meaning": "The transcript explicitly mentions serum.",
+      "visualExplanation": "Emphasize the verified keyword SERUM without adding a factual claim.",
+      "referenceTechniqueId": "ref-lower-third-pop",
+      "effectType": "callout",
+      "layout": {
+        "anchor": "top",
+        "x": 70,
+        "y": 180,
+        "width": 940,
+        "height": 190
+      },
+      "text": "SERUM",
+      "accentColor": "#ffd400",
+      "audioCues": [],
+      "confidence": 0.321989506483078,
+      "reviewStatus": "review_required",
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+    },
+    {
+      "id": "semantic-serum-54940",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 54.94,
+        "endSeconds": 55.2,
+        "text": "Soto ma atomarees ki ne kodek nu bes serum janove",
+        "word": "serum"
+      },
+      "concept": "serum",
+      "meaning": "The transcript explicitly mentions serum.",
+      "visualExplanation": "Emphasize the verified keyword SERUM without adding a factual claim.",
+      "referenceTechniqueId": "ref-lower-third-pop",
+      "effectType": "callout",
+      "layout": {
+        "anchor": "top",
+        "x": 70,
+        "y": 180,
+        "width": 940,
+        "height": 190
+      },
+      "text": "SERUM",
+      "accentColor": "#ffd400",
+      "audioCues": [],
+      "confidence": 0.5739632844924927,
+      "reviewStatus": "review_required",
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+    }
+  ]
+}

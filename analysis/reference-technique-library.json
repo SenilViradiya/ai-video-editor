@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-21T05:04:10.457Z",
+  "techniques": [
+    {
+      "id": "reference-14fb1070ba2e-shot-1",
+      "referenceMediaId": "reference-14fb1070ba2e",
+      "category": "shot_change",
+      "startSeconds": 3.6,
+      "endSeconds": 3.6,
+      "measured": {
+        "sceneThreshold": 0.28,
+        "evidenceFrame": "analysis/reference-techniques/reference-14fb1070ba2e/scene-01.jpg"
+      },
+      "inferred": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "reference-14fb1070ba2e-lower-third-pop",
+      "referenceMediaId": "reference-14fb1070ba2e",
+      "category": "lower_third",
+      "startSeconds": 0,
+      "endSeconds": 3,
+      "measured": {
+        "evidenceFrame": "analysis/reference-analysis/frames/Video-48791-01.jpg"
+      },
+      "inferred": {
+        "typography": "heavy sans-serif",
+        "accentColors": [
+          "#ffffff",
+          "#ffd400"
+        ],
+        "animation": "short pop/fade"
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "reference-9054205fa17a-shot-1",
+      "referenceMediaId": "reference-9054205fa17a",
+      "category": "shot_change",
+      "startSeconds": 3.866667,
+      "endSeconds": 3.866667,
+      "measured": {
+        "sceneThreshold": 0.28,
+        "evidenceFrame": "analysis/reference-techniques/reference-9054205fa17a/scene-01.jpg"
+      },
+      "inferred": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "reference-9054205fa17a-lower-third-pop",
+      "referenceMediaId": "reference-9054205fa17a",
+      "category": "lower_third",
+      "startSeconds": 0,
+      "endSeconds": 3,
+      "measured": {
+        "evidenceFrame": "analysis/reference-analysis/frames/Video-76284-01.jpg"
+      },
+      "inferred": {
+        "typography": "heavy sans-serif",
+        "accentColors": [
+          "#ffffff",
+          "#ffd400"
+        ],
+        "animation": "short pop/fade"
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "reference-b934731872f3-shot-1",
+      "referenceMediaId": "reference-b934731872f3",
+      "category": "shot_change",
+      "startSeconds": 3.833333,
+      "endSeconds": 3.833333,
+      "measured": {
+        "sceneThreshold": 0.28,
+        "evidenceFrame": "analysis/reference-techniques/reference-b934731872f3/scene-01.jpg"
+      },
+      "inferred": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "reference-b934731872f3-shot-2",
+      "referenceMediaId": "reference-b934731872f3",
+      "category": "shot_change",
+      "startSeconds": 3.866667,
+      "endSeconds": 3.866667,
+      "measured": {
+        "sceneThreshold": 0.28,
+        "evidenceFrame": "analysis/reference-techniques/reference-b934731872f3/scene-02.jpg"
+      },
+      "inferred": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "reference-b934731872f3-lower-third-pop",
+      "referenceMediaId": "reference-b934731872f3",
+      "category": "lower_third",
+      "startSeconds": 0,
+      "endSeconds": 3,
+      "measured": {
+        "evidenceFrame": "analysis/reference-analysis/frames/Video-96207-01.jpg"
+      },
+      "inferred": {
+        "typography": "heavy sans-serif",
+        "accentColors": [
+          "#ffffff",
+          "#ffd400"
+        ],
+        "animation": "short pop/fade"
+      },
+      "confidence": 0.55
+    }
+  ],
+  "limitations": [
+    "Scene changes are measured from pixel differences using an FFmpeg scene threshold.",
+    "Typography, easing, and audio relationships remain inferred unless measurable from pixels or audio metadata."
+  ]
+}

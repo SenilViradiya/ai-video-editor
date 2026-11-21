@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-21T05:58:32.412Z",
+  "sourcePath": "input/raw-video/talking-head.mp4",
+  "sourceSha256": "22f5e379254e6d569f450d663078a5914cbe3da016b180f4dc4019b149e68e41",
+  "outputPath": "public/source-video-4k30.mp4",
+  "settings": {
+    "width": 2160,
+    "height": 3840,
+    "fps": 30,
+    "codec": "libx264",
+    "preset": "medium",
+    "crf": 18,
+    "pixelFormat": "yuv420p"
+  },
+  "sourceDurationSeconds": 58.466667,
+  "outputDurationSeconds": 58.466667,
+  "qualityNote": "Browser-compatible H.264 intermediate; CRF 18 is high quality but not mathematically lossless."
+}

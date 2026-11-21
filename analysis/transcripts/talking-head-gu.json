@@ -1,0 +1,1722 @@
+{
+  "source": "input/raw-video/talking-head.mp4",
+  "language": "gu",
+  "model": "whisper-tiny",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.36,
+      "text": " Suto me job Karachiho kestudan cho",
+      "tokens": [
+        50364,
+        318,
+        8262,
+        385,
+        1691,
+        8009,
+        21791,
+        1289,
+        350,
+        377,
+        532,
+        282,
+        1586,
+        50485
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.2183656987455702,
+      "compression_ratio": 1.6808510638297873,
+      "no_speech_prob": 0.2342432141304016,
+      "words": [
+        {
+          "word": " Suto",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.10151693224906921
+        },
+        {
+          "word": " me",
+          "start": 0.4,
+          "end": 0.6,
+          "probability": 0.3974796235561371
+        },
+        {
+          "word": " job",
+          "start": 0.6,
+          "end": 0.86,
+          "probability": 0.7220644354820251
+        },
+        {
+          "word": " Karachiho",
+          "start": 0.86,
+          "end": 1.46,
+          "probability": 0.15650992592175803
+        },
+        {
+          "word": " kestudan",
+          "start": 1.46,
+          "end": 1.96,
+          "probability": 0.35781219974160194
+        },
+        {
+          "word": " cho",
+          "start": 1.96,
+          "end": 2.36,
+          "probability": 0.18138930201530457
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.36,
+      "end": 4.26,
+      "text": " Anaji wasbhar varayonu thayche",
+      "tokens": [
+        50485,
+        1107,
+        29319,
+        390,
+        65,
+        5854,
+        1374,
+        320,
+        266,
+        84,
+        258,
+        320,
+        1876,
+        50581
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.2183656987455702,
+      "compression_ratio": 1.6808510638297873,
+      "no_speech_prob": 0.2342432141304016,
+      "words": [
+        {
+          "word": " Anaji",
+          "start": 2.36,
+          "end": 2.92,
+          "probability": 0.157759390771389
+        },
+        {
+          "word": " wasbhar",
+          "start": 2.92,
+          "end": 3.26,
+          "probability": 0.2035036658247312
+        },
+        {
+          "word": " varayonu",
+          "start": 3.26,
+          "end": 3.78,
+          "probability": 0.19862022064626217
+        },
+        {
+          "word": " thayche",
+          "start": 3.78,
+          "end": 4.26,
+          "probability": 0.3907885899146398
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.26,
+      "end": 6.14,
+      "text": " So askin written thamaarymates",
+      "tokens": [
+        50581,
+        407,
+        1029,
+        259,
+        3720,
+        258,
+        2404,
+        822,
+        76,
+        1024,
+        50671
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.2183656987455702,
+      "compression_ratio": 1.6808510638297873,
+      "no_speech_prob": 0.2342432141304016,
+      "words": [
+        {
+          "word": " So",
+          "start": 4.26,
+          "end": 4.66,
+          "probability": 0.4269919991493225
+        },
+        {
+          "word": " askin",
+          "start": 4.66,
+          "end": 5.08,
+          "probability": 0.4819347411394119
+        },
+        {
+          "word": " written",
+          "start": 5.08,
+          "end": 5.32,
+          "probability": 0.5040037035942078
+        },
+        {
+          "word": " thamaarymates",
+          "start": 5.32,
+          "end": 6.14,
+          "probability": 0.2743836477398872
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6.879999999999999,
+      "end": 8.78,
+      "text": " Kanala ko skin kere tha kereche",
+      "tokens": [
+        50710,
+        11120,
+        5159,
+        8384,
+        3178,
+        350,
+        323,
+        258,
+        64,
+        350,
+        323,
+        1876,
+        50803
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.2183656987455702,
+      "compression_ratio": 1.6808510638297873,
+      "no_speech_prob": 0.2342432141304016,
+      "words": [
+        {
+          "word": " Kanala",
+          "start": 6.879999999999999,
+          "end": 7.48,
+          "probability": 0.29928477108478546
+        },
+        {
+          "word": " ko",
+          "start": 7.48,
+          "end": 7.64,
+          "probability": 0.3377360701560974
+        },
+        {
+          "word": " skin",
+          "start": 7.64,
+          "end": 7.86,
+          "probability": 0.34144505858421326
+        },
+        {
+          "word": " kere",
+          "start": 7.86,
+          "end": 8.12,
+          "probability": 0.41786305606365204
+        },
+        {
+          "word": " tha",
+          "start": 8.12,
+          "end": 8.18,
+          "probability": 0.11157973110675812
+        },
+        {
+          "word": " kereche",
+          "start": 8.18,
+          "end": 8.78,
+          "probability": 0.49964715043703717
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 8.78,
+      "end": 10.76,
+      "text": " Kone skin matin nishachi produ use kaltanati",
+      "tokens": [
+        50803,
+        591,
+        546,
+        3178,
+        3803,
+        259,
+        297,
+        742,
+        608,
+        72,
+        15792,
+        84,
+        764,
+        350,
+        3198,
+        282,
+        6908,
+        50904
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.2183656987455702,
+      "compression_ratio": 1.6808510638297873,
+      "no_speech_prob": 0.2342432141304016,
+      "words": [
+        {
+          "word": " Kone",
+          "start": 8.78,
+          "end": 8.98,
+          "probability": 0.05819405987858772
+        },
+        {
+          "word": " skin",
+          "start": 8.98,
+          "end": 9.2,
+          "probability": 0.7213161587715149
+        },
+        {
+          "word": " matin",
+          "start": 9.2,
+          "end": 9.48,
+          "probability": 0.276732437312603
+        },
+        {
+          "word": " nishachi",
+          "start": 9.48,
+          "end": 9.84,
+          "probability": 0.22439074516296387
+        },
+        {
+          "word": " produ",
+          "start": 9.84,
+          "end": 10.1,
+          "probability": 0.29158763587474823
+        },
+        {
+          "word": " use",
+          "start": 10.1,
+          "end": 10.26,
+          "probability": 0.4466218054294586
+        },
+        {
+          "word": " kaltanati",
+          "start": 10.26,
+          "end": 10.76,
+          "probability": 0.25784286484122276
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 10.76,
+      "end": 13.82,
+      "text": " Jana garana tending, figmatation red dannes, vudu alagiche",
+      "tokens": [
+        50904,
+        508,
+        2095,
+        3691,
+        2095,
+        256,
+        2029,
+        11,
+        2147,
+        15677,
+        399,
+        2182,
+        3277,
+        4081,
+        11,
+        371,
+        532,
+        84,
+        419,
+        20291,
+        1876,
+        51055
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.2183656987455702,
+      "compression_ratio": 1.6808510638297873,
+      "no_speech_prob": 0.2342432141304016,
+      "words": [
+        {
+          "word": " Jana",
+          "start": 10.76,
+          "end": 11.04,
+          "probability": 0.16149771213531494
+        },
+        {
+          "word": " garana",
+          "start": 11.04,
+          "end": 11.34,
+          "probability": 0.5444574803113937
+        },
+        {
+          "word": " tending,",
+          "start": 11.34,
+          "end": 11.88,
+          "probability": 0.2434585765004158
+        },
+        {
+          "word": " figmatation",
+          "start": 11.92,
+          "end": 12.38,
+          "probability": 0.27860040962696075
+        },
+        {
+          "word": " red",
+          "start": 12.38,
+          "end": 12.6,
+          "probability": 0.21942898631095886
+        },
+        {
+          "word": " dannes,",
+          "start": 12.6,
+          "end": 12.96,
+          "probability": 0.13896619528532028
+        },
+        {
+          "word": " vudu",
+          "start": 13.18,
+          "end": 13.36,
+          "probability": 0.5139937599500021
+        },
+        {
+          "word": " alagiche",
+          "start": 13.36,
+          "end": 13.82,
+          "probability": 0.20528990775346756
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 14.34,
+      "end": 16.56,
+      "text": " Kanala ko social media perthi join ne",
+      "tokens": [
+        51080,
+        11120,
+        5159,
+        8384,
+        2093,
+        3021,
+        680,
+        392,
+        72,
+        3917,
+        408,
+        51187
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.2183656987455702,
+      "compression_ratio": 1.6808510638297873,
+      "no_speech_prob": 0.2342432141304016,
+      "words": [
+        {
+          "word": " Kanala",
+          "start": 14.34,
+          "end": 14.8,
+          "probability": 0.8068587779998779
+        },
+        {
+          "word": " ko",
+          "start": 14.8,
+          "end": 15.2,
+          "probability": 0.9855461120605469
+        },
+        {
+          "word": " social",
+          "start": 15.2,
+          "end": 15.52,
+          "probability": 0.8463234901428223
+        },
+        {
+          "word": " media",
+          "start": 15.52,
+          "end": 15.76,
+          "probability": 0.9620004296302795
+        },
+        {
+          "word": " perthi",
+          "start": 15.76,
+          "end": 16.14,
+          "probability": 0.4252641002337138
+        },
+        {
+          "word": " join",
+          "start": 16.14,
+          "end": 16.34,
+          "probability": 0.2090160995721817
+        },
+        {
+          "word": " ne",
+          "start": 16.34,
+          "end": 16.56,
+          "probability": 0.04434347152709961
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 16.56,
+      "end": 18.46,
+      "text": " SKIN kere produ use kereonu chalu kereche",
+      "tokens": [
+        51187,
+        21483,
+        1464,
+        350,
+        323,
+        15792,
+        84,
+        764,
+        350,
+        323,
+        266,
+        84,
+        417,
+        4929,
+        350,
+        323,
+        1876,
+        51287
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.2183656987455702,
+      "compression_ratio": 1.6808510638297873,
+      "no_speech_prob": 0.2342432141304016,
+      "words": [
+        {
+          "word": " SKIN",
+          "start": 16.56,
+          "end": 16.82,
+          "probability": 0.4604585797060281
+        },
+        {
+          "word": " kere",
+          "start": 16.82,
+          "end": 17.0,
+          "probability": 0.20767904072999954
+        },
+        {
+          "word": " produ",
+          "start": 17.0,
+          "end": 17.16,
+          "probability": 0.6576997935771942
+        },
+        {
+          "word": " use",
+          "start": 17.16,
+          "end": 17.44,
+          "probability": 0.6075064539909363
+        },
+        {
+          "word": " kereonu",
+          "start": 17.44,
+          "end": 17.7,
+          "probability": 0.5736417323350906
+        },
+        {
+          "word": " chalu",
+          "start": 17.7,
+          "end": 17.92,
+          "probability": 0.3686003312468529
+        },
+        {
+          "word": " kereche",
+          "start": 17.92,
+          "end": 18.46,
+          "probability": 0.449644073843956
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 19.38,
+      "end": 22.18,
+      "text": " Vaan bada ni skin type alagi lago haiche",
+      "tokens": [
+        51335,
+        16822,
+        282,
+        272,
+        1538,
+        3867,
+        3178,
+        2010,
+        419,
+        20291,
+        8953,
+        78,
+        21822,
+        1876,
+        51457
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.2183656987455702,
+      "compression_ratio": 1.6808510638297873,
+      "no_speech_prob": 0.2342432141304016,
+      "words": [
+        {
+          "word": " Vaan",
+          "start": 19.38,
+          "end": 19.98,
+          "probability": 0.501612763851881
+        },
+        {
+          "word": " bada",
+          "start": 19.98,
+          "end": 20.3,
+          "probability": 0.22857186198234558
+        },
+        {
+          "word": " ni",
+          "start": 20.3,
+          "end": 20.48,
+          "probability": 0.42279961705207825
+        },
+        {
+          "word": " skin",
+          "start": 20.48,
+          "end": 20.7,
+          "probability": 0.8765401840209961
+        },
+        {
+          "word": " type",
+          "start": 20.7,
+          "end": 20.92,
+          "probability": 0.8064635396003723
+        },
+        {
+          "word": " alagi",
+          "start": 20.92,
+          "end": 21.2,
+          "probability": 0.5030445531010628
+        },
+        {
+          "word": " lago",
+          "start": 21.2,
+          "end": 21.5,
+          "probability": 0.47892801463603973
+        },
+        {
+          "word": " haiche",
+          "start": 21.5,
+          "end": 22.18,
+          "probability": 0.2624118737876415
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 22.18,
+      "end": 25.86,
+      "text": " Hedle bhija matakam kete produ thamaaramata yogi oe hujurudinati",
+      "tokens": [
+        51457,
+        389,
+        292,
+        306,
+        272,
+        4954,
+        2938,
+        3803,
+        514,
+        335,
+        350,
+        3498,
+        15792,
+        84,
+        258,
+        2404,
+        289,
+        335,
+        3274,
+        16570,
+        72,
+        277,
+        68,
+        2137,
+        73,
+        374,
+        532,
+        259,
+        6908,
+        51663
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.2183656987455702,
+      "compression_ratio": 1.6808510638297873,
+      "no_speech_prob": 0.2342432141304016,
+      "words": [
+        {
+          "word": " Hedle",
+          "start": 22.18,
+          "end": 22.56,
+          "probability": 0.18530124922593436
+        },
+        {
+          "word": " bhija",
+          "start": 22.56,
+          "end": 22.96,
+          "probability": 0.31334605316321057
+        },
+        {
+          "word": " matakam",
+          "start": 22.96,
+          "end": 23.42,
+          "probability": 0.8391635020573934
+        },
+        {
+          "word": " kete",
+          "start": 23.42,
+          "end": 23.64,
+          "probability": 0.4930078834295273
+        },
+        {
+          "word": " produ",
+          "start": 23.64,
+          "end": 23.92,
+          "probability": 0.8687030673027039
+        },
+        {
+          "word": " thamaaramata",
+          "start": 23.92,
+          "end": 24.58,
+          "probability": 0.5077565252780915
+        },
+        {
+          "word": " yogi",
+          "start": 24.58,
+          "end": 24.9,
+          "probability": 0.31874315440654755
+        },
+        {
+          "word": " oe",
+          "start": 24.9,
+          "end": 25.08,
+          "probability": 0.1137712188065052
+        },
+        {
+          "word": " hujurudinati",
+          "start": 25.08,
+          "end": 25.86,
+          "probability": 0.39950568477312726
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 26.759999999999998,
+      "end": 29.48,
+      "text": " Sosimpalan ekhek ki rootin folokaru hohoi thomonding ma",
+      "tokens": [
+        51688,
+        318,
+        329,
+        332,
+        31862,
+        282,
+        13359,
+        675,
+        74,
+        6315,
+        5593,
+        259,
+        3339,
+        453,
+        289,
+        84,
+        1106,
+        1289,
+        72,
+        258,
+        298,
+        684,
+        278,
+        463,
+        51841
+      ],
+      "temperature": 0,
+      "avg_logprob": -1.2183656987455702,
+      "compression_ratio": 1.6808510638297873,
+      "no_speech_prob": 0.2342432141304016,
+      "words": [
+        {
+          "word": " Sosimpalan",
+          "start": 26.759999999999998,
+          "end": 27.36,
+          "probability": 0.36013598144054415
+        },
+        {
+          "word": " ekhek",
+          "start": 27.36,
+          "end": 27.66,
+          "probability": 0.16323301196098328
+        },
+        {
+          "word": " ki",
+          "start": 27.66,
+          "end": 27.78,
+          "probability": 0.21894751489162445
+        },
+        {
+          "word": " rootin",
+          "start": 27.78,
+          "end": 28.1,
+          "probability": 0.47340991348028183
+        },
+        {
+          "word": " folokaru",
+          "start": 28.1,
+          "end": 28.62,
+          "probability": 0.4995613396167755
+        },
+        {
+          "word": " hohoi",
+          "start": 28.62,
+          "end": 28.76,
+          "probability": 0.19860725104808807
+        },
+        {
+          "word": " thomonding",
+          "start": 28.76,
+          "end": 29.26,
+          "probability": 0.3868083022534847
+        },
+        {
+          "word": " ma",
+          "start": 29.26,
+          "end": 29.48,
+          "probability": 0.4165183901786804
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 2948,
+      "start": 29.48,
+      "end": 32.28,
+      "text": " Sosimpalan ekhek ki ne kodek mufeeshoi use kereonu",
+      "tokens": [
+        50376,
+        318,
+        329,
+        332,
+        31862,
+        282,
+        13359,
+        675,
+        74,
+        6315,
+        408,
+        350,
+        1429,
+        74,
+        2992,
+        2106,
+        279,
+        1289,
+        72,
+        764,
+        350,
+        323,
+        266,
+        84,
+        50511
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " Sosimpalan",
+          "start": 29.48,
+          "end": 30.5,
+          "probability": 0.05193697100039572
+        },
+        {
+          "word": " ekhek",
+          "start": 30.5,
+          "end": 30.84,
+          "probability": 0.00033053187507903203
+        },
+        {
+          "word": " ki",
+          "start": 30.84,
+          "end": 30.84,
+          "probability": 6.060951272957027e-05
+        },
+        {
+          "word": " ne",
+          "start": 30.84,
+          "end": 31.02,
+          "probability": 0.21467766165733337
+        },
+        {
+          "word": " kodek",
+          "start": 31.02,
+          "end": 31.32,
+          "probability": 0.0862054315706094
+        },
+        {
+          "word": " mufeeshoi",
+          "start": 31.32,
+          "end": 31.72,
+          "probability": 0.20461995974183084
+        },
+        {
+          "word": " use",
+          "start": 31.72,
+          "end": 32.0,
+          "probability": 0.08958590030670166
+        },
+        {
+          "word": " kereonu",
+          "start": 32.0,
+          "end": 32.28,
+          "probability": 0.10111378785222769
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 2948,
+      "start": 32.28,
+      "end": 34.64,
+      "text": " Anaji wasbharayonu chalu kereonu chalu",
+      "tokens": [
+        50511,
+        1107,
+        29319,
+        390,
+        65,
+        5854,
+        320,
+        266,
+        84,
+        417,
+        4929,
+        350,
+        323,
+        266,
+        84,
+        417,
+        4929,
+        50610
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " Anaji",
+          "start": 32.28,
+          "end": 33.2,
+          "probability": 0.0035077190482297738
+        },
+        {
+          "word": " wasbharayonu",
+          "start": 33.2,
+          "end": 34.02,
+          "probability": 0.06374098976281554
+        },
+        {
+          "word": " chalu",
+          "start": 34.02,
+          "end": 34.02,
+          "probability": 0.0009547994468448451
+        },
+        {
+          "word": " kereonu",
+          "start": 34.02,
+          "end": 34.64,
+          "probability": 0.48437239276245236
+        },
+        {
+          "word": " chalu",
+          "start": 34.64,
+          "end": 34.64,
+          "probability": 0.07934064976871014
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 2948,
+      "start": 34.64,
+      "end": 36.72,
+      "text": " Jana tindamarees ki nakho diva sider trese",
+      "tokens": [
+        50610,
+        508,
+        2095,
+        256,
+        471,
+        335,
+        543,
+        279,
+        6315,
+        20332,
+        1289,
+        3414,
+        64,
+        262,
+        1438,
+        504,
+        1130,
+        50730
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " Jana",
+          "start": 34.64,
+          "end": 34.8,
+          "probability": 0.06369876104872674
+        },
+        {
+          "word": " tindamarees",
+          "start": 34.8,
+          "end": 35.3,
+          "probability": 0.14246609061956406
+        },
+        {
+          "word": " ki",
+          "start": 35.3,
+          "end": 35.38,
+          "probability": 0.25965580344200134
+        },
+        {
+          "word": " nakho",
+          "start": 35.38,
+          "end": 35.7,
+          "probability": 0.3383435904979706
+        },
+        {
+          "word": " diva",
+          "start": 35.7,
+          "end": 35.92,
+          "probability": 0.2063508853316307
+        },
+        {
+          "word": " sider",
+          "start": 35.92,
+          "end": 36.12,
+          "probability": 0.1838643066585064
+        },
+        {
+          "word": " trese",
+          "start": 36.12,
+          "end": 36.72,
+          "probability": 0.25856680423021317
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 2948,
+      "start": 36.72,
+      "end": 39.56,
+      "text": " Anaji ganni ba ni kereonu panda thivis minit pela",
+      "tokens": [
+        50730,
+        1107,
+        29319,
+        7574,
+        3722,
+        4773,
+        3867,
+        350,
+        323,
+        266,
+        84,
+        280,
+        5575,
+        258,
+        592,
+        271,
+        923,
+        270,
+        14820,
+        50870
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " Anaji",
+          "start": 36.72,
+          "end": 37.56,
+          "probability": 0.5228500366210938
+        },
+        {
+          "word": " ganni",
+          "start": 37.56,
+          "end": 37.86,
+          "probability": 0.317408986389637
+        },
+        {
+          "word": " ba",
+          "start": 37.86,
+          "end": 37.98,
+          "probability": 0.35844796895980835
+        },
+        {
+          "word": " ni",
+          "start": 37.98,
+          "end": 38.14,
+          "probability": 0.12448208779096603
+        },
+        {
+          "word": " kereonu",
+          "start": 38.14,
+          "end": 38.36,
+          "probability": 0.6588143706321716
+        },
+        {
+          "word": " panda",
+          "start": 38.36,
+          "end": 38.64,
+          "probability": 0.12959696352481842
+        },
+        {
+          "word": " thivis",
+          "start": 38.64,
+          "end": 39.0,
+          "probability": 0.5372128039598465
+        },
+        {
+          "word": " minit",
+          "start": 39.0,
+          "end": 39.3,
+          "probability": 0.4873032420873642
+        },
+        {
+          "word": " pela",
+          "start": 39.3,
+          "end": 39.56,
+          "probability": 0.06803222745656967
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 2948,
+      "start": 39.56,
+      "end": 41.0,
+      "text": " Sonskin juru thiyus kereonu",
+      "tokens": [
+        50870,
+        318,
+        892,
+        5843,
+        361,
+        8739,
+        258,
+        4727,
+        301,
+        350,
+        323,
+        266,
+        84,
+        50936
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " Sonskin",
+          "start": 39.56,
+          "end": 40.0,
+          "probability": 0.5284795016050339
+        },
+        {
+          "word": " juru",
+          "start": 40.0,
+          "end": 40.2,
+          "probability": 0.1790880784392357
+        },
+        {
+          "word": " thiyus",
+          "start": 40.2,
+          "end": 40.6,
+          "probability": 0.4302310347557068
+        },
+        {
+          "word": " kereonu",
+          "start": 40.6,
+          "end": 41.0,
+          "probability": 0.9158205837011337
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 2948,
+      "start": 41.0,
+      "end": 43.86,
+      "text": " Jana tindamarees ki ne yu ira jana tending te produ teksal malashi",
+      "tokens": [
+        50936,
+        508,
+        2095,
+        256,
+        471,
+        335,
+        543,
+        279,
+        6315,
+        408,
+        288,
+        84,
+        3418,
+        64,
+        361,
+        2095,
+        256,
+        2029,
+        535,
+        15792,
+        84,
+        535,
+        1694,
+        304,
+        2806,
+        15612,
+        51087
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " Jana",
+          "start": 41.0,
+          "end": 41.22,
+          "probability": 0.6183516904711723
+        },
+        {
+          "word": " tindamarees",
+          "start": 41.22,
+          "end": 41.62,
+          "probability": 0.9490016102790833
+        },
+        {
+          "word": " ki",
+          "start": 41.62,
+          "end": 41.8,
+          "probability": 0.9202609062194824
+        },
+        {
+          "word": " ne",
+          "start": 41.8,
+          "end": 41.96,
+          "probability": 0.9391056299209595
+        },
+        {
+          "word": " yu",
+          "start": 41.96,
+          "end": 42.14,
+          "probability": 0.4959271252155304
+        },
+        {
+          "word": " ira",
+          "start": 42.14,
+          "end": 42.34,
+          "probability": 0.41944001615047455
+        },
+        {
+          "word": " jana",
+          "start": 42.34,
+          "end": 42.52,
+          "probability": 0.5600508153438568
+        },
+        {
+          "word": " tending",
+          "start": 42.52,
+          "end": 42.84,
+          "probability": 0.17610721476376057
+        },
+        {
+          "word": " te",
+          "start": 42.84,
+          "end": 43.04,
+          "probability": 0.16047582030296326
+        },
+        {
+          "word": " produ",
+          "start": 43.04,
+          "end": 43.32,
+          "probability": 0.001772694755345583
+        },
+        {
+          "word": " teksal",
+          "start": 43.32,
+          "end": 43.52,
+          "probability": 0.3061161624888579
+        },
+        {
+          "word": " malashi",
+          "start": 43.52,
+          "end": 43.86,
+          "probability": 0.1729443073272705
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 2948,
+      "start": 44.879999999999995,
+      "end": 46.86,
+      "text": " Nighet ma fori varfese hohoi skerho",
+      "tokens": [
+        51137,
+        426,
+        910,
+        302,
+        463,
+        337,
+        72,
+        1374,
+        69,
+        1130,
+        1106,
+        1289,
+        72,
+        1110,
+        260,
+        1289,
+        51234
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " Nighet",
+          "start": 44.879999999999995,
+          "end": 45.44,
+          "probability": 0.13837090879678726
+        },
+        {
+          "word": " ma",
+          "start": 45.44,
+          "end": 45.58,
+          "probability": 0.3657360374927521
+        },
+        {
+          "word": " fori",
+          "start": 45.58,
+          "end": 45.8,
+          "probability": 0.11922607477754354
+        },
+        {
+          "word": " varfese",
+          "start": 45.8,
+          "end": 46.2,
+          "probability": 0.2623469606041908
+        },
+        {
+          "word": " hohoi",
+          "start": 46.2,
+          "end": 46.48,
+          "probability": 0.023653297297035653
+        },
+        {
+          "word": " skerho",
+          "start": 46.48,
+          "end": 46.86,
+          "probability": 0.1439522790412108
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 2948,
+      "start": 46.86,
+      "end": 49.26,
+      "text": " Anatomarees ki ne kodek nu nighet serum use kereonu",
+      "tokens": [
+        51234,
+        1107,
+        267,
+        298,
+        543,
+        279,
+        6315,
+        408,
+        350,
+        1429,
+        74,
+        3822,
+        297,
+        910,
+        302,
+        32755,
+        764,
+        350,
+        323,
+        266,
+        84,
+        51352
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " Anatomarees",
+          "start": 46.86,
+          "end": 47.52,
+          "probability": 0.45478147119283674
+        },
+        {
+          "word": " ki",
+          "start": 47.52,
+          "end": 47.6,
+          "probability": 0.9884937405586243
+        },
+        {
+          "word": " ne",
+          "start": 47.6,
+          "end": 47.8,
+          "probability": 0.9919513463973999
+        },
+        {
+          "word": " kodek",
+          "start": 47.8,
+          "end": 47.96,
+          "probability": 0.9479690194129944
+        },
+        {
+          "word": " nu",
+          "start": 47.96,
+          "end": 48.2,
+          "probability": 0.3826400339603424
+        },
+        {
+          "word": " nighet",
+          "start": 48.2,
+          "end": 48.46,
+          "probability": 0.281823289891084
+        },
+        {
+          "word": " serum",
+          "start": 48.46,
+          "end": 48.64,
+          "probability": 0.321989506483078
+        },
+        {
+          "word": " use",
+          "start": 48.64,
+          "end": 48.88,
+          "probability": 0.8332298398017883
+        },
+        {
+          "word": " kereonu",
+          "start": 48.88,
+          "end": 49.26,
+          "probability": 0.9817541092634201
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 2948,
+      "start": 49.26,
+      "end": 51.18,
+      "text": " Jana tindam ne oh nighet repair malashi",
+      "tokens": [
+        51352,
+        508,
+        2095,
+        256,
+        471,
+        335,
+        408,
+        1954,
+        297,
+        910,
+        302,
+        10535,
+        2806,
+        15612,
+        51444
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " Jana",
+          "start": 49.26,
+          "end": 49.54,
+          "probability": 0.5153762325644493
+        },
+        {
+          "word": " tindam",
+          "start": 49.54,
+          "end": 49.82,
+          "probability": 0.8442128896713257
+        },
+        {
+          "word": " ne",
+          "start": 49.82,
+          "end": 49.9,
+          "probability": 0.04760750010609627
+        },
+        {
+          "word": " oh",
+          "start": 49.9,
+          "end": 50.14,
+          "probability": 0.4188072085380554
+        },
+        {
+          "word": " nighet",
+          "start": 50.14,
+          "end": 50.4,
+          "probability": 0.40882928172747296
+        },
+        {
+          "word": " repair",
+          "start": 50.4,
+          "end": 50.6,
+          "probability": 0.596369206905365
+        },
+        {
+          "word": " malashi",
+          "start": 50.6,
+          "end": 51.18,
+          "probability": 0.7863083481788635
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 2948,
+      "start": 51.18,
+      "end": 52.72,
+      "text": " Ananya ski nighet trese",
+      "tokens": [
+        51444,
+        1107,
+        8791,
+        1110,
+        72,
+        297,
+        910,
+        302,
+        504,
+        1130,
+        51528
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " Ananya",
+          "start": 51.18,
+          "end": 51.54,
+          "probability": 0.49175766855478287
+        },
+        {
+          "word": " ski",
+          "start": 51.54,
+          "end": 51.9,
+          "probability": 0.31116200238466263
+        },
+        {
+          "word": " nighet",
+          "start": 51.9,
+          "end": 52.2,
+          "probability": 0.8335104187329611
+        },
+        {
+          "word": " trese",
+          "start": 52.2,
+          "end": 52.72,
+          "probability": 0.9165063500404358
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 2948,
+      "start": 52.72,
+      "end": 55.62,
+      "text": " Soto ma atomarees ki ne kodek nu bes serum janove",
+      "tokens": [
+        51528,
+        318,
+        6738,
+        463,
+        412,
+        298,
+        543,
+        279,
+        6315,
+        408,
+        350,
+        1429,
+        74,
+        3822,
+        4097,
+        32755,
+        25442,
+        1682,
+        51679
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " Soto",
+          "start": 52.72,
+          "end": 53.44,
+          "probability": 0.13678832724690437
+        },
+        {
+          "word": " ma",
+          "start": 53.44,
+          "end": 53.62,
+          "probability": 0.21665292978286743
+        },
+        {
+          "word": " atomarees",
+          "start": 53.62,
+          "end": 54.06,
+          "probability": 0.669465821236372
+        },
+        {
+          "word": " ki",
+          "start": 54.06,
+          "end": 54.16,
+          "probability": 0.9848477244377136
+        },
+        {
+          "word": " ne",
+          "start": 54.16,
+          "end": 54.3,
+          "probability": 0.9960209727287292
+        },
+        {
+          "word": " kodek",
+          "start": 54.3,
+          "end": 54.58,
+          "probability": 0.9778302113215128
+        },
+        {
+          "word": " nu",
+          "start": 54.58,
+          "end": 54.7,
+          "probability": 0.9632848501205444
+        },
+        {
+          "word": " bes",
+          "start": 54.7,
+          "end": 54.94,
+          "probability": 0.2518722116947174
+        },
+        {
+          "word": " serum",
+          "start": 54.94,
+          "end": 55.2,
+          "probability": 0.5739632844924927
+        },
+        {
+          "word": " janove",
+          "start": 55.2,
+          "end": 55.62,
+          "probability": 0.1712946742773056
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 2948,
+      "start": 55.62,
+      "end": 57.18,
+      "text": " So komand malo kosee Ram",
+      "tokens": [
+        51679,
+        407,
+        5207,
+        474,
+        2806,
+        78,
+        350,
+        541,
+        68,
+        9078,
+        51743
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.9187413872612847,
+      "compression_ratio": 1.943609022556391,
+      "no_speech_prob": 0.29911893606185913,
+      "words": [
+        {
+          "word": " So",
+          "start": 55.62,
+          "end": 55.92,
+          "probability": 0.008458221331238747
+        },
+        {
+          "word": " komand",
+          "start": 55.92,
+          "end": 56.28,
+          "probability": 0.5011724978685379
+        },
+        {
+          "word": " malo",
+          "start": 56.28,
+          "end": 56.52,
+          "probability": 0.4820278733968735
+        },
+        {
+          "word": " kosee",
+          "start": 56.52,
+          "end": 56.84,
+          "probability": 0.3394804944594701
+        },
+        {
+          "word": " Ram",
+          "start": 56.84,
+          "end": 57.18,
+          "probability": 0.25221630930900574
+        }
+      ]
+    }
+  ],
+  "notes": "Generated from the actual uploaded source. Review Gujarati orthography before publishing; timing is retained for edit decisions."
+}

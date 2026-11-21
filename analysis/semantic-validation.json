@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-21T05:10:00.000Z",
+  "source": {
+    "mediaId": "primary_source-22f5e379254e",
+    "path": "input/raw-video/talking-head.mp4",
+    "width": 2160,
+    "height": 3840,
+    "fps": 60,
+    "durationSeconds": 58.466667,
+    "dialoguePreserved": true
+  },
+  "analysis": {
+    "semanticEvents": 10,
+    "approvedEvents": 2,
+    "reviewRequiredEvents": 8,
+    "referenceTechniqueEvents": 7
+  },
+  "renderVerification": {
+    "composition": "SemanticTalkingHeadPreview",
+    "sampleFrames": "600-630",
+    "sampleOutput": "output/semantic-sample.mp4",
+    "sampleMetadata": {
+      "width": 540,
+      "height": 960,
+      "fps": 30,
+      "durationSeconds": 1.045
+    },
+    "plannedEffectObserved": "semantic-sample-event.jpg",
+    "audioStreamPresent": true
+  },
+  "fullResolutionExport": {
+    "status": "blocked",
+    "reason": "Remotion could not decode the 2160x3840 HEVC source within its 28-second media wait on frame 1.",
+    "output": null,
+    "noStaleSuccessClaim": true
+  },
+  "limitations": [
+    "The available Whisper-tiny Gujarati transcript remains below the approval threshold for most keyword spans.",
+    "No SFX assets were supplied, so no audio cues were fabricated.",
+    "A full-resolution render requires a faster decode path, increased renderer timeout, or a source-quality intermediate."
+  ]
+}

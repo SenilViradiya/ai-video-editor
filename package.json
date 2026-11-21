@@ -1,0 +1,34 @@
+{
+  "name": "ai-video-editor",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio",
+    "preview": "remotion render src/index.tsx TalkingHead --scale=0.5 previews/preview.mp4",
+    "render": "remotion render src/index.tsx TalkingHead output/final-reel.mp4",
+    "render:semantic": "node --experimental-strip-types tools/prepare-render-job.mjs && remotion render src/index.tsx SemanticTalkingHead output/final-semantic-reel.mp4 --concurrency=1",
+    "preview:semantic": "remotion render src/index.tsx SemanticTalkingHeadPreview --scale=0.5 previews/semantic-preview.mp4",
+    "render:test": "remotion render src/index.tsx SemanticTalkingHeadPreview output/test-1080p30.mp4",
+    "policy:test": "node --experimental-strip-types tools/test-output-policy.mjs",
+    "intermediate:source": "node --experimental-strip-types tools/create-source-intermediate.mjs",
+    "render:hybrid": "node --experimental-strip-types tools/render-hybrid.mjs",
+    "render:semantic:hybrid": "node --experimental-strip-types tools/render-hybrid.mjs",
+    "validate:output": "node --experimental-strip-types tools/validate-output.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit",
+    "test": "node tools/validate-edit-plan.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/player": "^4.0.0",
+    "remotion": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "input/raw-video/talking-head.mp4",
+  "output": "output/final-reel.mp4",
+  "fps": 30,
+  "resolution": { "width": 1080, "height": 1920 },
+  "durationSeconds": 58.466667,
+  "decisions": [
+    { "sourceStart": 0, "sourceEnd": 11.666667, "treatment": "Opening visual preserved; accent label and subtle punch-in." },
+    { "sourceStart": 11.666667, "sourceEnd": 23.333333, "treatment": "Blue skincare routine card with cleanse/moisturize sequence and gentle reframing." },
+    { "sourceStart": 23.333333, "sourceEnd": 35, "treatment": "Orange product-overload warning card and source-preserving talking-head treatment." },
+    { "sourceStart": 35, "sourceEnd": 58.466667, "treatment": "Yellow night-care card with serum reminder, CTA ending, and progress accent." }
+  ],
+  "captionPolicy": "No source captions were visible in sampled frames. Do not burn Gujarati captions until the transcript is human-reviewed.",
+  "transcript": "analysis/transcripts/talking-head-gu.json",
+  "speechCleanup": {
+    "retakes": [],
+    "fillerWords": [],
+    "unnecessarySilences": [
+      { "start": 2.131542, "end": 2.660544, "duration": 0.529002 },
+      { "start": 5.944603, "end": 7.220952, "duration": 1.276349 },
+      { "start": 13.592472, "end": 14.271474, "duration": 0.679002 },
+      { "start": 18.331565, "end": 18.989456, "duration": 0.657891 },
+      { "start": 26.144444, "end": 26.76517, "duration": 0.620726 },
+      { "start": 29.387846, "end": 29.915918, "duration": 0.528073 },
+      { "start": 32.10059, "end": 32.975533, "duration": 0.874943 },
+      { "start": 44.443016, "end": 45.115918, "duration": 0.672902 }
+    ],
+    "decision": "Silence candidates are documented for review but not removed automatically because the machine transcript is low-confidence Gujarati and no retakes were objectively identifiable. The source performance and dialogue meaning are preserved."
+  }
+}

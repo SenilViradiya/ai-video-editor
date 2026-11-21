@@ -1,0 +1,15 @@
+node_modules/
+
+# Generated and source media
+/public/
+/input/
+/output/
+/previews/
+/references/
+/assets/
+
+# Large or generated caches
+analysis/benchmarks/
+analysis/hybrid-cache/
+tools/ffmpeg-*/
+tools/ffmpeg-essentials.zip
