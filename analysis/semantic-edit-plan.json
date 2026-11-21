@@ -1,8 +1,8 @@
 {
-  "schemaVersion": "1.0",
-  "planId": "semantic-plan-1795237382060",
+  "schemaVersion": "1.1",
+  "planId": "semantic-plan-1795257970939",
   "sourceMediaId": "primary_source-22f5e379254e",
-  "generatedAt": "2026-11-21T05:03:02.061Z",
+  "generatedAt": "2026-11-21T10:46:10.939Z",
   "sourceDurationSeconds": 58.466667,
   "sourceFps": 60,
   "events": [
@@ -17,8 +17,8 @@
       },
       "concept": "skin",
       "meaning": "The transcript explicitly mentions skin.",
-      "visualExplanation": "Emphasize the verified keyword SKIN without adding a factual claim.",
-      "referenceTechniqueId": "ref-lower-third-pop",
+      "visualExplanation": "Emphasize the verified transcript keyword SKIN only; no unsupported factual claim is added.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
       "effectType": "kinetic-label",
       "layout": {
         "anchor": "top",
@@ -32,7 +32,22 @@
       "audioCues": [],
       "confidence": 0.34144505858421326,
       "reviewStatus": "review_required",
-      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required.",
+      "creativeIntent": "Highlight a briefly spoken keyword with reference-inspired kinetic typography.",
+      "selectionRationale": "Selected reference-14fb1070ba2e-lower-third-pop from the reference technique library because it is a measured scene-derived technique with a conservative lower-third fallback.",
+      "startSeconds": 7.64,
+      "endSeconds": 9.06,
+      "animation": {
+        "enterDurationFrames": 10,
+        "easing": "ease-out",
+        "direction": "up",
+        "emphasis": "subtle"
+      },
+      "sceneData": {
+        "eyebrow": "SKIN",
+        "headline": "SKIN"
+      },
+      "referencedAssets": []
     },
     {
       "id": "semantic-skin-8980",
@@ -45,8 +60,8 @@
       },
       "concept": "skin",
       "meaning": "The transcript explicitly mentions skin.",
-      "visualExplanation": "Emphasize the verified keyword SKIN without adding a factual claim.",
-      "referenceTechniqueId": "ref-lower-third-pop",
+      "visualExplanation": "Emphasize the verified transcript keyword SKIN only; no unsupported factual claim is added.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
       "effectType": "kinetic-label",
       "layout": {
         "anchor": "top",
@@ -60,7 +75,22 @@
       "audioCues": [],
       "confidence": 0.7213161587715149,
       "reviewStatus": "review_required",
-      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required.",
+      "creativeIntent": "Highlight a briefly spoken keyword with reference-inspired kinetic typography.",
+      "selectionRationale": "Selected reference-14fb1070ba2e-lower-third-pop from the reference technique library because it is a measured scene-derived technique with a conservative lower-third fallback.",
+      "startSeconds": 8.98,
+      "endSeconds": 10.399999999999999,
+      "animation": {
+        "enterDurationFrames": 10,
+        "easing": "ease-out",
+        "direction": "up",
+        "emphasis": "subtle"
+      },
+      "sceneData": {
+        "eyebrow": "SKIN",
+        "headline": "SKIN"
+      },
+      "referencedAssets": []
     },
     {
       "id": "semantic-product-9840",
@@ -73,8 +103,8 @@
       },
       "concept": "product",
       "meaning": "The transcript contains a product-related token.",
-      "visualExplanation": "Emphasize the verified keyword PRODUCT without adding a factual claim.",
-      "referenceTechniqueId": "ref-lower-third-pop",
+      "visualExplanation": "Emphasize the verified transcript keyword PRODUCT only; no unsupported factual claim is added.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
       "effectType": "diagram",
       "layout": {
         "anchor": "top",
@@ -88,7 +118,22 @@
       "audioCues": [],
       "confidence": 0.29158763587474823,
       "reviewStatus": "review_required",
-      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required.",
+      "creativeIntent": "Flag a weak product-related token for review; do not infer a claim.",
+      "selectionRationale": "Selected reference-14fb1070ba2e-lower-third-pop from the reference technique library because it is a measured scene-derived technique with a conservative lower-third fallback.",
+      "startSeconds": 9.84,
+      "endSeconds": 11.299999999999999,
+      "animation": {
+        "enterDurationFrames": 10,
+        "easing": "ease-out",
+        "direction": "up",
+        "emphasis": "subtle"
+      },
+      "sceneData": {
+        "eyebrow": "PRODUCT",
+        "headline": "PRODUCT"
+      },
+      "referencedAssets": []
     },
     {
       "id": "semantic-skin-16560",
@@ -101,8 +146,8 @@
       },
       "concept": "skin",
       "meaning": "The transcript explicitly mentions skin.",
-      "visualExplanation": "Emphasize the verified keyword SKIN without adding a factual claim.",
-      "referenceTechniqueId": "ref-lower-third-pop",
+      "visualExplanation": "Emphasize the verified transcript keyword SKIN only; no unsupported factual claim is added.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
       "effectType": "kinetic-label",
       "layout": {
         "anchor": "top",
@@ -116,7 +161,22 @@
       "audioCues": [],
       "confidence": 0.4604585797060281,
       "reviewStatus": "review_required",
-      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required.",
+      "creativeIntent": "Highlight a briefly spoken keyword with reference-inspired kinetic typography.",
+      "selectionRationale": "Selected reference-14fb1070ba2e-lower-third-pop from the reference technique library because it is a measured scene-derived technique with a conservative lower-third fallback.",
+      "startSeconds": 16.56,
+      "endSeconds": 18.02,
+      "animation": {
+        "enterDurationFrames": 10,
+        "easing": "ease-out",
+        "direction": "up",
+        "emphasis": "subtle"
+      },
+      "sceneData": {
+        "eyebrow": "SKIN",
+        "headline": "SKIN"
+      },
+      "referencedAssets": []
     },
     {
       "id": "semantic-product-17000",
@@ -129,8 +189,8 @@
       },
       "concept": "product",
       "meaning": "The transcript contains a product-related token.",
-      "visualExplanation": "Emphasize the verified keyword PRODUCT without adding a factual claim.",
-      "referenceTechniqueId": "ref-lower-third-pop",
+      "visualExplanation": "Emphasize the verified transcript keyword PRODUCT only; no unsupported factual claim is added.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
       "effectType": "diagram",
       "layout": {
         "anchor": "top",
@@ -144,7 +204,22 @@
       "audioCues": [],
       "confidence": 0.6576997935771942,
       "reviewStatus": "review_required",
-      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required.",
+      "creativeIntent": "Flag a weak product-related token for review; do not infer a claim.",
+      "selectionRationale": "Selected reference-14fb1070ba2e-lower-third-pop from the reference technique library because it is a measured scene-derived technique with a conservative lower-third fallback.",
+      "startSeconds": 17,
+      "endSeconds": 18.36,
+      "animation": {
+        "enterDurationFrames": 10,
+        "easing": "ease-out",
+        "direction": "up",
+        "emphasis": "subtle"
+      },
+      "sceneData": {
+        "eyebrow": "PRODUCT",
+        "headline": "PRODUCT"
+      },
+      "referencedAssets": []
     },
     {
       "id": "semantic-skin-20480",
@@ -157,8 +232,8 @@
       },
       "concept": "skin",
       "meaning": "The transcript explicitly mentions skin.",
-      "visualExplanation": "Emphasize the verified keyword SKIN without adding a factual claim.",
-      "referenceTechniqueId": "ref-lower-third-pop",
+      "visualExplanation": "Emphasize the verified transcript keyword SKIN only; no unsupported factual claim is added.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
       "effectType": "kinetic-label",
       "layout": {
         "anchor": "top",
@@ -172,7 +247,22 @@
       "audioCues": [],
       "confidence": 0.8765401840209961,
       "reviewStatus": "approved",
-      "decisionReason": "Direct transcript keyword with sufficient word confidence."
+      "decisionReason": "Direct transcript keyword with sufficient word confidence.",
+      "creativeIntent": "Highlight a briefly spoken keyword with reference-inspired kinetic typography.",
+      "selectionRationale": "Selected reference-14fb1070ba2e-lower-third-pop from the reference technique library because it is a measured scene-derived technique with a conservative lower-third fallback.",
+      "startSeconds": 20.48,
+      "endSeconds": 21.9,
+      "animation": {
+        "enterDurationFrames": 10,
+        "easing": "ease-out",
+        "direction": "up",
+        "emphasis": "subtle"
+      },
+      "sceneData": {
+        "eyebrow": "SKIN",
+        "headline": "SKIN"
+      },
+      "referencedAssets": []
     },
     {
       "id": "semantic-product-23640",
@@ -185,8 +275,8 @@
       },
       "concept": "product",
       "meaning": "The transcript contains a product-related token.",
-      "visualExplanation": "Emphasize the verified keyword PRODUCT without adding a factual claim.",
-      "referenceTechniqueId": "ref-lower-third-pop",
+      "visualExplanation": "Emphasize the verified transcript keyword PRODUCT only; no unsupported factual claim is added.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
       "effectType": "diagram",
       "layout": {
         "anchor": "top",
@@ -200,7 +290,22 @@
       "audioCues": [],
       "confidence": 0.8687030673027039,
       "reviewStatus": "approved",
-      "decisionReason": "Direct transcript keyword with sufficient word confidence."
+      "decisionReason": "Direct transcript keyword with sufficient word confidence.",
+      "creativeIntent": "Flag a weak product-related token for review; do not infer a claim.",
+      "selectionRationale": "Selected reference-14fb1070ba2e-lower-third-pop from the reference technique library because it is a measured scene-derived technique with a conservative lower-third fallback.",
+      "startSeconds": 23.64,
+      "endSeconds": 25.12,
+      "animation": {
+        "enterDurationFrames": 10,
+        "easing": "ease-out",
+        "direction": "up",
+        "emphasis": "subtle"
+      },
+      "sceneData": {
+        "eyebrow": "PRODUCT",
+        "headline": "PRODUCT"
+      },
+      "referencedAssets": []
     },
     {
       "id": "semantic-product-43040",
@@ -213,8 +318,8 @@
       },
       "concept": "product",
       "meaning": "The transcript contains a product-related token.",
-      "visualExplanation": "Emphasize the verified keyword PRODUCT without adding a factual claim.",
-      "referenceTechniqueId": "ref-lower-third-pop",
+      "visualExplanation": "Emphasize the verified transcript keyword PRODUCT only; no unsupported factual claim is added.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
       "effectType": "diagram",
       "layout": {
         "anchor": "top",
@@ -228,7 +333,22 @@
       "audioCues": [],
       "confidence": 0.001772694755345583,
       "reviewStatus": "review_required",
-      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required.",
+      "creativeIntent": "Flag a weak product-related token for review; do not infer a claim.",
+      "selectionRationale": "Selected reference-14fb1070ba2e-lower-third-pop from the reference technique library because it is a measured scene-derived technique with a conservative lower-third fallback.",
+      "startSeconds": 43.04,
+      "endSeconds": 44.52,
+      "animation": {
+        "enterDurationFrames": 10,
+        "easing": "ease-out",
+        "direction": "up",
+        "emphasis": "subtle"
+      },
+      "sceneData": {
+        "eyebrow": "PRODUCT",
+        "headline": "PRODUCT"
+      },
+      "referencedAssets": []
     },
     {
       "id": "semantic-serum-48460",
@@ -241,8 +361,8 @@
       },
       "concept": "serum",
       "meaning": "The transcript explicitly mentions serum.",
-      "visualExplanation": "Emphasize the verified keyword SERUM without adding a factual claim.",
-      "referenceTechniqueId": "ref-lower-third-pop",
+      "visualExplanation": "Emphasize the verified transcript keyword SERUM only; no unsupported factual claim is added.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
       "effectType": "callout",
       "layout": {
         "anchor": "top",
@@ -256,7 +376,22 @@
       "audioCues": [],
       "confidence": 0.321989506483078,
       "reviewStatus": "review_required",
-      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required.",
+      "creativeIntent": "Flag a weak product-related token for review; do not infer a claim.",
+      "selectionRationale": "Selected reference-14fb1070ba2e-lower-third-pop from the reference technique library because it is a measured scene-derived technique with a conservative lower-third fallback.",
+      "startSeconds": 48.46,
+      "endSeconds": 49.84,
+      "animation": {
+        "enterDurationFrames": 10,
+        "easing": "ease-out",
+        "direction": "up",
+        "emphasis": "subtle"
+      },
+      "sceneData": {
+        "eyebrow": "SERUM",
+        "headline": "SERUM"
+      },
+      "referencedAssets": []
     },
     {
       "id": "semantic-serum-54940",
@@ -269,8 +404,8 @@
       },
       "concept": "serum",
       "meaning": "The transcript explicitly mentions serum.",
-      "visualExplanation": "Emphasize the verified keyword SERUM without adding a factual claim.",
-      "referenceTechniqueId": "ref-lower-third-pop",
+      "visualExplanation": "Emphasize the verified transcript keyword SERUM only; no unsupported factual claim is added.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
       "effectType": "callout",
       "layout": {
         "anchor": "top",
@@ -284,7 +419,22 @@
       "audioCues": [],
       "confidence": 0.5739632844924927,
       "reviewStatus": "review_required",
-      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required."
+      "decisionReason": "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required.",
+      "creativeIntent": "Flag a weak product-related token for review; do not infer a claim.",
+      "selectionRationale": "Selected reference-14fb1070ba2e-lower-third-pop from the reference technique library because it is a measured scene-derived technique with a conservative lower-third fallback.",
+      "startSeconds": 54.94,
+      "endSeconds": 56.400000000000006,
+      "animation": {
+        "enterDurationFrames": 10,
+        "easing": "ease-out",
+        "direction": "up",
+        "emphasis": "subtle"
+      },
+      "sceneData": {
+        "eyebrow": "SERUM",
+        "headline": "SERUM"
+      },
+      "referencedAssets": []
     }
   ]
 }

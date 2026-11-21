@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-21T09:08:52.702Z",
-  "outputPath": "output/final-hybrid-reel.mp4",
+  "generatedAt": "2026-11-21T10:58:23.197Z",
+  "outputPath": "output/final-hybrid-p1-reel.mp4",
   "sourceMediaId": "primary_source-22f5e379254e",
   "sourceSha256": "22f5e379254e6d569f450d663078a5914cbe3da016b180f4dc4019b149e68e41",
-  "planId": "semantic-plan-1795237382060",
+  "planId": "semantic-plan-1795257970939",
   "sourcePath": "input/raw-video/talking-head.mp4",
   "renderSourceFile": "public/source-video-4k30.mp4",
   "outputSpec": {

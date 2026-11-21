@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "status": "no_supplied_sfx",
+  "dialogueProtection": "preserve",
+  "musicDucking": "none",
+  "cues": [],
+  "limitations": [
+    "No licensed or supplied SFX assets were found.",
+    "No cue was invented or attached.",
+    "The source dialogue remains copied without additional audio processing."
+  ]
+}

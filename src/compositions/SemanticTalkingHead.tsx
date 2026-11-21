@@ -8,6 +8,7 @@ import {
 } from "remotion";
 import { editPlan, sourceDurationInFrames, sourceFps } from "../data/runtime";
 import { SemanticEditEvent } from "../types/editPlan";
+import { resolveEffect } from "../effects/EffectRegistry";
 
 type SemanticTalkingHeadProps = {
   sourceFile?: string;
@@ -46,7 +47,18 @@ export const SemanticTalkingHead: React.FC<SemanticTalkingHeadProps> = ({
         />
       </AbsoluteFill>
       {activeEvents.map((event) => (
-        <PlanEvent key={event.id} event={event} timelineFps={timelineFps} width={width} height={height} />
+        (() => {
+          const Effect = resolveEffect(event.effectType);
+          return (
+            <Effect
+              key={event.id}
+              event={{ ...event, startSeconds: event.startSeconds ?? event.transcriptSpan.startSeconds }}
+              frame={frame}
+              fps={timelineFps}
+              scale={width / 1080}
+            />
+          );
+        })()
       ))}
       <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 8, background: "#ffffff33" }}>
         <div

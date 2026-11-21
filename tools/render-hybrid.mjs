@@ -29,7 +29,15 @@ const sourcePath = path.join(root, primary.path);
 const spec = deriveOutputSpec(primary.metadata);
 const approvedEvents = plan.events.filter((event) => event.reviewStatus === "approved");
 const unsupported = approvedEvents.filter(
-  (event) => !["kinetic-label", "diagram", "callout", "punch-in"].includes(event.effectType),
+  (event) => ![
+    "kinetic-label",
+    "headline",
+    "callout",
+    "step-by-step",
+    "comparison",
+    "diagram",
+    "punch-in",
+  ].includes(event.effectType),
 );
 if (unsupported.length > 0) {
   throw new Error(`Unsupported approved effect types: ${unsupported.map((event) => event.effectType).join(", ")}`);

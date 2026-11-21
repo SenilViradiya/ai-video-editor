@@ -14,6 +14,8 @@
     "intermediate:source": "node --experimental-strip-types tools/create-source-intermediate.mjs",
     "render:hybrid": "node --experimental-strip-types tools/render-hybrid.mjs",
     "render:semantic:hybrid": "node --experimental-strip-types tools/render-hybrid.mjs",
+    "plan:p1": "node --experimental-strip-types tools/build-source-transcript.mjs && node --experimental-strip-types tools/analyze-references.mjs && node --experimental-strip-types tools/build-semantic-plan.mjs",
+    "test:effects": "node tools/test-effect-registry.mjs",
     "validate:output": "node --experimental-strip-types tools/validate-output.mjs",
     "typecheck": "tsc --noEmit",
     "build": "tsc --noEmit",

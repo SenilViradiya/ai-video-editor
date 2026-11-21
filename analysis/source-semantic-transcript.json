@@ -1,0 +1,1506 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-21T10:46:09.123Z",
+  "sourceMediaId": "primary_source-22f5e379254e",
+  "sourceSha256": "22f5e379254e6d569f450d663078a5914cbe3da016b180f4dc4019b149e68e41",
+  "transcriptSource": "whisper-tiny",
+  "model": "whisper-tiny",
+  "originalLanguage": "gu",
+  "sentenceCount": 23,
+  "records": [
+    {
+      "id": "sentence-1",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 0,
+      "endSeconds": 2.36,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Suto me job Karachiho kestudan cho",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Suto",
+          "startSeconds": 0,
+          "endSeconds": 0.4,
+          "confidence": 0.10151693224906921
+        },
+        {
+          "text": "me",
+          "startSeconds": 0.4,
+          "endSeconds": 0.6,
+          "confidence": 0.3974796235561371
+        },
+        {
+          "text": "job",
+          "startSeconds": 0.6,
+          "endSeconds": 0.86,
+          "confidence": 0.7220644354820251
+        },
+        {
+          "text": "Karachiho",
+          "startSeconds": 0.86,
+          "endSeconds": 1.46,
+          "confidence": 0.15650992592175803
+        },
+        {
+          "text": "kestudan",
+          "startSeconds": 1.46,
+          "endSeconds": 1.96,
+          "confidence": 0.35781219974160194
+        },
+        {
+          "text": "cho",
+          "startSeconds": 1.96,
+          "endSeconds": 2.36,
+          "confidence": 0.18138930201530457
+        }
+      ],
+      "avgLogprob": -1.2183656987455702,
+      "noSpeechProbability": 0.2342432141304016,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.3194620698276493,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-2",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 2.36,
+      "endSeconds": 4.26,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Anaji wasbhar varayonu thayche",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Anaji",
+          "startSeconds": 2.36,
+          "endSeconds": 2.92,
+          "confidence": 0.157759390771389
+        },
+        {
+          "text": "wasbhar",
+          "startSeconds": 2.92,
+          "endSeconds": 3.26,
+          "confidence": 0.2035036658247312
+        },
+        {
+          "text": "varayonu",
+          "startSeconds": 3.26,
+          "endSeconds": 3.78,
+          "confidence": 0.19862022064626217
+        },
+        {
+          "text": "thayche",
+          "startSeconds": 3.78,
+          "endSeconds": 4.26,
+          "confidence": 0.3907885899146398
+        }
+      ],
+      "avgLogprob": -1.2183656987455702,
+      "noSpeechProbability": 0.2342432141304016,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.23766796678925556,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-3",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 4.26,
+      "endSeconds": 6.14,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "So askin written thamaarymates",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "So",
+          "startSeconds": 4.26,
+          "endSeconds": 4.66,
+          "confidence": 0.4269919991493225
+        },
+        {
+          "text": "askin",
+          "startSeconds": 4.66,
+          "endSeconds": 5.08,
+          "confidence": 0.4819347411394119
+        },
+        {
+          "text": "written",
+          "startSeconds": 5.08,
+          "endSeconds": 5.32,
+          "confidence": 0.5040037035942078
+        },
+        {
+          "text": "thamaarymates",
+          "startSeconds": 5.32,
+          "endSeconds": 6.14,
+          "confidence": 0.2743836477398872
+        }
+      ],
+      "avgLogprob": -1.2183656987455702,
+      "noSpeechProbability": 0.2342432141304016,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.4218285229057074,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-4",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 6.879999999999999,
+      "endSeconds": 8.78,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Kanala ko skin kere tha kereche",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Kanala",
+          "startSeconds": 6.879999999999999,
+          "endSeconds": 7.48,
+          "confidence": 0.29928477108478546
+        },
+        {
+          "text": "ko",
+          "startSeconds": 7.48,
+          "endSeconds": 7.64,
+          "confidence": 0.3377360701560974
+        },
+        {
+          "text": "skin",
+          "startSeconds": 7.64,
+          "endSeconds": 7.86,
+          "confidence": 0.34144505858421326
+        },
+        {
+          "text": "kere",
+          "startSeconds": 7.86,
+          "endSeconds": 8.12,
+          "confidence": 0.41786305606365204
+        },
+        {
+          "text": "tha",
+          "startSeconds": 8.12,
+          "endSeconds": 8.18,
+          "confidence": 0.11157973110675812
+        },
+        {
+          "text": "kereche",
+          "startSeconds": 8.18,
+          "endSeconds": 8.78,
+          "confidence": 0.49964715043703717
+        }
+      ],
+      "avgLogprob": -1.2183656987455702,
+      "noSpeechProbability": 0.2342432141304016,
+      "topic": "possible_product_discussion",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.33459263957209057,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "possible_romanized_or_mixed_language_entity"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-5",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 8.78,
+      "endSeconds": 10.76,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Kone skin matin nishachi produ use kaltanati",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Kone",
+          "startSeconds": 8.78,
+          "endSeconds": 8.98,
+          "confidence": 0.05819405987858772
+        },
+        {
+          "text": "skin",
+          "startSeconds": 8.98,
+          "endSeconds": 9.2,
+          "confidence": 0.7213161587715149
+        },
+        {
+          "text": "matin",
+          "startSeconds": 9.2,
+          "endSeconds": 9.48,
+          "confidence": 0.276732437312603
+        },
+        {
+          "text": "nishachi",
+          "startSeconds": 9.48,
+          "endSeconds": 9.84,
+          "confidence": 0.22439074516296387
+        },
+        {
+          "text": "produ",
+          "startSeconds": 9.84,
+          "endSeconds": 10.1,
+          "confidence": 0.29158763587474823
+        },
+        {
+          "text": "use",
+          "startSeconds": 10.1,
+          "endSeconds": 10.26,
+          "confidence": 0.4466218054294586
+        },
+        {
+          "text": "kaltanati",
+          "startSeconds": 10.26,
+          "endSeconds": 10.76,
+          "confidence": 0.25784286484122276
+        }
+      ],
+      "avgLogprob": -1.2183656987455702,
+      "noSpeechProbability": 0.2342432141304016,
+      "topic": "possible_product_discussion",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.3252408153244427,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "possible_romanized_or_mixed_language_entity"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-6",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 10.76,
+      "endSeconds": 13.82,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Jana garana tending, figmatation red dannes, vudu alagiche",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Jana",
+          "startSeconds": 10.76,
+          "endSeconds": 11.04,
+          "confidence": 0.16149771213531494
+        },
+        {
+          "text": "garana",
+          "startSeconds": 11.04,
+          "endSeconds": 11.34,
+          "confidence": 0.5444574803113937
+        },
+        {
+          "text": "tending,",
+          "startSeconds": 11.34,
+          "endSeconds": 11.88,
+          "confidence": 0.2434585765004158
+        },
+        {
+          "text": "figmatation",
+          "startSeconds": 11.92,
+          "endSeconds": 12.38,
+          "confidence": 0.27860040962696075
+        },
+        {
+          "text": "red",
+          "startSeconds": 12.38,
+          "endSeconds": 12.6,
+          "confidence": 0.21942898631095886
+        },
+        {
+          "text": "dannes,",
+          "startSeconds": 12.6,
+          "endSeconds": 12.96,
+          "confidence": 0.13896619528532028
+        },
+        {
+          "text": "vudu",
+          "startSeconds": 13.18,
+          "endSeconds": 13.36,
+          "confidence": 0.5139937599500021
+        },
+        {
+          "text": "alagiche",
+          "startSeconds": 13.36,
+          "endSeconds": 13.82,
+          "confidence": 0.20528990775346756
+        }
+      ],
+      "avgLogprob": -1.2183656987455702,
+      "noSpeechProbability": 0.2342432141304016,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.28821162848422927,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-7",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 14.34,
+      "endSeconds": 16.56,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Kanala ko social media perthi join ne",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Kanala",
+          "startSeconds": 14.34,
+          "endSeconds": 14.8,
+          "confidence": 0.8068587779998779
+        },
+        {
+          "text": "ko",
+          "startSeconds": 14.8,
+          "endSeconds": 15.2,
+          "confidence": 0.9855461120605469
+        },
+        {
+          "text": "social",
+          "startSeconds": 15.2,
+          "endSeconds": 15.52,
+          "confidence": 0.8463234901428223
+        },
+        {
+          "text": "media",
+          "startSeconds": 15.52,
+          "endSeconds": 15.76,
+          "confidence": 0.9620004296302795
+        },
+        {
+          "text": "perthi",
+          "startSeconds": 15.76,
+          "endSeconds": 16.14,
+          "confidence": 0.4252641002337138
+        },
+        {
+          "text": "join",
+          "startSeconds": 16.14,
+          "endSeconds": 16.34,
+          "confidence": 0.2090160995721817
+        },
+        {
+          "text": "ne",
+          "startSeconds": 16.34,
+          "endSeconds": 16.56,
+          "confidence": 0.04434347152709961
+        }
+      ],
+      "avgLogprob": -1.2183656987455702,
+      "noSpeechProbability": 0.2342432141304016,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.6113360687380746,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-8",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 16.56,
+      "endSeconds": 18.46,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "SKIN kere produ use kereonu chalu kereche",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "SKIN",
+          "startSeconds": 16.56,
+          "endSeconds": 16.82,
+          "confidence": 0.4604585797060281
+        },
+        {
+          "text": "kere",
+          "startSeconds": 16.82,
+          "endSeconds": 17,
+          "confidence": 0.20767904072999954
+        },
+        {
+          "text": "produ",
+          "startSeconds": 17,
+          "endSeconds": 17.16,
+          "confidence": 0.6576997935771942
+        },
+        {
+          "text": "use",
+          "startSeconds": 17.16,
+          "endSeconds": 17.44,
+          "confidence": 0.6075064539909363
+        },
+        {
+          "text": "kereonu",
+          "startSeconds": 17.44,
+          "endSeconds": 17.7,
+          "confidence": 0.5736417323350906
+        },
+        {
+          "text": "chalu",
+          "startSeconds": 17.7,
+          "endSeconds": 17.92,
+          "confidence": 0.3686003312468529
+        },
+        {
+          "text": "kereche",
+          "startSeconds": 17.92,
+          "endSeconds": 18.46,
+          "confidence": 0.449644073843956
+        }
+      ],
+      "avgLogprob": -1.2183656987455702,
+      "noSpeechProbability": 0.2342432141304016,
+      "topic": "possible_product_discussion",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.4750328579185797,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "possible_romanized_or_mixed_language_entity"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-9",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 19.38,
+      "endSeconds": 22.18,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Vaan bada ni skin type alagi lago haiche",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Vaan",
+          "startSeconds": 19.38,
+          "endSeconds": 19.98,
+          "confidence": 0.501612763851881
+        },
+        {
+          "text": "bada",
+          "startSeconds": 19.98,
+          "endSeconds": 20.3,
+          "confidence": 0.22857186198234558
+        },
+        {
+          "text": "ni",
+          "startSeconds": 20.3,
+          "endSeconds": 20.48,
+          "confidence": 0.42279961705207825
+        },
+        {
+          "text": "skin",
+          "startSeconds": 20.48,
+          "endSeconds": 20.7,
+          "confidence": 0.8765401840209961
+        },
+        {
+          "text": "type",
+          "startSeconds": 20.7,
+          "endSeconds": 20.92,
+          "confidence": 0.8064635396003723
+        },
+        {
+          "text": "alagi",
+          "startSeconds": 20.92,
+          "endSeconds": 21.2,
+          "confidence": 0.5030445531010628
+        },
+        {
+          "text": "lago",
+          "startSeconds": 21.2,
+          "endSeconds": 21.5,
+          "confidence": 0.47892801463603973
+        },
+        {
+          "text": "haiche",
+          "startSeconds": 21.5,
+          "endSeconds": 22.18,
+          "confidence": 0.2624118737876415
+        }
+      ],
+      "avgLogprob": -1.2183656987455702,
+      "noSpeechProbability": 0.2342432141304016,
+      "topic": "possible_product_discussion",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.5100465510040522,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "possible_romanized_or_mixed_language_entity"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-10",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 22.18,
+      "endSeconds": 25.86,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Hedle bhija matakam kete produ thamaaramata yogi oe hujurudinati",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Hedle",
+          "startSeconds": 22.18,
+          "endSeconds": 22.56,
+          "confidence": 0.18530124922593436
+        },
+        {
+          "text": "bhija",
+          "startSeconds": 22.56,
+          "endSeconds": 22.96,
+          "confidence": 0.31334605316321057
+        },
+        {
+          "text": "matakam",
+          "startSeconds": 22.96,
+          "endSeconds": 23.42,
+          "confidence": 0.8391635020573934
+        },
+        {
+          "text": "kete",
+          "startSeconds": 23.42,
+          "endSeconds": 23.64,
+          "confidence": 0.4930078834295273
+        },
+        {
+          "text": "produ",
+          "startSeconds": 23.64,
+          "endSeconds": 23.92,
+          "confidence": 0.8687030673027039
+        },
+        {
+          "text": "thamaaramata",
+          "startSeconds": 23.92,
+          "endSeconds": 24.58,
+          "confidence": 0.5077565252780915
+        },
+        {
+          "text": "yogi",
+          "startSeconds": 24.58,
+          "endSeconds": 24.9,
+          "confidence": 0.31874315440654755
+        },
+        {
+          "text": "oe",
+          "startSeconds": 24.9,
+          "endSeconds": 25.08,
+          "confidence": 0.1137712188065052
+        },
+        {
+          "text": "hujurudinati",
+          "startSeconds": 25.08,
+          "endSeconds": 25.86,
+          "confidence": 0.39950568477312726
+        }
+      ],
+      "avgLogprob": -1.2183656987455702,
+      "noSpeechProbability": 0.2342432141304016,
+      "topic": "possible_product_discussion",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.44881092649367127,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "possible_romanized_or_mixed_language_entity"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-11",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 26.759999999999998,
+      "endSeconds": 29.48,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Sosimpalan ekhek ki rootin folokaru hohoi thomonding ma",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Sosimpalan",
+          "startSeconds": 26.759999999999998,
+          "endSeconds": 27.36,
+          "confidence": 0.36013598144054415
+        },
+        {
+          "text": "ekhek",
+          "startSeconds": 27.36,
+          "endSeconds": 27.66,
+          "confidence": 0.16323301196098328
+        },
+        {
+          "text": "ki",
+          "startSeconds": 27.66,
+          "endSeconds": 27.78,
+          "confidence": 0.21894751489162445
+        },
+        {
+          "text": "rootin",
+          "startSeconds": 27.78,
+          "endSeconds": 28.1,
+          "confidence": 0.47340991348028183
+        },
+        {
+          "text": "folokaru",
+          "startSeconds": 28.1,
+          "endSeconds": 28.62,
+          "confidence": 0.4995613396167755
+        },
+        {
+          "text": "hohoi",
+          "startSeconds": 28.62,
+          "endSeconds": 28.76,
+          "confidence": 0.19860725104808807
+        },
+        {
+          "text": "thomonding",
+          "startSeconds": 28.76,
+          "endSeconds": 29.26,
+          "confidence": 0.3868083022534847
+        },
+        {
+          "text": "ma",
+          "startSeconds": 29.26,
+          "endSeconds": 29.48,
+          "confidence": 0.4165183901786804
+        }
+      ],
+      "avgLogprob": -1.2183656987455702,
+      "noSpeechProbability": 0.2342432141304016,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.3396527131088078,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-12",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 29.48,
+      "endSeconds": 32.28,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Sosimpalan ekhek ki ne kodek mufeeshoi use kereonu",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Sosimpalan",
+          "startSeconds": 29.48,
+          "endSeconds": 30.5,
+          "confidence": 0.05193697100039572
+        },
+        {
+          "text": "ekhek",
+          "startSeconds": 30.5,
+          "endSeconds": 30.84,
+          "confidence": 0.00033053187507903203
+        },
+        {
+          "text": "ki",
+          "startSeconds": 30.84,
+          "endSeconds": 30.84,
+          "confidence": 0.00006060951272957027
+        },
+        {
+          "text": "ne",
+          "startSeconds": 30.84,
+          "endSeconds": 31.02,
+          "confidence": 0.21467766165733337
+        },
+        {
+          "text": "kodek",
+          "startSeconds": 31.02,
+          "endSeconds": 31.32,
+          "confidence": 0.0862054315706094
+        },
+        {
+          "text": "mufeeshoi",
+          "startSeconds": 31.32,
+          "endSeconds": 31.72,
+          "confidence": 0.20461995974183084
+        },
+        {
+          "text": "use",
+          "startSeconds": 31.72,
+          "endSeconds": 32,
+          "confidence": 0.08958590030670166
+        },
+        {
+          "text": "kereonu",
+          "startSeconds": 32,
+          "endSeconds": 32.28,
+          "confidence": 0.10111378785222769
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.09356635668961341,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-13",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 32.28,
+      "endSeconds": 34.64,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Anaji wasbharayonu chalu kereonu chalu",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Anaji",
+          "startSeconds": 32.28,
+          "endSeconds": 33.2,
+          "confidence": 0.0035077190482297738
+        },
+        {
+          "text": "wasbharayonu",
+          "startSeconds": 33.2,
+          "endSeconds": 34.02,
+          "confidence": 0.06374098976281554
+        },
+        {
+          "text": "chalu",
+          "startSeconds": 34.02,
+          "endSeconds": 34.02,
+          "confidence": 0.0009547994468448451
+        },
+        {
+          "text": "kereonu",
+          "startSeconds": 34.02,
+          "endSeconds": 34.64,
+          "confidence": 0.48437239276245236
+        },
+        {
+          "text": "chalu",
+          "startSeconds": 34.64,
+          "endSeconds": 34.64,
+          "confidence": 0.07934064976871014
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.1263833101578105,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-14",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 34.64,
+      "endSeconds": 36.72,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Jana tindamarees ki nakho diva sider trese",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Jana",
+          "startSeconds": 34.64,
+          "endSeconds": 34.8,
+          "confidence": 0.06369876104872674
+        },
+        {
+          "text": "tindamarees",
+          "startSeconds": 34.8,
+          "endSeconds": 35.3,
+          "confidence": 0.14246609061956406
+        },
+        {
+          "text": "ki",
+          "startSeconds": 35.3,
+          "endSeconds": 35.38,
+          "confidence": 0.25965580344200134
+        },
+        {
+          "text": "nakho",
+          "startSeconds": 35.38,
+          "endSeconds": 35.7,
+          "confidence": 0.3383435904979706
+        },
+        {
+          "text": "diva",
+          "startSeconds": 35.7,
+          "endSeconds": 35.92,
+          "confidence": 0.2063508853316307
+        },
+        {
+          "text": "sider",
+          "startSeconds": 35.92,
+          "endSeconds": 36.12,
+          "confidence": 0.1838643066585064
+        },
+        {
+          "text": "trese",
+          "startSeconds": 36.12,
+          "endSeconds": 36.72,
+          "confidence": 0.25856680423021317
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.207563748832659,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-15",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 36.72,
+      "endSeconds": 39.56,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Anaji ganni ba ni kereonu panda thivis minit pela",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Anaji",
+          "startSeconds": 36.72,
+          "endSeconds": 37.56,
+          "confidence": 0.5228500366210938
+        },
+        {
+          "text": "ganni",
+          "startSeconds": 37.56,
+          "endSeconds": 37.86,
+          "confidence": 0.317408986389637
+        },
+        {
+          "text": "ba",
+          "startSeconds": 37.86,
+          "endSeconds": 37.98,
+          "confidence": 0.35844796895980835
+        },
+        {
+          "text": "ni",
+          "startSeconds": 37.98,
+          "endSeconds": 38.14,
+          "confidence": 0.12448208779096603
+        },
+        {
+          "text": "kereonu",
+          "startSeconds": 38.14,
+          "endSeconds": 38.36,
+          "confidence": 0.6588143706321716
+        },
+        {
+          "text": "panda",
+          "startSeconds": 38.36,
+          "endSeconds": 38.64,
+          "confidence": 0.12959696352481842
+        },
+        {
+          "text": "thivis",
+          "startSeconds": 38.64,
+          "endSeconds": 39,
+          "confidence": 0.5372128039598465
+        },
+        {
+          "text": "minit",
+          "startSeconds": 39,
+          "endSeconds": 39.3,
+          "confidence": 0.4873032420873642
+        },
+        {
+          "text": "pela",
+          "startSeconds": 39.3,
+          "endSeconds": 39.56,
+          "confidence": 0.06803222745656967
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.35601652082469726,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-16",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 39.56,
+      "endSeconds": 41,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Sonskin juru thiyus kereonu",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Sonskin",
+          "startSeconds": 39.56,
+          "endSeconds": 40,
+          "confidence": 0.5284795016050339
+        },
+        {
+          "text": "juru",
+          "startSeconds": 40,
+          "endSeconds": 40.2,
+          "confidence": 0.1790880784392357
+        },
+        {
+          "text": "thiyus",
+          "startSeconds": 40.2,
+          "endSeconds": 40.6,
+          "confidence": 0.4302310347557068
+        },
+        {
+          "text": "kereonu",
+          "startSeconds": 40.6,
+          "endSeconds": 41,
+          "confidence": 0.9158205837011337
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.5134047996252775,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-17",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 41,
+      "endSeconds": 43.86,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Jana tindamarees ki ne yu ira jana tending te produ teksal malashi",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Jana",
+          "startSeconds": 41,
+          "endSeconds": 41.22,
+          "confidence": 0.6183516904711723
+        },
+        {
+          "text": "tindamarees",
+          "startSeconds": 41.22,
+          "endSeconds": 41.62,
+          "confidence": 0.9490016102790833
+        },
+        {
+          "text": "ki",
+          "startSeconds": 41.62,
+          "endSeconds": 41.8,
+          "confidence": 0.9202609062194824
+        },
+        {
+          "text": "ne",
+          "startSeconds": 41.8,
+          "endSeconds": 41.96,
+          "confidence": 0.9391056299209595
+        },
+        {
+          "text": "yu",
+          "startSeconds": 41.96,
+          "endSeconds": 42.14,
+          "confidence": 0.4959271252155304
+        },
+        {
+          "text": "ira",
+          "startSeconds": 42.14,
+          "endSeconds": 42.34,
+          "confidence": 0.41944001615047455
+        },
+        {
+          "text": "jana",
+          "startSeconds": 42.34,
+          "endSeconds": 42.52,
+          "confidence": 0.5600508153438568
+        },
+        {
+          "text": "tending",
+          "startSeconds": 42.52,
+          "endSeconds": 42.84,
+          "confidence": 0.17610721476376057
+        },
+        {
+          "text": "te",
+          "startSeconds": 42.84,
+          "endSeconds": 43.04,
+          "confidence": 0.16047582030296326
+        },
+        {
+          "text": "produ",
+          "startSeconds": 43.04,
+          "endSeconds": 43.32,
+          "confidence": 0.001772694755345583
+        },
+        {
+          "text": "teksal",
+          "startSeconds": 43.32,
+          "endSeconds": 43.52,
+          "confidence": 0.3061161624888579
+        },
+        {
+          "text": "malashi",
+          "startSeconds": 43.52,
+          "endSeconds": 43.86,
+          "confidence": 0.1729443073272705
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "possible_product_discussion",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.47662949943656313,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "possible_romanized_or_mixed_language_entity"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-18",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 44.879999999999995,
+      "endSeconds": 46.86,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Nighet ma fori varfese hohoi skerho",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Nighet",
+          "startSeconds": 44.879999999999995,
+          "endSeconds": 45.44,
+          "confidence": 0.13837090879678726
+        },
+        {
+          "text": "ma",
+          "startSeconds": 45.44,
+          "endSeconds": 45.58,
+          "confidence": 0.3657360374927521
+        },
+        {
+          "text": "fori",
+          "startSeconds": 45.58,
+          "endSeconds": 45.8,
+          "confidence": 0.11922607477754354
+        },
+        {
+          "text": "varfese",
+          "startSeconds": 45.8,
+          "endSeconds": 46.2,
+          "confidence": 0.2623469606041908
+        },
+        {
+          "text": "hohoi",
+          "startSeconds": 46.2,
+          "endSeconds": 46.48,
+          "confidence": 0.023653297297035653
+        },
+        {
+          "text": "skerho",
+          "startSeconds": 46.48,
+          "endSeconds": 46.86,
+          "confidence": 0.1439522790412108
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.1755475930015867,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-19",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 46.86,
+      "endSeconds": 49.26,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Anatomarees ki ne kodek nu nighet serum use kereonu",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Anatomarees",
+          "startSeconds": 46.86,
+          "endSeconds": 47.52,
+          "confidence": 0.45478147119283674
+        },
+        {
+          "text": "ki",
+          "startSeconds": 47.52,
+          "endSeconds": 47.6,
+          "confidence": 0.9884937405586243
+        },
+        {
+          "text": "ne",
+          "startSeconds": 47.6,
+          "endSeconds": 47.8,
+          "confidence": 0.9919513463973999
+        },
+        {
+          "text": "kodek",
+          "startSeconds": 47.8,
+          "endSeconds": 47.96,
+          "confidence": 0.9479690194129944
+        },
+        {
+          "text": "nu",
+          "startSeconds": 47.96,
+          "endSeconds": 48.2,
+          "confidence": 0.3826400339603424
+        },
+        {
+          "text": "nighet",
+          "startSeconds": 48.2,
+          "endSeconds": 48.46,
+          "confidence": 0.281823289891084
+        },
+        {
+          "text": "serum",
+          "startSeconds": 48.46,
+          "endSeconds": 48.64,
+          "confidence": 0.321989506483078
+        },
+        {
+          "text": "use",
+          "startSeconds": 48.64,
+          "endSeconds": 48.88,
+          "confidence": 0.8332298398017883
+        },
+        {
+          "text": "kereonu",
+          "startSeconds": 48.88,
+          "endSeconds": 49.26,
+          "confidence": 0.9817541092634201
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "possible_product_discussion",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.6871813729957298,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "possible_romanized_or_mixed_language_entity"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-20",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 49.26,
+      "endSeconds": 51.18,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Jana tindam ne oh nighet repair malashi",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Jana",
+          "startSeconds": 49.26,
+          "endSeconds": 49.54,
+          "confidence": 0.5153762325644493
+        },
+        {
+          "text": "tindam",
+          "startSeconds": 49.54,
+          "endSeconds": 49.82,
+          "confidence": 0.8442128896713257
+        },
+        {
+          "text": "ne",
+          "startSeconds": 49.82,
+          "endSeconds": 49.9,
+          "confidence": 0.04760750010609627
+        },
+        {
+          "text": "oh",
+          "startSeconds": 49.9,
+          "endSeconds": 50.14,
+          "confidence": 0.4188072085380554
+        },
+        {
+          "text": "nighet",
+          "startSeconds": 50.14,
+          "endSeconds": 50.4,
+          "confidence": 0.40882928172747296
+        },
+        {
+          "text": "repair",
+          "startSeconds": 50.4,
+          "endSeconds": 50.6,
+          "confidence": 0.596369206905365
+        },
+        {
+          "text": "malashi",
+          "startSeconds": 50.6,
+          "endSeconds": 51.18,
+          "confidence": 0.7863083481788635
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.5167872382416612,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-21",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 51.18,
+      "endSeconds": 52.72,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Ananya ski nighet trese",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Ananya",
+          "startSeconds": 51.18,
+          "endSeconds": 51.54,
+          "confidence": 0.49175766855478287
+        },
+        {
+          "text": "ski",
+          "startSeconds": 51.54,
+          "endSeconds": 51.9,
+          "confidence": 0.31116200238466263
+        },
+        {
+          "text": "nighet",
+          "startSeconds": 51.9,
+          "endSeconds": 52.2,
+          "confidence": 0.8335104187329611
+        },
+        {
+          "text": "trese",
+          "startSeconds": 52.2,
+          "endSeconds": 52.72,
+          "confidence": 0.9165063500404358
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.6382341099282106,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-22",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 52.72,
+      "endSeconds": 55.62,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "Soto ma atomarees ki ne kodek nu bes serum janove",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "Soto",
+          "startSeconds": 52.72,
+          "endSeconds": 53.44,
+          "confidence": 0.13678832724690437
+        },
+        {
+          "text": "ma",
+          "startSeconds": 53.44,
+          "endSeconds": 53.62,
+          "confidence": 0.21665292978286743
+        },
+        {
+          "text": "atomarees",
+          "startSeconds": 53.62,
+          "endSeconds": 54.06,
+          "confidence": 0.669465821236372
+        },
+        {
+          "text": "ki",
+          "startSeconds": 54.06,
+          "endSeconds": 54.16,
+          "confidence": 0.9848477244377136
+        },
+        {
+          "text": "ne",
+          "startSeconds": 54.16,
+          "endSeconds": 54.3,
+          "confidence": 0.9960209727287292
+        },
+        {
+          "text": "kodek",
+          "startSeconds": 54.3,
+          "endSeconds": 54.58,
+          "confidence": 0.9778302113215128
+        },
+        {
+          "text": "nu",
+          "startSeconds": 54.58,
+          "endSeconds": 54.7,
+          "confidence": 0.9632848501205444
+        },
+        {
+          "text": "bes",
+          "startSeconds": 54.7,
+          "endSeconds": 54.94,
+          "confidence": 0.2518722116947174
+        },
+        {
+          "text": "serum",
+          "startSeconds": 54.94,
+          "endSeconds": 55.2,
+          "confidence": 0.5739632844924927
+        },
+        {
+          "text": "janove",
+          "startSeconds": 55.2,
+          "endSeconds": 55.62,
+          "confidence": 0.1712946742773056
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "possible_product_discussion",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.5942021007339159,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "possible_romanized_or_mixed_language_entity"
+      ],
+      "humanReviewStatus": "required"
+    },
+    {
+      "id": "sentence-23",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 55.62,
+      "endSeconds": 57.18,
+      "originalLanguage": "gu",
+      "originalScriptText": null,
+      "spokenText": "So komand malo kosee Ram",
+      "wordTimestampStatus": "word_timestamps_available",
+      "words": [
+        {
+          "text": "So",
+          "startSeconds": 55.62,
+          "endSeconds": 55.92,
+          "confidence": 0.008458221331238747
+        },
+        {
+          "text": "komand",
+          "startSeconds": 55.92,
+          "endSeconds": 56.28,
+          "confidence": 0.5011724978685379
+        },
+        {
+          "text": "malo",
+          "startSeconds": 56.28,
+          "endSeconds": 56.52,
+          "confidence": 0.4820278733968735
+        },
+        {
+          "text": "kosee",
+          "startSeconds": 56.52,
+          "endSeconds": 56.84,
+          "confidence": 0.3394804944594701
+        },
+        {
+          "text": "Ram",
+          "startSeconds": 56.84,
+          "endSeconds": 57.18,
+          "confidence": 0.25221630930900574
+        }
+      ],
+      "avgLogprob": -0.9187413872612847,
+      "noSpeechProbability": 0.29911893606185913,
+      "topic": "unverified_spoken_statement",
+      "explanationType": "unknown",
+      "meaning": "No complete meaning can be asserted without a reliable or human-reviewed transcript.",
+      "confidence": 0.3166710792730252,
+      "uncertaintyFlags": [
+        "model_output_requires_review",
+        "meaning_unverified"
+      ],
+      "humanReviewStatus": "required"
+    }
+  ],
+  "limitations": [
+    "Raw Whisper-tiny Gujarati text is not treated as authoritative.",
+    "No cloud or chargeable transcription provider was invoked.",
+    "Visual planning is blocked for sentences without reliable meaning and human review."
+  ]
+}

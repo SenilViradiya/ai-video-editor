@@ -6,6 +6,10 @@ const transcript = JSON.parse(await fs.readFile(path.join(root, "analysis", "tra
 const manifest = JSON.parse(await fs.readFile(path.join(root, "analysis", "media-manifest.json"), "utf8"));
 const primary = manifest.entries.find((entry) => entry.role === "primary_source");
 if (!primary) throw new Error("Primary source is missing from media manifest");
+const library = JSON.parse(await fs.readFile(path.join(root, "analysis", "reference-technique-library.json"), "utf8"));
+const fallbackTechnique = library.techniques.find((technique) =>
+  technique.category === "lower_third" && technique.confidence >= 0.5,
+)?.id ?? "ref-lower-third-pop";
 
 const concepts = [
   { pattern: /\bskin\b/i, concept: "skin", meaning: "The transcript explicitly mentions skin.", effectType: "kinetic-label", color: "#44d7ff", label: "SKIN" },
@@ -30,8 +34,8 @@ for (const segment of transcript.segments ?? []) {
       },
       concept: concept.concept,
       meaning: concept.meaning,
-      visualExplanation: `Emphasize the verified keyword ${concept.label} without adding a factual claim.`,
-      referenceTechniqueId: "ref-lower-third-pop",
+      visualExplanation: `Emphasize the verified transcript keyword ${concept.label} only; no unsupported factual claim is added.`,
+      referenceTechniqueId: fallbackTechnique,
       effectType: concept.effectType,
       layout: { anchor: "top", x: 70, y: 180, width: 940, height: 190 },
       text: concept.label,
@@ -42,12 +46,30 @@ for (const segment of transcript.segments ?? []) {
       decisionReason: confidence >= 0.8
         ? "Direct transcript keyword with sufficient word confidence."
         : "Direct keyword match, but the available Gujarati model confidence is below the rendering threshold; human review is required.",
+      creativeIntent: concept.concept === "skin"
+        ? "Highlight a briefly spoken keyword with reference-inspired kinetic typography."
+        : "Flag a weak product-related token for review; do not infer a claim.",
+      selectionRationale: `Selected ${fallbackTechnique} from the reference technique library because it is a measured scene-derived technique with a conservative lower-third fallback.`,
+      startSeconds: word.start,
+      endSeconds: word.end + 1.2,
+      animation: {
+        enterDurationFrames: 10,
+        easing: "ease-out",
+        direction: "up",
+        emphasis: "subtle",
+      },
+      sceneData: {
+        eyebrow: concept.concept.toUpperCase(),
+        headline: concept.label,
+      },
+      referencedAssets: [],
+      audioCues: [],
     });
   }
 }
 
 const plan = {
-  schemaVersion: "1.0",
+  schemaVersion: "1.1",
   planId: `semantic-plan-${Date.now()}`,
   sourceMediaId: primary.id,
   generatedAt: new Date().toISOString(),

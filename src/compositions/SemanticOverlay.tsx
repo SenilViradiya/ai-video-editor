@@ -1,6 +1,6 @@
 import { AbsoluteFill, useCurrentFrame, useVideoConfig } from "remotion";
 import { editPlan } from "../data/runtime";
-import { PlanEvent } from "./SemanticTalkingHead";
+import { resolveEffect } from "../effects/EffectRegistry";
 
 type SemanticOverlayProps = {
   timelineFps: number;
@@ -24,14 +24,18 @@ export const SemanticOverlay: React.FC<SemanticOverlayProps> = ({
   return (
     <AbsoluteFill>
       {activeEvents.map((event) => (
-        <PlanEvent
-          key={event.id}
-          event={event}
-          timelineFps={timelineFps}
-          width={width}
-          height={height}
-          frameOffset={Math.round(timeOffsetSeconds * timelineFps)}
-        />
+        (() => {
+          const Effect = resolveEffect(event.effectType);
+          return (
+            <Effect
+              key={event.id}
+              event={{ ...event, startSeconds: event.startSeconds ?? event.transcriptSpan.startSeconds }}
+              frame={frame + Math.round(timeOffsetSeconds * timelineFps)}
+              fps={timelineFps}
+              scale={width / 1080}
+            />
+          );
+        })()
       ))}
     </AbsoluteFill>
   );

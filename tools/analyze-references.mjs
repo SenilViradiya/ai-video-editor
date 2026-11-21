@@ -29,6 +29,22 @@ for (const reference of references) {
   }
   const times = [...metadata.matchAll(/pts_time:([0-9.]+)/g)].map((match) => Number(match[1]));
   const uniqueTimes = [...new Set(times)].sort((a, b) => a - b);
+  let audioEvidence = { status: "not_detected", events: [] };
+  try {
+    const audioResult = await execFileAsync(ffmpeg, [
+      "-hide_banner", "-loglevel", "info", "-i", path.join(root, reference.path),
+      "-map", "0:a:0", "-af", "silencedetect=noise=-35dB:d=0.08", "-f", "null", "-",
+    ]);
+    const log = `${audioResult.stderr ?? ""}`;
+    const starts = [...log.matchAll(/silence_start:([0-9.]+)/g)].map((match) => Number(match[1]));
+    const ends = [...log.matchAll(/silence_end:([0-9.]+)/g)].map((match) => Number(match[1]));
+    audioEvidence = {
+      status: reference.metadata.audioStreams > 0 ? "detected_silence_boundaries" : "missing",
+      events: ends.map((end, index) => ({ startSeconds: starts[index] ?? 0, endSeconds: end })),
+    };
+  } catch {
+    audioEvidence = { status: "analysis_failed", events: [] };
+  }
   for (let index = 0; index < uniqueTimes.length; index += 1) {
     techniques.push({
       id: `${reference.id}-shot-${index + 1}`,
@@ -37,6 +53,15 @@ for (const reference of references) {
       startSeconds: uniqueTimes[index],
       endSeconds: uniqueTimes[index],
       measured: { sceneThreshold: 0.28, evidenceFrame: `analysis/reference-techniques/${reference.id}/scene-${String(index + 1).padStart(2, "0")}.jpg` },
+      evidenceFrames: [`analysis/reference-techniques/${reference.id}/scene-${String(index + 1).padStart(2, "0")}.jpg`],
+      animationCategory: "scene-transition",
+      compatibleEffectTypes: ["punch-in", "kinetic-label"],
+      motion: { observed: "scene boundary detected by pixel threshold", bounds: null },
+      audioEvidence,
+      position: null,
+      motionDurationSeconds: null,
+      easingEstimate: "unknown",
+      limitations: "Effect type is not confirmed without temporal visual classification.",
       inferred: null,
       confidence: 0.7,
     });
@@ -50,11 +75,20 @@ for (const reference of references) {
     measured: { evidenceFrame: `analysis/reference-analysis/frames/${path.basename(reference.path, path.extname(reference.path))}-01.jpg` },
     inferred: { typography: "heavy sans-serif", accentColors: ["#ffffff", "#ffd400"], animation: "short pop/fade" },
     confidence: 0.55,
+    evidenceFrames: [`analysis/reference-analysis/frames/${path.basename(reference.path, path.extname(reference.path))}-01.jpg`],
+    animationCategory: "lower-third-pop",
+    compatibleEffectTypes: ["kinetic-label", "headline", "callout"],
+    motion: { observed: "limited qualitative evidence only", bounds: null },
+    audioEvidence: { status: "not_linked_to_visual_event", events: [] },
+    position: { anchor: "top", approximation: "unverified" },
+    motionDurationSeconds: null,
+    easingEstimate: "unknown",
+    limitations: "Typography and pop/fade are inferred; no measured temporal text bounding box or audio sync was proven.",
   });
 }
 
 const library = {
-  schemaVersion: "1.0",
+  schemaVersion: "2.0",
   generatedAt: new Date().toISOString(),
   techniques,
   limitations: [
