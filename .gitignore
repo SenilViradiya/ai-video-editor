@@ -11,5 +11,15 @@ node_modules/
 # Large or generated caches
 analysis/benchmarks/
 analysis/hybrid-cache/
+analysis/export-review/
+analysis/mode-fixtures/
+analysis/reference-profiles/
+analysis/reference-analysis/frames/
+analysis/reference-techniques/
+analysis/source-visual-analysis/
 tools/ffmpeg-*/
 tools/ffmpeg-essentials.zip
+
+# Python caches
+__pycache__/
+*.pyc

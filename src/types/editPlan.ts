@@ -12,6 +12,7 @@ export type EffectType =
 export type AnimationParams = {
   enterDurationFrames?: number;
   exitDurationFrames?: number;
+  holdDurationFrames?: number;
   easing?: "linear" | "ease-out" | "spring";
   direction?: "left" | "right" | "up" | "down";
   emphasis?: "subtle" | "strong";
@@ -39,6 +40,20 @@ export type Layout = {
   y: number;
   width: number;
   height: number;
+  safeRegion?: "top" | "center" | "bottom";
+};
+
+export type ScenePlan = {
+  sceneId: string;
+  effectComponentId: EffectType;
+  visualContent: SceneData;
+  animation: AnimationParams;
+  placement: Layout;
+  requiredAssets: ReferencedAsset[];
+  sfxCues: AudioCue[];
+  referenceEvidenceId: string;
+  reviewStatus: ReviewStatus;
+  blockingReason?: string;
 };
 
 export type AudioCue = {
@@ -77,10 +92,11 @@ export type SemanticEditEvent = {
   sceneData?: SceneData;
   referencedAssets?: ReferencedAsset[];
   skipOrBlockReason?: string;
+  scene?: ScenePlan;
 };
 
 export type EditPlan = {
-  schemaVersion: "1.0" | "1.1";
+  schemaVersion: "1.0" | "1.1" | "1.2";
   planId: string;
   sourceMediaId: string;
   generatedAt: string;
@@ -105,7 +121,7 @@ export function validateEditPlan(value: unknown): EditPlan {
   }
 
   const plan = value as Partial<EditPlan>;
-  if ((plan.schemaVersion !== "1.0" && plan.schemaVersion !== "1.1") || typeof plan.planId !== "string") {
+  if (!["1.0", "1.1", "1.2"].includes(plan.schemaVersion ?? "") || typeof plan.planId !== "string") {
     throw new Error("Edit plan has an unsupported schema or missing planId");
   }
   if (typeof plan.sourceMediaId !== "string" || typeof plan.sourceFps !== "number") {

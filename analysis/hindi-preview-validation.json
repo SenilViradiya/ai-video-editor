@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0",
+  "previewPath": "previews/p2.3-hindi-story-preview.mp4",
+  "selectedSource": "input/raw-audio/hindi-story.mp3",
+  "sourceSha256": "07f624aa0be1d695a2663d26e6e0de197d00367e16230bcb3662e7991ef4c178",
+  "actual": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "duration": 30.016,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "audioSampleRate": "48000"
+  },
+  "checks": {
+    "dimensions": true,
+    "fps": true,
+    "h264": true,
+    "aac": true,
+    "duration": true,
+    "primaryMp3Selected": true,
+    "sourceAudioPresent": true,
+    "sourceHash": true
+  },
+  "passed": true,
+  "contentStatus": "candidate_visual_preview",
+  "limitation": "The narrative transcript remains review-required; this preview is not a verified-fact edit."
+}

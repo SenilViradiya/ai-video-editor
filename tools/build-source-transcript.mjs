@@ -5,6 +5,7 @@ import { createHash } from "node:crypto";
 const root = process.cwd();
 const sourcePath = path.join(root, "analysis", "transcripts", "talking-head-gu.json");
 const manualPath = path.join(root, "analysis", "transcripts", "manual-talking-head.json");
+const alignmentPath = path.join(root, "analysis", "manual-transcript-alignment.json");
 const manifest = JSON.parse(await fs.readFile(path.join(root, "analysis", "media-manifest.json"), "utf8"));
 const primary = manifest.entries.find((entry) => entry.id === manifest.primaryMediaId);
 if (!primary) throw new Error("Primary source is missing");
@@ -13,9 +14,21 @@ let source;
 let transcriptSource = "whisper-tiny";
 let transcriptLanguage = "gu";
 try {
-  source = JSON.parse(await fs.readFile(manualPath, "utf8"));
-  transcriptSource = "manual-authoritative";
-  transcriptLanguage = String(source.language ?? "gu");
+  const alignment = JSON.parse(await fs.readFile(alignmentPath, "utf8"));
+  source = {
+    language: alignment.originalLanguage,
+    segments: alignment.alignment.map((item) => ({
+      start: item.startSeconds,
+      end: item.endSeconds,
+      text: item.text,
+      words: item.words,
+      avg_logprob: item.status === "manually_aligned_verified" ? 0 : -1,
+      no_speech_prob: 0,
+      alignmentStatus: item.status,
+    })),
+  };
+  transcriptSource = "manual";
+  transcriptLanguage = String(source.language ?? "unknown");
 } catch {
   source = JSON.parse(await fs.readFile(sourcePath, "utf8"));
   transcriptLanguage = String(source.language ?? "gu");
@@ -52,7 +65,7 @@ const records = (source.segments ?? []).map((segment, index) => {
     startSeconds: Number(segment.start),
     endSeconds: Number(segment.end),
     originalLanguage: transcriptLanguage,
-    originalScriptText: transcriptSource === "manual-authoritative"
+    originalScriptText: transcriptSource === "manual"
       ? String(segment.text ?? "")
       : null,
     spokenText: String(segment.text ?? "").trim(),
@@ -61,7 +74,11 @@ const records = (source.segments ?? []).map((segment, index) => {
     avgLogprob: Number(segment.avg_logprob ?? 0),
     noSpeechProbability: Number(segment.no_speech_prob ?? 0),
     ...semantics,
-    humanReviewStatus: transcriptSource === "manual-authoritative" ? "approved" : "required",
+    humanReviewStatus: transcriptSource === "manual" && segment.alignmentStatus === "manually_aligned_verified"
+      ? "approved"
+      : transcriptSource === "manual"
+        ? "required"
+        : "required",
   };
 });
 

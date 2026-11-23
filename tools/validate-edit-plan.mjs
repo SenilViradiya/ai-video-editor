@@ -6,7 +6,7 @@ const plan = JSON.parse(await fs.readFile(path.join(root, "analysis", "semantic-
 const manifest = JSON.parse(await fs.readFile(path.join(root, "analysis", "media-manifest.json"), "utf8"));
 const primary = manifest.entries.find((entry) => entry.id === manifest.primaryMediaId);
 
-if (!["1.0", "1.1"].includes(plan.schemaVersion)) throw new Error("Unsupported edit-plan schema");
+if (!["1.0", "1.1", "1.2"].includes(plan.schemaVersion)) throw new Error("Unsupported edit-plan schema");
 if (!primary || plan.sourceMediaId !== primary.id) throw new Error("Plan source does not match manifest primary");
 if (Math.abs(plan.sourceFps - primary.metadata.fps) > 0.001) throw new Error("Plan FPS does not match source metadata");
 

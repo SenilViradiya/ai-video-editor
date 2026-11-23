@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.0",
+  "source": "input/raw-audio/hindi-story.mp3",
+  "durationSeconds": 78.9159375,
+  "status": "preview_only_review_required",
+  "timingPolicy": "The first three spans use the existing measured candidate boundaries; no unverified full-story timestamps are invented.",
+  "scenes": [
+    {
+      "id": "p2-4-station-establishing",
+      "startSeconds": 0,
+      "endSeconds": 7.44,
+      "role": "establishing_environment",
+      "visual": "Indian railway station at night, platform perspective, moon, station clock at 9:30, teacher holding diary, departing train",
+      "motion": ["train translation", "camera push-in", "star twinkle", "character sway"],
+      "verification": "review_required"
+    },
+    {
+      "id": "p2-4-diary-closeup",
+      "startSeconds": 7.44,
+      "endSeconds": 13.14,
+      "role": "object_closeup",
+      "visual": "same station and teacher identity, diary enlarged in foreground",
+      "motion": ["diary page opening", "camera push-in", "train recedes as atmosphere"],
+      "verification": "review_required"
+    },
+    {
+      "id": "p2-4-waiting-beat",
+      "startSeconds": 13.14,
+      "endSeconds": 18,
+      "role": "emotional_reaction",
+      "visual": "empty platform after the train, teacher remains with diary",
+      "motion": ["slow camera drift", "character sway", "reduced saturation"],
+      "verification": "review_required"
+    },
+    {
+      "id": "future-storyboard-blocked",
+      "startSeconds": null,
+      "endSeconds": null,
+      "role": "storyboard_only",
+      "visual": "watchman, five children, teaching, tea-selling, three-month passage, absence, and evening classroom",
+      "motion": ["requires verified sentence boundaries and authored character/environment assets"],
+      "verification": "blocked_pending_authoritative_transcript_and_assets"
+    }
+  ]
+}

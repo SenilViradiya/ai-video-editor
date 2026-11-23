@@ -3,6 +3,9 @@ import { SemanticTalkingHead } from "./compositions/SemanticTalkingHead";
 import { SemanticOverlay } from "./compositions/SemanticOverlay";
 import { TalkingHead } from "./compositions/TalkingHead";
 import { outputSpec } from "./data/runtime";
+import { AudioStorytelling } from "./compositions/AudioStorytelling";
+import { CinematicStorytelling } from "./compositions/CinematicStorytelling";
+import { cinematicPreviewScenes } from "./storytelling/cinematicStoryData";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -40,6 +43,30 @@ export const RemotionRoot: React.FC = () => (
       width={outputSpec.width}
       height={outputSpec.height}
       defaultProps={{ timelineFps: outputSpec.fps, timeOffsetSeconds: 20.48 }}
+    />
+    <Composition
+      id="HindiAudioStorytelling"
+      component={AudioStorytelling}
+      durationInFrames={1800}
+      fps={30}
+      width={1080}
+      height={1920}
+      defaultProps={{
+        sourceFile: "hindi-narration.mp3",
+        scenes: [],
+      }}
+    />
+    <Composition
+      id="HindiCinematicPreview"
+      component={CinematicStorytelling}
+      durationInFrames={540}
+      fps={30}
+      width={1080}
+      height={1920}
+      defaultProps={{
+        sourceFile: "hindi-story.mp3",
+        scenes: cinematicPreviewScenes,
+      }}
     />
   </>
 );

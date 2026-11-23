@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0",
+  "auditedDirectories": [
+    "assets/",
+    "references/",
+    "public/",
+    "input/"
+  ],
+  "assetsFound": [
+    {
+      "path": "references/Video-48791.mp4",
+      "format": "mp4",
+      "content": "reference video; not a character or scene asset",
+      "usableInRemotion": false,
+      "reason": "Reference-only media; not copied into the story preview."
+    },
+    {
+      "path": "references/Video-76284.mp4",
+      "format": "mp4",
+      "content": "reference video; not a character or scene asset",
+      "usableInRemotion": false,
+      "reason": "Reference-only media; not copied into the story preview."
+    },
+    {
+      "path": "references/Video-96207.mp4",
+      "format": "mp4",
+      "content": "reference video; not a character or scene asset",
+      "usableInRemotion": false,
+      "reason": "Reference-only media; not copied into the story preview."
+    },
+    {
+      "path": "input/raw-audio/hindi-story.mp3",
+      "format": "mp3",
+      "content": "authoritative narration source",
+      "usableInRemotion": true,
+      "reason": "Retained as the original narration track."
+    }
+  ],
+  "suppliedVisualModels": {
+    "characterModels": 0,
+    "transparentPng": 0,
+    "svgIllustrations": 0,
+    "layeredPsd": 0,
+    "spriteSheets": 0,
+    "riggedAnimationAssets": 0,
+    "stationEnvironments": 0,
+    "posesOrExpressions": 0
+  },
+  "implementationFallback": {
+    "method": "procedural_2d_layers",
+    "assets": [
+      "procedural:station-night",
+      "procedural:teacher-with-diary",
+      "procedural:old-diary"
+    ],
+    "limitations": [
+      "The teacher is a consistent vector silhouette, not a supplied rig.",
+      "No lip sync, hand-held pose library, or secondary character model is available.",
+      "A full cinematic production requires authored station artwork and character pose/rig assets."
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0",
+  "sourceMediaId": "primary_source-22f5e379254e",
+  "sourceSha256": "22f5e379254e6d569f450d663078a5914cbe3da016b180f4dc4019b149e68e41",
+  "transcriptSource": "automatic_candidate",
+  "originalLanguage": "candidate_unknown",
+  "verifiedCount": 0,
+  "segments": [
+    {
+      "id": "hindi-candidate-1",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 3.6,
+      "endSeconds": 29.98,
+      "spokenHindi": "ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا",
+      "originalLanguage": "hi",
+      "meaning": "Pending complete-statement review.",
+      "narrativeRole": "review_required",
+      "factualClaims": [],
+      "uncertainty": [
+        "automatic_transcription_not_human_verified"
+      ],
+      "confidence": 0,
+      "reviewStatus": "required"
+    },
+    {
+      "id": "hindi-candidate-2",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 29.98,
+      "endSeconds": 32.32,
+      "spokenHindi": "überzeugखी शहकें ब्Godन केने हैत करहीं मी सेईना को आपता नती धोञा थो हैPoint。",
+      "originalLanguage": "hi",
+      "meaning": "Pending complete-statement review.",
+      "narrativeRole": "review_required",
+      "factualClaims": [],
+      "uncertainty": [
+        "automatic_transcription_not_human_verified"
+      ],
+      "confidence": 0.2,
+      "reviewStatus": "required"
+    },
+    {
+      "id": "hindi-candidate-3",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 36.88,
+      "endSeconds": 53.26,
+      "spokenHindi": "करहीं ब़्ागऺिन से किलन्य intrigued लिए कहीं कि रई हे को तत aotsgum robe tha?",
+      "originalLanguage": "hi",
+      "meaning": "Pending complete-statement review.",
+      "narrativeRole": "review_required",
+      "factualClaims": [],
+      "uncertainty": [
+        "automatic_transcription_not_human_verified"
+      ],
+      "confidence": 0.2,
+      "reviewStatus": "required"
+    },
+    {
+      "id": "hindi-candidate-4",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 55.4,
+      "endSeconds": 57.04,
+      "spokenHindi": "कहीं और nekko वना द stellt vitamटphin Dasuz bila sabbu nekka7 toxaojas?",
+      "originalLanguage": "hi",
+      "meaning": "Pending complete-statement review.",
+      "narrativeRole": "review_required",
+      "factualClaims": [],
+      "uncertainty": [
+        "automatic_transcription_not_human_verified"
+      ],
+      "confidence": 0.2,
+      "reviewStatus": "required"
+    },
+    {
+      "id": "hindi-candidate-5",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "startSeconds": 57.04,
+      "endSeconds": 58.2,
+      "spokenHindi": "utam na dhyam karyyapis",
+      "originalLanguage": "hi",
+      "meaning": "Pending complete-statement review.",
+      "narrativeRole": "review_required",
+      "factualClaims": [],
+      "uncertainty": [
+        "automatic_transcription_not_human_verified"
+      ],
+      "confidence": 0.2,
+      "reviewStatus": "required"
+    }
+  ],
+  "synthesisAllowed": false,
+  "cloudProvider": {
+    "configured": false,
+    "chargeAllowed": false
+  },
+  "limitations": [
+    "No authoritative Hindi script was supplied.",
+    "The existing base-model candidates are not verified Hindi sentences.",
+    "No story fact, person, place, number, or emotional claim is approved."
+  ]
+}

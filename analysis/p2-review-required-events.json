@@ -1,0 +1,288 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-21T11:49:58.498Z",
+  "events": [
+    {
+      "sceneId": "scene-semantic-skin-7640",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 7.64,
+        "endSeconds": 7.86,
+        "text": "Kanala ko skin kere tha kereche",
+        "word": "skin"
+      },
+      "semanticMeaning": "The transcript explicitly mentions skin.",
+      "intendedVisualExplanation": "No effect: sufficient meaning was not established.",
+      "referenceTechniqueId": null,
+      "effectComponentId": "no_effect",
+      "visualContent": null,
+      "startSeconds": 7.64,
+      "endSeconds": 7.86,
+      "animation": null,
+      "placement": null,
+      "requiredAssets": [],
+      "sfxCues": [],
+      "confidence": 0.34144505858421326,
+      "reviewStatus": "blocked",
+      "selectionRationale": "The engine conservatively blocks graphics when sentence meaning is unverified.",
+      "blockingReason": "Low-confidence source transcript or unsupported complete-sentence meaning."
+    },
+    {
+      "sceneId": "scene-semantic-skin-8980",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 8.98,
+        "endSeconds": 9.2,
+        "text": "Kone skin matin nishachi produ use kaltanati",
+        "word": "skin"
+      },
+      "semanticMeaning": "The transcript explicitly mentions skin.",
+      "intendedVisualExplanation": "No effect: sufficient meaning was not established.",
+      "referenceTechniqueId": null,
+      "effectComponentId": "no_effect",
+      "visualContent": null,
+      "startSeconds": 8.98,
+      "endSeconds": 9.2,
+      "animation": null,
+      "placement": null,
+      "requiredAssets": [],
+      "sfxCues": [],
+      "confidence": 0.7213161587715149,
+      "reviewStatus": "blocked",
+      "selectionRationale": "The engine conservatively blocks graphics when sentence meaning is unverified.",
+      "blockingReason": "Low-confidence source transcript or unsupported complete-sentence meaning."
+    },
+    {
+      "sceneId": "scene-semantic-product-9840",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 9.84,
+        "endSeconds": 10.1,
+        "text": "Kone skin matin nishachi produ use kaltanati",
+        "word": "produ"
+      },
+      "semanticMeaning": "The transcript contains a product-related token.",
+      "intendedVisualExplanation": "No effect: sufficient meaning was not established.",
+      "referenceTechniqueId": null,
+      "effectComponentId": "no_effect",
+      "visualContent": null,
+      "startSeconds": 9.84,
+      "endSeconds": 10.1,
+      "animation": null,
+      "placement": null,
+      "requiredAssets": [],
+      "sfxCues": [],
+      "confidence": 0.29158763587474823,
+      "reviewStatus": "blocked",
+      "selectionRationale": "The engine conservatively blocks graphics when sentence meaning is unverified.",
+      "blockingReason": "Low-confidence source transcript or unsupported complete-sentence meaning."
+    },
+    {
+      "sceneId": "scene-semantic-skin-16560",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 16.56,
+        "endSeconds": 16.82,
+        "text": "SKIN kere produ use kereonu chalu kereche",
+        "word": "SKIN"
+      },
+      "semanticMeaning": "The transcript explicitly mentions skin.",
+      "intendedVisualExplanation": "No effect: sufficient meaning was not established.",
+      "referenceTechniqueId": null,
+      "effectComponentId": "no_effect",
+      "visualContent": null,
+      "startSeconds": 16.56,
+      "endSeconds": 16.82,
+      "animation": null,
+      "placement": null,
+      "requiredAssets": [],
+      "sfxCues": [],
+      "confidence": 0.4604585797060281,
+      "reviewStatus": "blocked",
+      "selectionRationale": "The engine conservatively blocks graphics when sentence meaning is unverified.",
+      "blockingReason": "Low-confidence source transcript or unsupported complete-sentence meaning."
+    },
+    {
+      "sceneId": "scene-semantic-product-17000",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 17,
+        "endSeconds": 17.16,
+        "text": "SKIN kere produ use kereonu chalu kereche",
+        "word": "produ"
+      },
+      "semanticMeaning": "The transcript contains a product-related token.",
+      "intendedVisualExplanation": "No effect: sufficient meaning was not established.",
+      "referenceTechniqueId": null,
+      "effectComponentId": "no_effect",
+      "visualContent": null,
+      "startSeconds": 17,
+      "endSeconds": 17.16,
+      "animation": null,
+      "placement": null,
+      "requiredAssets": [],
+      "sfxCues": [],
+      "confidence": 0.6576997935771942,
+      "reviewStatus": "blocked",
+      "selectionRationale": "The engine conservatively blocks graphics when sentence meaning is unverified.",
+      "blockingReason": "Low-confidence source transcript or unsupported complete-sentence meaning."
+    },
+    {
+      "sceneId": "scene-semantic-skin-20480",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 20.48,
+        "endSeconds": 20.7,
+        "text": "Vaan bada ni skin type alagi lago haiche",
+        "word": "skin"
+      },
+      "semanticMeaning": "A transcript keyword is verified; this is not a verified complete-sentence explanation.",
+      "intendedVisualExplanation": "Preserve the existing review-gated kinetic keyword fixture only.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
+      "effectComponentId": "kinetic-label",
+      "visualContent": {
+        "eyebrow": "SKIN",
+        "headline": "SKIN"
+      },
+      "startSeconds": 20.48,
+      "endSeconds": 21.9,
+      "animation": {
+        "enterDurationFrames": 10,
+        "holdDurationFrames": 24,
+        "exitDurationFrames": 8,
+        "easing": "ease-out",
+        "direction": "up"
+      },
+      "placement": {
+        "anchor": "top",
+        "x": 70,
+        "y": 150,
+        "width": 940,
+        "height": 190,
+        "safeRegion": "top"
+      },
+      "requiredAssets": [],
+      "sfxCues": [],
+      "confidence": 0.8765401840209961,
+      "reviewStatus": "review_required",
+      "selectionRationale": "This is an existing P0/P1 keyword fixture. P2 does not claim it is a complete semantic or reference-verified visual explanation.",
+      "blockingReason": "P2 advanced semantics and direct reference-motion mapping remain unverified."
+    },
+    {
+      "sceneId": "scene-semantic-product-23640",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 23.64,
+        "endSeconds": 23.92,
+        "text": "Hedle bhija matakam kete produ thamaaramata yogi oe hujurudinati",
+        "word": "produ"
+      },
+      "semanticMeaning": "A transcript keyword is verified; this is not a verified complete-sentence explanation.",
+      "intendedVisualExplanation": "Preserve the existing review-gated kinetic keyword fixture only.",
+      "referenceTechniqueId": "reference-14fb1070ba2e-lower-third-pop",
+      "effectComponentId": "diagram",
+      "visualContent": {
+        "eyebrow": "PRODUCT",
+        "headline": "PRODUCT"
+      },
+      "startSeconds": 23.64,
+      "endSeconds": 25.12,
+      "animation": {
+        "enterDurationFrames": 10,
+        "holdDurationFrames": 24,
+        "exitDurationFrames": 8,
+        "easing": "ease-out",
+        "direction": "up"
+      },
+      "placement": {
+        "anchor": "top",
+        "x": 70,
+        "y": 150,
+        "width": 940,
+        "height": 190,
+        "safeRegion": "top"
+      },
+      "requiredAssets": [],
+      "sfxCues": [],
+      "confidence": 0.8687030673027039,
+      "reviewStatus": "review_required",
+      "selectionRationale": "This is an existing P0/P1 keyword fixture. P2 does not claim it is a complete semantic or reference-verified visual explanation.",
+      "blockingReason": "P2 advanced semantics and direct reference-motion mapping remain unverified."
+    },
+    {
+      "sceneId": "scene-semantic-product-43040",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 43.04,
+        "endSeconds": 43.32,
+        "text": "Jana tindamarees ki ne yu ira jana tending te produ teksal malashi",
+        "word": "produ"
+      },
+      "semanticMeaning": "The transcript contains a product-related token.",
+      "intendedVisualExplanation": "No effect: sufficient meaning was not established.",
+      "referenceTechniqueId": null,
+      "effectComponentId": "no_effect",
+      "visualContent": null,
+      "startSeconds": 43.04,
+      "endSeconds": 43.32,
+      "animation": null,
+      "placement": null,
+      "requiredAssets": [],
+      "sfxCues": [],
+      "confidence": 0.001772694755345583,
+      "reviewStatus": "blocked",
+      "selectionRationale": "The engine conservatively blocks graphics when sentence meaning is unverified.",
+      "blockingReason": "Low-confidence source transcript or unsupported complete-sentence meaning."
+    },
+    {
+      "sceneId": "scene-semantic-serum-48460",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 48.46,
+        "endSeconds": 48.64,
+        "text": "Anatomarees ki ne kodek nu nighet serum use kereonu",
+        "word": "serum"
+      },
+      "semanticMeaning": "The transcript explicitly mentions serum.",
+      "intendedVisualExplanation": "No effect: sufficient meaning was not established.",
+      "referenceTechniqueId": null,
+      "effectComponentId": "no_effect",
+      "visualContent": null,
+      "startSeconds": 48.46,
+      "endSeconds": 48.64,
+      "animation": null,
+      "placement": null,
+      "requiredAssets": [],
+      "sfxCues": [],
+      "confidence": 0.321989506483078,
+      "reviewStatus": "blocked",
+      "selectionRationale": "The engine conservatively blocks graphics when sentence meaning is unverified.",
+      "blockingReason": "Low-confidence source transcript or unsupported complete-sentence meaning."
+    },
+    {
+      "sceneId": "scene-semantic-serum-54940",
+      "sourceMediaId": "primary_source-22f5e379254e",
+      "transcriptSpan": {
+        "startSeconds": 54.94,
+        "endSeconds": 55.2,
+        "text": "Soto ma atomarees ki ne kodek nu bes serum janove",
+        "word": "serum"
+      },
+      "semanticMeaning": "The transcript explicitly mentions serum.",
+      "intendedVisualExplanation": "No effect: sufficient meaning was not established.",
+      "referenceTechniqueId": null,
+      "effectComponentId": "no_effect",
+      "visualContent": null,
+      "startSeconds": 54.94,
+      "endSeconds": 55.2,
+      "animation": null,
+      "placement": null,
+      "requiredAssets": [],
+      "sfxCues": [],
+      "confidence": 0.5739632844924927,
+      "reviewStatus": "blocked",
+      "selectionRationale": "The engine conservatively blocks graphics when sentence meaning is unverified.",
+      "blockingReason": "Low-confidence source transcript or unsupported complete-sentence meaning."
+    }
+  ]
+}

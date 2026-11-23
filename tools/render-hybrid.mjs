@@ -43,7 +43,7 @@ if (unsupported.length > 0) {
   throw new Error(`Unsupported approved effect types: ${unsupported.map((event) => event.effectType).join(", ")}`);
 }
 
-const rendererVersion = "hybrid-overlay-v2";
+const rendererVersion = "hybrid-overlay-v3";
 const cacheKey = createHash("sha256")
   .update(primary.sha256)
   .update(JSON.stringify(plan))

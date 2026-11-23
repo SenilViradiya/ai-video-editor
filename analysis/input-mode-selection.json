@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "selectedMode": "audio_storytelling",
+  "selectedPrimaryPath": "input/raw-audio/hindi-story.mp3",
+  "ambiguity": false,
+  "requiresExplicitPrimarySelection": false,
+  "candidates": [
+    {
+      "path": "input/raw-video/talking-head.mp4",
+      "extension": ".mp4",
+      "sha256": "22f5e379254e6d569f450d663078a5914cbe3da016b180f4dc4019b149e68e41",
+      "detectedMode": "video_enhancement",
+      "durationSeconds": 58.466667,
+      "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+      "videoStreams": 1,
+      "audioStreams": 1
+    },
+    {
+      "path": "input/raw-audio/hindi-story.mp3",
+      "extension": ".mp3",
+      "sha256": "07f624aa0be1d695a2663d26e6e0de197d00367e16230bcb3662e7991ef4c178",
+      "detectedMode": "audio_storytelling",
+      "durationSeconds": 78.915875,
+      "formatName": "mp3",
+      "videoStreams": 0,
+      "audioStreams": 1
+    },
+    {
+      "path": "input/B74034A3-28C7-4554-A463-A9D7B9FCD712.mp4",
+      "extension": ".mp4",
+      "sha256": "22f5e379254e6d569f450d663078a5914cbe3da016b180f4dc4019b149e68e41",
+      "detectedMode": "video_enhancement",
+      "durationSeconds": 58.466667,
+      "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+      "videoStreams": 1,
+      "audioStreams": 1
+    }
+  ],
+  "noMp3Supplied": false,
+  "noHindiSourceVerified": true,
+  "sourceLanguage": "not_verified"
+}

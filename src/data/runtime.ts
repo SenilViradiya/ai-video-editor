@@ -8,7 +8,7 @@ export type MediaManifest = {
   primaryMediaId: string;
   entries: Array<{
     id: string;
-    role: "primary_source" | "reference" | "asset" | "proxy";
+    role: "primary_source" | "primary_audio" | "reference" | "asset" | "proxy";
     path: string;
     metadata: {
       width: number;
@@ -37,3 +37,9 @@ export const sourceFps = primaryMedia.metadata.fps;
 export const sourceDurationInFrames = Math.round(primaryMedia.metadata.durationSeconds * sourceFps);
 export const outputSpec = deriveOutputSpec(primaryMedia.metadata);
 export const renderSourceFile = "source-video-4k30.mp4";
+export type InputMode = "video_enhancement" | "audio_storytelling";
+export type InputConfiguration = {
+  selectedMode: InputMode | null;
+  selectedPrimaryId: string | null;
+  mp3Mp4Ambiguity: boolean;
+};

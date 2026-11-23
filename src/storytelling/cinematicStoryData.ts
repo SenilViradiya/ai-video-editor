@@ -1,0 +1,63 @@
+import { StoryScene } from "./StorySceneTypes";
+
+export const cinematicPreviewScenes: StoryScene[] = [
+  {
+    id: "p2-4-station-establishing",
+    startSeconds: 0,
+    endSeconds: 7.44,
+    narrativeRole: "hook",
+    spokenHindi:
+      "हर रात साढ़े नौ बजे, एक छोटे से रेलवे स्टेशन पर एक आदमी आख़िरी ट्रेन के जाने का इंतज़ार करता था।",
+    factualVerification: "review_required",
+    visualConcept: "location",
+    visualContent: {
+      title: "9:30 PM",
+      setting: "small Indian railway station",
+      action: "last train departs",
+    },
+    referenceTechniqueId: null,
+    effectComponentId: "cinematic-establishing-environment",
+    animation: { enterFrames: 18, holdFrames: 180, exitFrames: 18, easing: "ease-out" },
+    layout: { x: 0, y: 0, width: 1080, height: 1920 },
+    assets: ["procedural:station-night", "procedural:teacher-with-diary"],
+    sfxCue: null,
+  },
+  {
+    id: "p2-4-diary-closeup",
+    startSeconds: 7.44,
+    endSeconds: 13.14,
+    narrativeRole: "character",
+    spokenHindi: "एक पुरानी डायरी उसके हाथ में रहती थी।",
+    factualVerification: "review_required",
+    visualConcept: "process",
+    visualContent: {
+      title: "पुरानी डायरी",
+      action: "man opens the diary",
+    },
+    referenceTechniqueId: null,
+    effectComponentId: "cinematic-object-closeup",
+    animation: { enterFrames: 16, holdFrames: 130, exitFrames: 16, easing: "ease-out" },
+    layout: { x: 0, y: 0, width: 1080, height: 1920 },
+    assets: ["procedural:station-night", "procedural:teacher-with-diary", "procedural:old-diary"],
+    sfxCue: null,
+  },
+  {
+    id: "p2-4-waiting-beat",
+    startSeconds: 13.14,
+    endSeconds: 18,
+    narrativeRole: "character",
+    spokenHindi: "वह वहीं बैठा रहता था।",
+    factualVerification: "review_required",
+    visualConcept: "location",
+    visualContent: {
+      title: "इंतज़ार",
+      action: "teacher remains on the empty platform",
+    },
+    referenceTechniqueId: null,
+    effectComponentId: "cinematic-emotional-reaction",
+    animation: { enterFrames: 14, holdFrames: 100, exitFrames: 14, easing: "ease-out" },
+    layout: { x: 0, y: 0, width: 1080, height: 1920 },
+    assets: ["procedural:station-night", "procedural:teacher-with-diary"],
+    sfxCue: null,
+  },
+];

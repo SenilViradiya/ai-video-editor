@@ -1,0 +1,1613 @@
+{
+  "schemaVersion": "1.0",
+  "source": "input/raw-audio/hindi-story.mp3",
+  "sourceSha256": "07f624aa0be1d695a2663d26e6e0de197d00367e16230bcb3662e7991ef4c178",
+  "selectedMode": "audio_storytelling",
+  "language": "hi",
+  "languageProbability": 1.0,
+  "model": "faster-whisper-base",
+  "device": "cpu",
+  "computeType": "int8",
+  "duration": 78.9159375,
+  "segments": [
+    {
+      "sentenceId": "hindi-1",
+      "start": 0.0,
+      "end": 7.44,
+      "spokenHindi": "ہر رہت ساڑھیں 9 بجے, ایک چھوٹھے سے ریلوی ایسٹیشن پر ایک آدمی آخری ٹرین کے جانے کا انتظار کرتا تھا۔",
+      "avgLogprob": -0.38095255533854167,
+      "noSpeechProbability": 0.007282847538590431,
+      "compressionRatio": 2.0063694267515926,
+      "words": [
+        {
+          "word": "ہر",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.8211968839168549
+        },
+        {
+          "word": "رہت",
+          "start": 0.28,
+          "end": 0.6,
+          "probability": 0.3200041006008784
+        },
+        {
+          "word": "ساڑھیں",
+          "start": 0.6,
+          "end": 0.98,
+          "probability": 0.6348430862029394
+        },
+        {
+          "word": "9",
+          "start": 0.98,
+          "end": 1.14,
+          "probability": 0.3113517165184021
+        },
+        {
+          "word": "بجے,",
+          "start": 1.14,
+          "end": 1.52,
+          "probability": 0.7093735337257385
+        },
+        {
+          "word": "ایک",
+          "start": 1.92,
+          "end": 2.16,
+          "probability": 0.8787489235401154
+        },
+        {
+          "word": "چھوٹھے",
+          "start": 2.16,
+          "end": 2.56,
+          "probability": 0.6435086925824484
+        },
+        {
+          "word": "سے",
+          "start": 2.56,
+          "end": 2.68,
+          "probability": 0.9883461594581604
+        },
+        {
+          "word": "ریلوی",
+          "start": 2.68,
+          "end": 3.0,
+          "probability": 0.509349113702774
+        },
+        {
+          "word": "ایسٹیشن",
+          "start": 3.0,
+          "end": 3.4,
+          "probability": 0.616716491324561
+        },
+        {
+          "word": "پر",
+          "start": 3.4,
+          "end": 3.64,
+          "probability": 0.9482626020908356
+        },
+        {
+          "word": "ایک",
+          "start": 3.64,
+          "end": 4.0,
+          "probability": 0.9625211358070374
+        },
+        {
+          "word": "آدمی",
+          "start": 4.0,
+          "end": 4.44,
+          "probability": 0.8494052092234293
+        },
+        {
+          "word": "آخری",
+          "start": 4.44,
+          "end": 5.02,
+          "probability": 0.9461335142453512
+        },
+        {
+          "word": "ٹرین",
+          "start": 5.02,
+          "end": 5.28,
+          "probability": 0.5627024453133345
+        },
+        {
+          "word": "کے",
+          "start": 5.28,
+          "end": 5.42,
+          "probability": 0.8500462174415588
+        },
+        {
+          "word": "جانے",
+          "start": 5.42,
+          "end": 5.74,
+          "probability": 0.9632485707600912
+        },
+        {
+          "word": "کا",
+          "start": 5.74,
+          "end": 5.86,
+          "probability": 0.6342645883560181
+        },
+        {
+          "word": "انتظار",
+          "start": 5.86,
+          "end": 6.26,
+          "probability": 0.769703596830368
+        },
+        {
+          "word": "کرتا",
+          "start": 6.26,
+          "end": 6.62,
+          "probability": 0.8818816343943278
+        },
+        {
+          "word": "تھا۔",
+          "start": 6.62,
+          "end": 7.44,
+          "probability": 0.7853301564852396
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-2",
+      "start": 7.44,
+      "end": 13.14,
+      "spokenHindi": "اس کے ہاتھ میں نہ کوئی ٹکٹ ہوتا نہ کوئی بگ، بس ایک پرانی دائری۔",
+      "avgLogprob": -0.38095255533854167,
+      "noSpeechProbability": 0.007282847538590431,
+      "compressionRatio": 2.0063694267515926,
+      "words": [
+        {
+          "word": "اس",
+          "start": 7.44,
+          "end": 7.66,
+          "probability": 0.5999192595481873
+        },
+        {
+          "word": "کے",
+          "start": 7.66,
+          "end": 7.78,
+          "probability": 0.9798344969749451
+        },
+        {
+          "word": "ہاتھ",
+          "start": 7.78,
+          "end": 8.12,
+          "probability": 0.9225719372431437
+        },
+        {
+          "word": "میں",
+          "start": 8.12,
+          "end": 8.3,
+          "probability": 0.9836928248405457
+        },
+        {
+          "word": "نہ",
+          "start": 8.3,
+          "end": 8.82,
+          "probability": 0.8381559252738953
+        },
+        {
+          "word": "کوئی",
+          "start": 8.82,
+          "end": 9.0,
+          "probability": 0.9566377997398376
+        },
+        {
+          "word": "ٹکٹ",
+          "start": 9.0,
+          "end": 9.3,
+          "probability": 0.8285382091999054
+        },
+        {
+          "word": "ہوتا",
+          "start": 9.3,
+          "end": 9.66,
+          "probability": 0.8143168290456136
+        },
+        {
+          "word": "نہ",
+          "start": 9.66,
+          "end": 10.16,
+          "probability": 0.5898243188858032
+        },
+        {
+          "word": "کوئی",
+          "start": 10.16,
+          "end": 10.38,
+          "probability": 0.9893596172332764
+        },
+        {
+          "word": "بگ،",
+          "start": 10.38,
+          "end": 11.16,
+          "probability": 0.4108355790376663
+        },
+        {
+          "word": "بس",
+          "start": 11.16,
+          "end": 11.64,
+          "probability": 0.9381797313690186
+        },
+        {
+          "word": "ایک",
+          "start": 11.64,
+          "end": 12.22,
+          "probability": 0.9558746218681335
+        },
+        {
+          "word": "پرانی",
+          "start": 12.22,
+          "end": 12.64,
+          "probability": 0.8080670312047005
+        },
+        {
+          "word": "دائری۔",
+          "start": 12.64,
+          "end": 13.14,
+          "probability": 0.6021720692515373
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-3",
+      "start": 13.9,
+      "end": 17.64,
+      "spokenHindi": "لوگوں کو لگتا تھا کہ وہ کسی اپنے کے لوتنے کا انتظار کر رہا ہے۔",
+      "avgLogprob": -0.38095255533854167,
+      "noSpeechProbability": 0.007282847538590431,
+      "compressionRatio": 2.0063694267515926,
+      "words": [
+        {
+          "word": "لوگوں",
+          "start": 13.9,
+          "end": 14.24,
+          "probability": 0.8084140022595724
+        },
+        {
+          "word": "کو",
+          "start": 14.24,
+          "end": 14.36,
+          "probability": 0.947198748588562
+        },
+        {
+          "word": "لگتا",
+          "start": 14.36,
+          "end": 14.64,
+          "probability": 0.7770695686340332
+        },
+        {
+          "word": "تھا",
+          "start": 14.64,
+          "end": 14.84,
+          "probability": 0.9964054524898529
+        },
+        {
+          "word": "کہ",
+          "start": 14.84,
+          "end": 15.0,
+          "probability": 0.8397436141967773
+        },
+        {
+          "word": "وہ",
+          "start": 15.0,
+          "end": 15.16,
+          "probability": 0.9520277976989746
+        },
+        {
+          "word": "کسی",
+          "start": 15.16,
+          "end": 15.46,
+          "probability": 0.908647874991099
+        },
+        {
+          "word": "اپنے",
+          "start": 15.46,
+          "end": 15.86,
+          "probability": 0.9407905042171478
+        },
+        {
+          "word": "کے",
+          "start": 15.86,
+          "end": 16.0,
+          "probability": 0.9108925461769104
+        },
+        {
+          "word": "لوتنے",
+          "start": 16.0,
+          "end": 16.4,
+          "probability": 0.6125416085124016
+        },
+        {
+          "word": "کا",
+          "start": 16.4,
+          "end": 16.5,
+          "probability": 0.9861168265342712
+        },
+        {
+          "word": "انتظار",
+          "start": 16.5,
+          "end": 16.92,
+          "probability": 0.9959859549999237
+        },
+        {
+          "word": "کر",
+          "start": 16.92,
+          "end": 17.06,
+          "probability": 0.9897844195365906
+        },
+        {
+          "word": "رہا",
+          "start": 17.06,
+          "end": 17.32,
+          "probability": 0.9782787958780924
+        },
+        {
+          "word": "ہے۔",
+          "start": 17.32,
+          "end": 17.64,
+          "probability": 0.8815983235836029
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-4",
+      "start": 18.36,
+      "end": 21.48,
+      "spokenHindi": "ایک رہت ایسٹیشن کے چاکیدار نے اس سے پوچھ ہی لیا۔",
+      "avgLogprob": -0.38095255533854167,
+      "noSpeechProbability": 0.007282847538590431,
+      "compressionRatio": 2.0063694267515926,
+      "words": [
+        {
+          "word": "ایک",
+          "start": 18.36,
+          "end": 18.62,
+          "probability": 0.9878618121147156
+        },
+        {
+          "word": "رہت",
+          "start": 18.62,
+          "end": 18.92,
+          "probability": 0.9921416242917379
+        },
+        {
+          "word": "ایسٹیشن",
+          "start": 18.92,
+          "end": 19.3,
+          "probability": 0.8635006589548928
+        },
+        {
+          "word": "کے",
+          "start": 19.3,
+          "end": 19.44,
+          "probability": 0.6646412014961243
+        },
+        {
+          "word": "چاکیدار",
+          "start": 19.44,
+          "end": 19.94,
+          "probability": 0.8003282050291697
+        },
+        {
+          "word": "نے",
+          "start": 19.94,
+          "end": 20.1,
+          "probability": 0.984748899936676
+        },
+        {
+          "word": "اس",
+          "start": 20.1,
+          "end": 20.28,
+          "probability": 0.8537994027137756
+        },
+        {
+          "word": "سے",
+          "start": 20.28,
+          "end": 20.36,
+          "probability": 0.3210453689098358
+        },
+        {
+          "word": "پوچھ",
+          "start": 20.36,
+          "end": 20.68,
+          "probability": 0.879169300198555
+        },
+        {
+          "word": "ہی",
+          "start": 20.68,
+          "end": 20.8,
+          "probability": 0.465068481862545
+        },
+        {
+          "word": "لیا۔",
+          "start": 20.8,
+          "end": 21.48,
+          "probability": 0.7813963691393534
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-5",
+      "start": 21.48,
+      "end": 24.26,
+      "spokenHindi": "آخر تم روز یہاں کسکہ انتظار کرتے ہو۔",
+      "avgLogprob": -0.38095255533854167,
+      "noSpeechProbability": 0.007282847538590431,
+      "compressionRatio": 2.0063694267515926,
+      "words": [
+        {
+          "word": "آخر",
+          "start": 21.48,
+          "end": 21.86,
+          "probability": 0.9056020081043243
+        },
+        {
+          "word": "تم",
+          "start": 21.86,
+          "end": 22.06,
+          "probability": 0.20708972215652466
+        },
+        {
+          "word": "روز",
+          "start": 22.06,
+          "end": 22.78,
+          "probability": 0.8662471771240234
+        },
+        {
+          "word": "یہاں",
+          "start": 22.78,
+          "end": 23.0,
+          "probability": 0.8362300793329874
+        },
+        {
+          "word": "کسکہ",
+          "start": 23.0,
+          "end": 23.26,
+          "probability": 0.6824395954608917
+        },
+        {
+          "word": "انتظار",
+          "start": 23.26,
+          "end": 23.6,
+          "probability": 0.9941213428974152
+        },
+        {
+          "word": "کرتے",
+          "start": 23.6,
+          "end": 23.94,
+          "probability": 0.9684884150822958
+        },
+        {
+          "word": "ہو۔",
+          "start": 23.94,
+          "end": 24.26,
+          "probability": 0.684503585100174
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-6",
+      "start": 24.74,
+      "end": 27.6,
+      "spokenHindi": "آدمی مسکورایا اور بھولا کسی کا نہیں۔",
+      "avgLogprob": -0.38095255533854167,
+      "noSpeechProbability": 0.007282847538590431,
+      "compressionRatio": 2.0063694267515926,
+      "words": [
+        {
+          "word": "آدمی",
+          "start": 24.74,
+          "end": 25.24,
+          "probability": 0.9672194123268127
+        },
+        {
+          "word": "مسکورایا",
+          "start": 25.24,
+          "end": 25.74,
+          "probability": 0.6832389891147613
+        },
+        {
+          "word": "اور",
+          "start": 25.74,
+          "end": 25.9,
+          "probability": 0.9815955758094788
+        },
+        {
+          "word": "بھولا",
+          "start": 25.9,
+          "end": 26.24,
+          "probability": 0.6713915914297104
+        },
+        {
+          "word": "کسی",
+          "start": 26.24,
+          "end": 27.16,
+          "probability": 0.7799619634946188
+        },
+        {
+          "word": "کا",
+          "start": 27.16,
+          "end": 27.26,
+          "probability": 0.9281389713287354
+        },
+        {
+          "word": "نہیں۔",
+          "start": 27.26,
+          "end": 27.6,
+          "probability": 0.5904523432254791
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-7",
+      "start": 27.6,
+      "end": 29.98,
+      "spokenHindi": "میں تو یہاں کچھ بضل نے آتا ہوں۔",
+      "avgLogprob": -0.3563599807294932,
+      "noSpeechProbability": 0.028500987216830254,
+      "compressionRatio": 1.8792569659442724,
+      "words": [
+        {
+          "word": "میں",
+          "start": 27.6,
+          "end": 28.2,
+          "probability": 0.5562615990638733
+        },
+        {
+          "word": "تو",
+          "start": 28.2,
+          "end": 28.38,
+          "probability": 0.6813563704490662
+        },
+        {
+          "word": "یہاں",
+          "start": 28.38,
+          "end": 28.7,
+          "probability": 0.9450357357660929
+        },
+        {
+          "word": "کچھ",
+          "start": 28.7,
+          "end": 28.88,
+          "probability": 0.9504838983217875
+        },
+        {
+          "word": "بضل",
+          "start": 28.88,
+          "end": 29.28,
+          "probability": 0.42197736352682114
+        },
+        {
+          "word": "نے",
+          "start": 29.28,
+          "end": 29.4,
+          "probability": 0.3424818217754364
+        },
+        {
+          "word": "آتا",
+          "start": 29.4,
+          "end": 29.66,
+          "probability": 0.7458388408025106
+        },
+        {
+          "word": "ہوں۔",
+          "start": 29.66,
+          "end": 29.98,
+          "probability": 0.7808389266331991
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-8",
+      "start": 30.66,
+      "end": 35.2,
+      "spokenHindi": "اگل ہی پل اس نے platform پر بیٹھے پاچھ بچھوں کو اپنے پاس بلایا۔",
+      "avgLogprob": -0.3563599807294932,
+      "noSpeechProbability": 0.028500987216830254,
+      "compressionRatio": 1.8792569659442724,
+      "words": [
+        {
+          "word": "اگل",
+          "start": 30.66,
+          "end": 31.0,
+          "probability": 0.6637813647588094
+        },
+        {
+          "word": "ہی",
+          "start": 31.0,
+          "end": 31.12,
+          "probability": 0.6047061532735825
+        },
+        {
+          "word": "پل",
+          "start": 31.12,
+          "end": 31.38,
+          "probability": 0.8252049684524536
+        },
+        {
+          "word": "اس",
+          "start": 31.38,
+          "end": 31.62,
+          "probability": 0.48332300782203674
+        },
+        {
+          "word": "نے",
+          "start": 31.62,
+          "end": 31.74,
+          "probability": 0.9840242266654968
+        },
+        {
+          "word": "platform",
+          "start": 31.74,
+          "end": 32.16,
+          "probability": 0.13284467160701752
+        },
+        {
+          "word": "پر",
+          "start": 32.16,
+          "end": 32.46,
+          "probability": 0.7000629007816315
+        },
+        {
+          "word": "بیٹھے",
+          "start": 32.46,
+          "end": 32.78,
+          "probability": 0.7020491659641266
+        },
+        {
+          "word": "پاچھ",
+          "start": 32.78,
+          "end": 33.14,
+          "probability": 0.764122799038887
+        },
+        {
+          "word": "بچھوں",
+          "start": 33.14,
+          "end": 33.58,
+          "probability": 0.6965887099504471
+        },
+        {
+          "word": "کو",
+          "start": 33.58,
+          "end": 33.7,
+          "probability": 0.9955614805221558
+        },
+        {
+          "word": "اپنے",
+          "start": 33.7,
+          "end": 34.04,
+          "probability": 0.9407537132501602
+        },
+        {
+          "word": "پاس",
+          "start": 34.04,
+          "end": 34.3,
+          "probability": 0.9196667373180389
+        },
+        {
+          "word": "بلایا۔",
+          "start": 34.3,
+          "end": 35.2,
+          "probability": 0.6339867636561394
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-9",
+      "start": 35.2,
+      "end": 39.56,
+      "spokenHindi": "دائری گھولی, کچھ پرانی کتابے نکالی اور انھیں پرانا شروع کر دیا۔",
+      "avgLogprob": -0.3563599807294932,
+      "noSpeechProbability": 0.028500987216830254,
+      "compressionRatio": 1.8792569659442724,
+      "words": [
+        {
+          "word": "دائری",
+          "start": 35.2,
+          "end": 35.46,
+          "probability": 0.44302589694658917
+        },
+        {
+          "word": "گھولی,",
+          "start": 35.46,
+          "end": 35.8,
+          "probability": 0.6338852755725384
+        },
+        {
+          "word": "کچھ",
+          "start": 36.22,
+          "end": 36.36,
+          "probability": 0.9475729068120321
+        },
+        {
+          "word": "پرانی",
+          "start": 36.36,
+          "end": 36.74,
+          "probability": 0.7758677378296852
+        },
+        {
+          "word": "کتابے",
+          "start": 36.74,
+          "end": 37.18,
+          "probability": 0.801667258143425
+        },
+        {
+          "word": "نکالی",
+          "start": 37.18,
+          "end": 37.56,
+          "probability": 0.7322267889976501
+        },
+        {
+          "word": "اور",
+          "start": 37.56,
+          "end": 38.08,
+          "probability": 0.9295621514320374
+        },
+        {
+          "word": "انھیں",
+          "start": 38.08,
+          "end": 38.36,
+          "probability": 0.495483656724294
+        },
+        {
+          "word": "پرانا",
+          "start": 38.36,
+          "end": 38.8,
+          "probability": 0.6146444454789162
+        },
+        {
+          "word": "شروع",
+          "start": 38.8,
+          "end": 39.02,
+          "probability": 0.849898636341095
+        },
+        {
+          "word": "کر",
+          "start": 39.02,
+          "end": 39.24,
+          "probability": 0.9960349202156067
+        },
+        {
+          "word": "دیا۔",
+          "start": 39.24,
+          "end": 39.56,
+          "probability": 0.911423941453298
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-10",
+      "start": 40.18,
+      "end": 46.5,
+      "spokenHindi": "دراسل وہ دن میں چاہی بیچ تا تھا اور اپنی کمائی سے ان بچھوں کے لئے کپیہ اور پینسل خریت تا تھا۔",
+      "avgLogprob": -0.3563599807294932,
+      "noSpeechProbability": 0.028500987216830254,
+      "compressionRatio": 1.8792569659442724,
+      "words": [
+        {
+          "word": "دراسل",
+          "start": 40.18,
+          "end": 40.7,
+          "probability": 0.6989574581384659
+        },
+        {
+          "word": "وہ",
+          "start": 40.7,
+          "end": 40.98,
+          "probability": 0.9850904941558838
+        },
+        {
+          "word": "دن",
+          "start": 40.98,
+          "end": 41.26,
+          "probability": 0.5490691512823105
+        },
+        {
+          "word": "میں",
+          "start": 41.26,
+          "end": 41.42,
+          "probability": 0.9931430816650391
+        },
+        {
+          "word": "چاہی",
+          "start": 41.42,
+          "end": 41.78,
+          "probability": 0.6212966367602348
+        },
+        {
+          "word": "بیچ",
+          "start": 41.78,
+          "end": 42.0,
+          "probability": 0.6672531962394714
+        },
+        {
+          "word": "تا",
+          "start": 42.0,
+          "end": 42.18,
+          "probability": 0.33363210409879684
+        },
+        {
+          "word": "تھا",
+          "start": 42.18,
+          "end": 42.4,
+          "probability": 0.9822115302085876
+        },
+        {
+          "word": "اور",
+          "start": 42.4,
+          "end": 42.82,
+          "probability": 0.8069831132888794
+        },
+        {
+          "word": "اپنی",
+          "start": 42.82,
+          "end": 43.08,
+          "probability": 0.8907278627157211
+        },
+        {
+          "word": "کمائی",
+          "start": 43.08,
+          "end": 43.44,
+          "probability": 0.8605954349040985
+        },
+        {
+          "word": "سے",
+          "start": 43.44,
+          "end": 43.62,
+          "probability": 0.9962030053138733
+        },
+        {
+          "word": "ان",
+          "start": 43.62,
+          "end": 43.9,
+          "probability": 0.8251039385795593
+        },
+        {
+          "word": "بچھوں",
+          "start": 43.9,
+          "end": 44.32,
+          "probability": 0.920818105340004
+        },
+        {
+          "word": "کے",
+          "start": 44.32,
+          "end": 44.44,
+          "probability": 0.9054924845695496
+        },
+        {
+          "word": "لئے",
+          "start": 44.44,
+          "end": 44.6,
+          "probability": 0.8120733698209127
+        },
+        {
+          "word": "کپیہ",
+          "start": 44.6,
+          "end": 45.04,
+          "probability": 0.4246654845774174
+        },
+        {
+          "word": "اور",
+          "start": 45.04,
+          "end": 45.3,
+          "probability": 0.9804785847663879
+        },
+        {
+          "word": "پینسل",
+          "start": 45.3,
+          "end": 45.74,
+          "probability": 0.6867900416254997
+        },
+        {
+          "word": "خریت",
+          "start": 45.74,
+          "end": 46.08,
+          "probability": 0.5538633267084757
+        },
+        {
+          "word": "تا",
+          "start": 46.08,
+          "end": 46.18,
+          "probability": 0.8361192047595978
+        },
+        {
+          "word": "تھا۔",
+          "start": 46.18,
+          "end": 46.5,
+          "probability": 0.963085412979126
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-11",
+      "start": 47.12,
+      "end": 50.66,
+      "spokenHindi": "تین مہینے تک ہر رات یہی سلسلہ چلتا رہا۔",
+      "avgLogprob": -0.3563599807294932,
+      "noSpeechProbability": 0.028500987216830254,
+      "compressionRatio": 1.8792569659442724,
+      "words": [
+        {
+          "word": "تین",
+          "start": 47.12,
+          "end": 47.42,
+          "probability": 0.6511819064617157
+        },
+        {
+          "word": "مہینے",
+          "start": 47.42,
+          "end": 47.84,
+          "probability": 0.6594464331865311
+        },
+        {
+          "word": "تک",
+          "start": 47.84,
+          "end": 48.12,
+          "probability": 0.8528848588466644
+        },
+        {
+          "word": "ہر",
+          "start": 48.12,
+          "end": 48.42,
+          "probability": 0.8344638645648956
+        },
+        {
+          "word": "رات",
+          "start": 48.42,
+          "end": 48.68,
+          "probability": 0.5890057384967804
+        },
+        {
+          "word": "یہی",
+          "start": 48.68,
+          "end": 49.12,
+          "probability": 0.7615084052085876
+        },
+        {
+          "word": "سلسلہ",
+          "start": 49.12,
+          "end": 49.6,
+          "probability": 0.8062665462493896
+        },
+        {
+          "word": "چلتا",
+          "start": 49.6,
+          "end": 49.96,
+          "probability": 0.8939000219106674
+        },
+        {
+          "word": "رہا۔",
+          "start": 49.96,
+          "end": 50.66,
+          "probability": 0.919650211930275
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-12",
+      "start": 50.66,
+      "end": 54.62,
+      "spokenHindi": "لیکن ایک دن وہ آدمی اچانک ایسٹیشن پر آنا بند ہو گیا۔",
+      "avgLogprob": -0.3563599807294932,
+      "noSpeechProbability": 0.028500987216830254,
+      "compressionRatio": 1.8792569659442724,
+      "words": [
+        {
+          "word": "لیکن",
+          "start": 50.66,
+          "end": 51.04,
+          "probability": 0.9836939573287964
+        },
+        {
+          "word": "ایک",
+          "start": 51.04,
+          "end": 51.38,
+          "probability": 0.9235415160655975
+        },
+        {
+          "word": "دن",
+          "start": 51.38,
+          "end": 51.64,
+          "probability": 0.9124551713466644
+        },
+        {
+          "word": "وہ",
+          "start": 51.64,
+          "end": 52.06,
+          "probability": 0.9969057440757751
+        },
+        {
+          "word": "آدمی",
+          "start": 52.06,
+          "end": 52.5,
+          "probability": 0.8580007155736288
+        },
+        {
+          "word": "اچانک",
+          "start": 52.5,
+          "end": 53.0,
+          "probability": 0.786487266421318
+        },
+        {
+          "word": "ایسٹیشن",
+          "start": 53.0,
+          "end": 53.44,
+          "probability": 0.37797125216041294
+        },
+        {
+          "word": "پر",
+          "start": 53.44,
+          "end": 53.6,
+          "probability": 0.9405409693717957
+        },
+        {
+          "word": "آنا",
+          "start": 53.6,
+          "end": 53.8,
+          "probability": 0.5799242258071899
+        },
+        {
+          "word": "بند",
+          "start": 53.8,
+          "end": 54.12,
+          "probability": 0.8133119940757751
+        },
+        {
+          "word": "ہو",
+          "start": 54.12,
+          "end": 54.3,
+          "probability": 0.9125398993492126
+        },
+        {
+          "word": "گیا۔",
+          "start": 54.3,
+          "end": 54.62,
+          "probability": 0.9364933570226034
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-13",
+      "start": 55.14,
+      "end": 59.08,
+      "spokenHindi": "بچوں کو لگا کی اب ام کی پڑھائیں ہمئیشا کے لیے چود جائے گی۔",
+      "avgLogprob": -0.5832390962827085,
+      "noSpeechProbability": 0.043626103550195694,
+      "compressionRatio": 1.9566787003610109,
+      "words": [
+        {
+          "word": "بچوں",
+          "start": 55.14,
+          "end": 55.52,
+          "probability": 0.6530285775661469
+        },
+        {
+          "word": "کو",
+          "start": 55.52,
+          "end": 55.66,
+          "probability": 0.960330605506897
+        },
+        {
+          "word": "لگا",
+          "start": 55.66,
+          "end": 55.94,
+          "probability": 0.786811371644338
+        },
+        {
+          "word": "کی",
+          "start": 55.94,
+          "end": 56.1,
+          "probability": 0.3285263776779175
+        },
+        {
+          "word": "اب",
+          "start": 56.1,
+          "end": 56.34,
+          "probability": 0.92213374376297
+        },
+        {
+          "word": "ام",
+          "start": 56.34,
+          "end": 56.52,
+          "probability": 0.13957961648702621
+        },
+        {
+          "word": "کی",
+          "start": 56.52,
+          "end": 56.66,
+          "probability": 0.7400740385055542
+        },
+        {
+          "word": "پڑھائیں",
+          "start": 56.66,
+          "end": 57.06,
+          "probability": 0.7517423033714294
+        },
+        {
+          "word": "ہمئیشا",
+          "start": 57.06,
+          "end": 57.56,
+          "probability": 0.5646050727615753
+        },
+        {
+          "word": "کے",
+          "start": 57.56,
+          "end": 57.7,
+          "probability": 0.7533757090568542
+        },
+        {
+          "word": "لیے",
+          "start": 57.7,
+          "end": 57.82,
+          "probability": 0.6022819777329763
+        },
+        {
+          "word": "چود",
+          "start": 57.82,
+          "end": 58.04,
+          "probability": 0.44452335499227047
+        },
+        {
+          "word": "جائے",
+          "start": 58.04,
+          "end": 58.38,
+          "probability": 0.7942506472269694
+        },
+        {
+          "word": "گی۔",
+          "start": 58.38,
+          "end": 59.08,
+          "probability": 0.7725252111752828
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-14",
+      "start": 59.08,
+      "end": 63.84,
+      "spokenHindi": "مگر اگلے دن چھیشن کے پاس ایک چھوٹے سے کمڑے پر بود لگا تھا۔",
+      "avgLogprob": -0.5832390962827085,
+      "noSpeechProbability": 0.043626103550195694,
+      "compressionRatio": 1.9566787003610109,
+      "words": [
+        {
+          "word": "مگر",
+          "start": 59.08,
+          "end": 59.4,
+          "probability": 0.7754684289296468
+        },
+        {
+          "word": "اگلے",
+          "start": 59.4,
+          "end": 59.76,
+          "probability": 0.8133745789527893
+        },
+        {
+          "word": "دن",
+          "start": 59.76,
+          "end": 60.04,
+          "probability": 0.7623220980167389
+        },
+        {
+          "word": "چھیشن",
+          "start": 60.04,
+          "end": 60.76,
+          "probability": 0.3826347548514605
+        },
+        {
+          "word": "کے",
+          "start": 60.76,
+          "end": 60.9,
+          "probability": 0.9516850709915161
+        },
+        {
+          "word": "پاس",
+          "start": 60.9,
+          "end": 61.14,
+          "probability": 0.9323838651180267
+        },
+        {
+          "word": "ایک",
+          "start": 61.14,
+          "end": 61.48,
+          "probability": 0.9121600091457367
+        },
+        {
+          "word": "چھوٹے",
+          "start": 61.48,
+          "end": 61.9,
+          "probability": 0.8801221966743469
+        },
+        {
+          "word": "سے",
+          "start": 61.9,
+          "end": 62.02,
+          "probability": 0.9730914831161499
+        },
+        {
+          "word": "کمڑے",
+          "start": 62.02,
+          "end": 62.38,
+          "probability": 0.5891101896762848
+        },
+        {
+          "word": "پر",
+          "start": 62.38,
+          "end": 62.56,
+          "probability": 0.9378853440284729
+        },
+        {
+          "word": "بود",
+          "start": 62.56,
+          "end": 62.84,
+          "probability": 0.5314158201217651
+        },
+        {
+          "word": "لگا",
+          "start": 62.84,
+          "end": 63.14,
+          "probability": 0.8441491723060608
+        },
+        {
+          "word": "تھا۔",
+          "start": 63.14,
+          "end": 63.84,
+          "probability": 0.7080993602673212
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-15",
+      "start": 63.84,
+      "end": 65.3,
+      "spokenHindi": "شام کی پات شالا۔",
+      "avgLogprob": -0.5832390962827085,
+      "noSpeechProbability": 0.043626103550195694,
+      "compressionRatio": 1.9566787003610109,
+      "words": [
+        {
+          "word": "شام",
+          "start": 63.84,
+          "end": 64.34,
+          "probability": 0.7290249764919281
+        },
+        {
+          "word": "کی",
+          "start": 64.34,
+          "end": 64.52,
+          "probability": 0.9400578141212463
+        },
+        {
+          "word": "پات",
+          "start": 64.52,
+          "end": 64.8,
+          "probability": 0.6630793064832687
+        },
+        {
+          "word": "شالا۔",
+          "start": 64.8,
+          "end": 65.3,
+          "probability": 0.6458342373371124
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-16",
+      "start": 66.0,
+      "end": 68.36,
+      "spokenHindi": "دروازے پر وہی آدمی خرا تھا۔",
+      "avgLogprob": -0.5832390962827085,
+      "noSpeechProbability": 0.043626103550195694,
+      "compressionRatio": 1.9566787003610109,
+      "words": [
+        {
+          "word": "دروازے",
+          "start": 66.0,
+          "end": 66.56,
+          "probability": 0.6170738577842713
+        },
+        {
+          "word": "پر",
+          "start": 66.56,
+          "end": 66.76,
+          "probability": 0.9704390466213226
+        },
+        {
+          "word": "وہی",
+          "start": 66.76,
+          "end": 67.08,
+          "probability": 0.7076363563537598
+        },
+        {
+          "word": "آدمی",
+          "start": 67.08,
+          "end": 67.42,
+          "probability": 0.8167702158292135
+        },
+        {
+          "word": "خرا",
+          "start": 67.42,
+          "end": 67.58,
+          "probability": 0.1704239808022976
+        },
+        {
+          "word": "تھا۔",
+          "start": 67.58,
+          "end": 68.36,
+          "probability": 0.9414288798967997
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-17",
+      "start": 68.36,
+      "end": 72.92,
+      "spokenHindi": "اس بار بچوں کے لئے بنچ کتابے اور ایک بلاک بود بھی تھا۔",
+      "avgLogprob": -0.5832390962827085,
+      "noSpeechProbability": 0.043626103550195694,
+      "compressionRatio": 1.9566787003610109,
+      "words": [
+        {
+          "word": "اس",
+          "start": 68.36,
+          "end": 68.62,
+          "probability": 0.7879089117050171
+        },
+        {
+          "word": "بار",
+          "start": 68.62,
+          "end": 68.92,
+          "probability": 0.7668735682964325
+        },
+        {
+          "word": "بچوں",
+          "start": 68.92,
+          "end": 69.32,
+          "probability": 0.9720687866210938
+        },
+        {
+          "word": "کے",
+          "start": 69.32,
+          "end": 69.48,
+          "probability": 0.9534383416175842
+        },
+        {
+          "word": "لئے",
+          "start": 69.48,
+          "end": 69.64,
+          "probability": 0.6673103446761767
+        },
+        {
+          "word": "بنچ",
+          "start": 69.64,
+          "end": 70.1,
+          "probability": 0.5785850832859675
+        },
+        {
+          "word": "کتابے",
+          "start": 70.1,
+          "end": 70.82,
+          "probability": 0.6858055926859379
+        },
+        {
+          "word": "اور",
+          "start": 70.82,
+          "end": 71.28,
+          "probability": 0.9749600291252136
+        },
+        {
+          "word": "ایک",
+          "start": 71.28,
+          "end": 71.46,
+          "probability": 0.9289484024047852
+        },
+        {
+          "word": "بلاک",
+          "start": 71.46,
+          "end": 71.74,
+          "probability": 0.5864920516808828
+        },
+        {
+          "word": "بود",
+          "start": 71.74,
+          "end": 71.92,
+          "probability": 0.8553626835346222
+        },
+        {
+          "word": "بھی",
+          "start": 71.92,
+          "end": 72.14,
+          "probability": 0.960286945104599
+        },
+        {
+          "word": "تھا۔",
+          "start": 72.14,
+          "end": 72.92,
+          "probability": 0.9790081183115641
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-18",
+      "start": 72.92,
+      "end": 76.42,
+      "spokenHindi": "کیوں کی کچھ لوگ صرف اپنے منزل תک نہیں پہنچ دے۔",
+      "avgLogprob": -0.5832390962827085,
+      "noSpeechProbability": 0.043626103550195694,
+      "compressionRatio": 1.9566787003610109,
+      "words": [
+        {
+          "word": "کیوں",
+          "start": 72.92,
+          "end": 73.22,
+          "probability": 0.8018196225166321
+        },
+        {
+          "word": "کی",
+          "start": 73.22,
+          "end": 73.32,
+          "probability": 0.7719542980194092
+        },
+        {
+          "word": "کچھ",
+          "start": 73.32,
+          "end": 73.64,
+          "probability": 0.9408467610677084
+        },
+        {
+          "word": "لوگ",
+          "start": 73.64,
+          "end": 73.94,
+          "probability": 0.9568424820899963
+        },
+        {
+          "word": "صرف",
+          "start": 73.94,
+          "end": 74.2,
+          "probability": 0.7201123237609863
+        },
+        {
+          "word": "اپنے",
+          "start": 74.2,
+          "end": 74.66,
+          "probability": 0.6559012744110078
+        },
+        {
+          "word": "منزل",
+          "start": 74.66,
+          "end": 75.0,
+          "probability": 0.8030832807223002
+        },
+        {
+          "word": "תک",
+          "start": 75.0,
+          "end": 75.22,
+          "probability": 0.45085008977912366
+        },
+        {
+          "word": "نہیں",
+          "start": 75.22,
+          "end": 75.34,
+          "probability": 0.9224912524223328
+        },
+        {
+          "word": "پہنچ",
+          "start": 75.34,
+          "end": 75.74,
+          "probability": 0.8056188225746155
+        },
+        {
+          "word": "دے۔",
+          "start": 75.74,
+          "end": 76.42,
+          "probability": 0.6815583209196726
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    },
+    {
+      "sentenceId": "hindi-19",
+      "start": 76.42,
+      "end": 78.88,
+      "spokenHindi": "وہ دوسروں کے لیے بھی راسلے بھنے جاتے ہیں۔",
+      "avgLogprob": -0.5832390962827085,
+      "noSpeechProbability": 0.043626103550195694,
+      "compressionRatio": 1.9566787003610109,
+      "words": [
+        {
+          "word": "وہ",
+          "start": 76.42,
+          "end": 76.6,
+          "probability": 0.983326256275177
+        },
+        {
+          "word": "دوسروں",
+          "start": 76.6,
+          "end": 77.1,
+          "probability": 0.7666763290762901
+        },
+        {
+          "word": "کے",
+          "start": 77.1,
+          "end": 77.24,
+          "probability": 0.9819796085357666
+        },
+        {
+          "word": "لیے",
+          "start": 77.24,
+          "end": 77.44,
+          "probability": 0.8392390012741089
+        },
+        {
+          "word": "بھی",
+          "start": 77.44,
+          "end": 77.58,
+          "probability": 0.9779415428638458
+        },
+        {
+          "word": "راسلے",
+          "start": 77.58,
+          "end": 78.06,
+          "probability": 0.45711965757072903
+        },
+        {
+          "word": "بھنے",
+          "start": 78.06,
+          "end": 78.3,
+          "probability": 0.33173846919089556
+        },
+        {
+          "word": "جاتے",
+          "start": 78.3,
+          "end": 78.58,
+          "probability": 0.8564882675806681
+        },
+        {
+          "word": "ہیں۔",
+          "start": 78.58,
+          "end": 78.88,
+          "probability": 0.8816413581371307
+        }
+      ],
+      "reviewStatus": "candidate",
+      "issues": []
+    }
+  ],
+  "verifiedCount": 0,
+  "candidateCount": 19
+}

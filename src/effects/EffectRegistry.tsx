@@ -26,20 +26,31 @@ export function resolveEffect(effectType: EffectType): React.FC<EffectProps> {
 }
 
 function baseLayout(event: SemanticEditEvent, scale: number) {
+  const width = event.layout.width * scale;
+  const left = Math.max(24 * scale, Math.min(event.layout.x * scale, 1080 * scale - width - 24 * scale));
   return {
-    left: event.layout.x * scale,
+    left,
     top: event.layout.y * scale,
-    width: event.layout.width * scale,
+    width,
   };
 }
 
 function enterOpacity(frame: number, event: SemanticEditEvent, fps: number) {
   const start = Math.round((event.startSeconds ?? event.transcriptSpan.startSeconds) * fps);
   const duration = event.animation?.enterDurationFrames ?? 10;
-  return interpolate(frame, [start, start + duration], [0, 1], {
+  const hold = event.animation?.holdDurationFrames ?? 24;
+  const exitDuration = event.animation?.exitDurationFrames ?? 8;
+  const end = start + duration + hold;
+  const exit = interpolate(frame, [end, end + exitDuration], [1, 0], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
+  if (frame < start) return 0;
+  const enter = interpolate(frame, [start, start + duration], [0, 1], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+  return Math.min(enter, exit);
 }
 
 export function KineticLabel({ event, frame, fps, scale }: EffectProps) {

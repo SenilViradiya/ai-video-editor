@@ -1,0 +1,784 @@
+{
+  "schemaVersion": "1.0",
+  "source": "input/raw-video/talking-head.mp4",
+  "sourceMediaId": "primary_source-22f5e379254e",
+  "sourceSha256": "22f5e379254e6d569f450d663078a5914cbe3da016b180f4dc4019b149e68e41",
+  "language": "gu",
+  "languageProbability": 1.0,
+  "model": "faster-whisper-base",
+  "device": "cpu",
+  "computeType": "int8",
+  "duration": 58.4666875,
+  "segments": [
+    {
+      "start": 3.6,
+      "end": 29.98,
+      "text": "ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا",
+      "avg_logprob": -0.051192690001593696,
+      "no_speech_prob": 0.027083847671747208,
+      "compression_ratio": 20.5,
+      "words": [
+        {
+          "word": "ھا",
+          "start": 3.6,
+          "end": 4.56,
+          "probability": 0.24206935614347458
+        },
+        {
+          "word": "ھا",
+          "start": 4.56,
+          "end": 4.72,
+          "probability": 0.6047698259353638
+        },
+        {
+          "word": "ھا",
+          "start": 4.72,
+          "end": 4.86,
+          "probability": 0.9125451644261678
+        },
+        {
+          "word": "ھا",
+          "start": 4.86,
+          "end": 5.56,
+          "probability": 0.9669057726860046
+        },
+        {
+          "word": "ھا",
+          "start": 5.56,
+          "end": 5.56,
+          "probability": 0.9720609982808431
+        },
+        {
+          "word": "ھا",
+          "start": 5.56,
+          "end": 5.62,
+          "probability": 0.9778334299723307
+        },
+        {
+          "word": "ھا",
+          "start": 5.62,
+          "end": 8.34,
+          "probability": 0.9767115910847982
+        },
+        {
+          "word": "ھا",
+          "start": 8.34,
+          "end": 8.34,
+          "probability": 0.9777493476867676
+        },
+        {
+          "word": "ھا",
+          "start": 8.34,
+          "end": 8.54,
+          "probability": 0.978198786576589
+        },
+        {
+          "word": "ھا",
+          "start": 8.54,
+          "end": 8.58,
+          "probability": 0.980848471323649
+        },
+        {
+          "word": "ھا",
+          "start": 8.58,
+          "end": 8.58,
+          "probability": 0.9814298748970032
+        },
+        {
+          "word": "ھا",
+          "start": 8.58,
+          "end": 9.38,
+          "probability": 0.9799867471059164
+        },
+        {
+          "word": "ھا",
+          "start": 9.38,
+          "end": 11.76,
+          "probability": 0.9823529322942098
+        },
+        {
+          "word": "ھا",
+          "start": 11.76,
+          "end": 12.28,
+          "probability": 0.983951469262441
+        },
+        {
+          "word": "ھا",
+          "start": 12.28,
+          "end": 16.22,
+          "probability": 0.9842801491419474
+        },
+        {
+          "word": "ھا",
+          "start": 16.22,
+          "end": 17.1,
+          "probability": 0.9857561786969503
+        },
+        {
+          "word": "ھا",
+          "start": 17.1,
+          "end": 17.56,
+          "probability": 0.9846377372741699
+        },
+        {
+          "word": "ھا",
+          "start": 17.56,
+          "end": 17.58,
+          "probability": 0.9860129157702128
+        },
+        {
+          "word": "ھا",
+          "start": 17.58,
+          "end": 17.58,
+          "probability": 0.9873398145039877
+        },
+        {
+          "word": "ھا",
+          "start": 17.58,
+          "end": 17.58,
+          "probability": 0.9877472917238871
+        },
+        {
+          "word": "ھا",
+          "start": 17.58,
+          "end": 18.58,
+          "probability": 0.9873492320378622
+        },
+        {
+          "word": "ھا",
+          "start": 18.58,
+          "end": 18.58,
+          "probability": 0.9866652687390646
+        },
+        {
+          "word": "ھا",
+          "start": 18.58,
+          "end": 18.58,
+          "probability": 0.9860837062199911
+        },
+        {
+          "word": "ھا",
+          "start": 18.58,
+          "end": 18.58,
+          "probability": 0.9873773654301962
+        },
+        {
+          "word": "ھا",
+          "start": 18.58,
+          "end": 19.0,
+          "probability": 0.9894690116246542
+        },
+        {
+          "word": "ھا",
+          "start": 19.0,
+          "end": 19.0,
+          "probability": 0.9879361192385355
+        },
+        {
+          "word": "ھا",
+          "start": 19.0,
+          "end": 19.0,
+          "probability": 0.9896928469340006
+        },
+        {
+          "word": "ھا",
+          "start": 19.0,
+          "end": 19.0,
+          "probability": 0.9891735315322876
+        },
+        {
+          "word": "ھا",
+          "start": 19.0,
+          "end": 19.0,
+          "probability": 0.9892724355061849
+        },
+        {
+          "word": "ھا",
+          "start": 19.0,
+          "end": 19.4,
+          "probability": 0.9893426497777303
+        },
+        {
+          "word": "ھا",
+          "start": 19.4,
+          "end": 19.4,
+          "probability": 0.9892467657725016
+        },
+        {
+          "word": "ھا",
+          "start": 19.4,
+          "end": 19.4,
+          "probability": 0.988615095615387
+        },
+        {
+          "word": "ھا",
+          "start": 19.4,
+          "end": 19.4,
+          "probability": 0.9911604523658752
+        },
+        {
+          "word": "ھا",
+          "start": 19.4,
+          "end": 19.4,
+          "probability": 0.988921324412028
+        },
+        {
+          "word": "ھا",
+          "start": 19.4,
+          "end": 19.4,
+          "probability": 0.9900046785672506
+        },
+        {
+          "word": "ھا",
+          "start": 19.4,
+          "end": 20.04,
+          "probability": 0.9899136821428934
+        },
+        {
+          "word": "ھا",
+          "start": 20.04,
+          "end": 20.44,
+          "probability": 0.9899203379948934
+        },
+        {
+          "word": "ھا",
+          "start": 20.44,
+          "end": 20.44,
+          "probability": 0.9903067350387573
+        },
+        {
+          "word": "ھا",
+          "start": 20.44,
+          "end": 20.44,
+          "probability": 0.9894511500994364
+        },
+        {
+          "word": "ھا",
+          "start": 20.44,
+          "end": 21.74,
+          "probability": 0.9886099894841512
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9906217853228251
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.990768829981486
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.990991214911143
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9900755484898885
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9896978139877319
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9908579389254252
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9898027976353964
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9901930292447408
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9887362917264303
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9899165232976278
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9908810257911682
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9904078443845113
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9906044801076254
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9905120531717936
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9883652130762736
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9892549713452657
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9893619616826376
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 21.74,
+          "probability": 0.9889125823974609
+        },
+        {
+          "word": "ھا",
+          "start": 21.74,
+          "end": 22.12,
+          "probability": 0.9906875689824423
+        },
+        {
+          "word": "ھا",
+          "start": 22.12,
+          "end": 22.12,
+          "probability": 0.9889837503433228
+        },
+        {
+          "word": "ھا",
+          "start": 22.12,
+          "end": 22.6,
+          "probability": 0.989323099454244
+        },
+        {
+          "word": "ھا",
+          "start": 22.6,
+          "end": 22.6,
+          "probability": 0.9901653528213501
+        },
+        {
+          "word": "ھا",
+          "start": 22.6,
+          "end": 22.6,
+          "probability": 0.9909814198811849
+        },
+        {
+          "word": "ھا",
+          "start": 22.6,
+          "end": 22.6,
+          "probability": 0.9904575745264689
+        },
+        {
+          "word": "ھا",
+          "start": 22.6,
+          "end": 22.6,
+          "probability": 0.9897180398305258
+        },
+        {
+          "word": "ھا",
+          "start": 22.6,
+          "end": 27.38,
+          "probability": 0.9894309838612875
+        },
+        {
+          "word": "ھا",
+          "start": 27.38,
+          "end": 27.38,
+          "probability": 0.9914093017578125
+        },
+        {
+          "word": "ھا",
+          "start": 27.38,
+          "end": 27.38,
+          "probability": 0.9903135895729065
+        },
+        {
+          "word": "ھا",
+          "start": 27.38,
+          "end": 27.38,
+          "probability": 0.9892834822336832
+        },
+        {
+          "word": "ھا",
+          "start": 27.38,
+          "end": 27.38,
+          "probability": 0.9898323814074198
+        },
+        {
+          "word": "ھا",
+          "start": 27.38,
+          "end": 29.66,
+          "probability": 0.9907300074895223
+        },
+        {
+          "word": "ھا",
+          "start": 29.66,
+          "end": 29.66,
+          "probability": 0.9918359120686849
+        },
+        {
+          "word": "ھا",
+          "start": 29.66,
+          "end": 29.84,
+          "probability": 0.99066694577535
+        },
+        {
+          "word": "ھا",
+          "start": 29.84,
+          "end": 29.84,
+          "probability": 0.9898560245831808
+        },
+        {
+          "word": "",
+          "start": 29.84,
+          "end": 29.98,
+          "probability": 0.9964028596878052
+        }
+      ]
+    },
+    {
+      "start": 29.98,
+      "end": 32.32,
+      "text": "überzeugखी शहकें ब्Godन केने हैत करहीं मी सेईना को आपता नती धोञा थो हैPoint。",
+      "avg_logprob": -3.2645171440972223,
+      "no_speech_prob": 0.21392056345939636,
+      "compression_ratio": 1.7514792899408285,
+      "words": [
+        {
+          "word": "überzeugखी",
+          "start": 29.98,
+          "end": 30.12,
+          "probability": 0.0642305635537852
+        },
+        {
+          "word": "शहकें",
+          "start": 30.12,
+          "end": 30.36,
+          "probability": 0.13065023244901872
+        },
+        {
+          "word": "ब्Godन",
+          "start": 30.36,
+          "end": 30.6,
+          "probability": 0.13877998687230503
+        },
+        {
+          "word": "केने",
+          "start": 30.6,
+          "end": 30.62,
+          "probability": 0.10964240459725261
+        },
+        {
+          "word": "हैत",
+          "start": 30.62,
+          "end": 31.04,
+          "probability": 0.12104820553213358
+        },
+        {
+          "word": "करहीं",
+          "start": 31.04,
+          "end": 31.16,
+          "probability": 0.28239197842776775
+        },
+        {
+          "word": "मी",
+          "start": 31.16,
+          "end": 31.52,
+          "probability": 0.2322117710718885
+        },
+        {
+          "word": "सेईना",
+          "start": 31.52,
+          "end": 32.12,
+          "probability": 0.10232039859207968
+        },
+        {
+          "word": "को",
+          "start": 32.12,
+          "end": 32.12,
+          "probability": 0.19822363182902336
+        },
+        {
+          "word": "आपता",
+          "start": 32.12,
+          "end": 32.12,
+          "probability": 0.2652106322348118
+        },
+        {
+          "word": "नती",
+          "start": 32.12,
+          "end": 32.12,
+          "probability": 0.17716263397596776
+        },
+        {
+          "word": "धोञा",
+          "start": 32.12,
+          "end": 32.12,
+          "probability": 0.14867707481607795
+        },
+        {
+          "word": "थो",
+          "start": 32.12,
+          "end": 32.12,
+          "probability": 0.11881977319717407
+        },
+        {
+          "word": "हैPoint。",
+          "start": 32.12,
+          "end": 32.32,
+          "probability": 0.14333380416562136
+        }
+      ]
+    },
+    {
+      "start": 36.88,
+      "end": 53.26,
+      "text": "करहीं ब़्ागऺिन से किलन्य intrigued लिए कहीं कि रई हे को तत aotsgum robe tha?",
+      "avg_logprob": -3.2645171440972223,
+      "no_speech_prob": 0.21392056345939636,
+      "compression_ratio": 1.7514792899408285,
+      "words": [
+        {
+          "word": "करहीं",
+          "start": 36.88,
+          "end": 37.6,
+          "probability": 0.4164628654718399
+        },
+        {
+          "word": "ब़्ागऺिन",
+          "start": 37.6,
+          "end": 38.32,
+          "probability": 0.19794171450970074
+        },
+        {
+          "word": "से",
+          "start": 38.32,
+          "end": 39.88,
+          "probability": 0.18954668194055557
+        },
+        {
+          "word": "किलन्य",
+          "start": 39.88,
+          "end": 40.0,
+          "probability": 0.07924726294974486
+        },
+        {
+          "word": "intrigued",
+          "start": 40.0,
+          "end": 40.0,
+          "probability": 2.0418383428477682e-05
+        },
+        {
+          "word": "लिए",
+          "start": 40.0,
+          "end": 41.98,
+          "probability": 0.2644545271992683
+        },
+        {
+          "word": "कहीं",
+          "start": 41.98,
+          "end": 42.78,
+          "probability": 0.3517728615552187
+        },
+        {
+          "word": "कि",
+          "start": 42.78,
+          "end": 43.7,
+          "probability": 0.12502680718898773
+        },
+        {
+          "word": "रई",
+          "start": 43.7,
+          "end": 43.7,
+          "probability": 0.055590510834008455
+        },
+        {
+          "word": "हे",
+          "start": 43.7,
+          "end": 43.7,
+          "probability": 0.021238939370959997
+        },
+        {
+          "word": "को",
+          "start": 43.7,
+          "end": 46.62,
+          "probability": 0.12064273282885551
+        },
+        {
+          "word": "तत",
+          "start": 46.62,
+          "end": 47.0,
+          "probability": 0.22348226824154457
+        },
+        {
+          "word": "aotsgum",
+          "start": 47.0,
+          "end": 48.04,
+          "probability": 0.005598345332259669
+        },
+        {
+          "word": "robe",
+          "start": 48.04,
+          "end": 53.06,
+          "probability": 1.649247906243545e-06
+        },
+        {
+          "word": "tha?",
+          "start": 53.06,
+          "end": 53.26,
+          "probability": 0.020849252119660378
+        }
+      ]
+    },
+    {
+      "start": 55.4,
+      "end": 57.04,
+      "text": "कहीं और nekko वना द stellt vitamटphin Dasuz bila sabbu nekka7 toxaojas?",
+      "avg_logprob": -3.2645171440972223,
+      "no_speech_prob": 0.21392056345939636,
+      "compression_ratio": 1.7514792899408285,
+      "words": [
+        {
+          "word": "कहीं",
+          "start": 55.4,
+          "end": 56.12,
+          "probability": 0.4951245477423072
+        },
+        {
+          "word": "और",
+          "start": 56.12,
+          "end": 56.3,
+          "probability": 0.3923617188508312
+        },
+        {
+          "word": "nekko",
+          "start": 56.3,
+          "end": 56.36,
+          "probability": 0.2801359809479133
+        },
+        {
+          "word": "वना",
+          "start": 56.36,
+          "end": 56.72,
+          "probability": 0.10447008535265923
+        },
+        {
+          "word": "द",
+          "start": 56.72,
+          "end": 56.72,
+          "probability": 0.43110741674900055
+        },
+        {
+          "word": "stellt",
+          "start": 56.72,
+          "end": 56.72,
+          "probability": 2.2362298750522314e-06
+        },
+        {
+          "word": "vitamटphin",
+          "start": 56.72,
+          "end": 56.72,
+          "probability": 0.09123170663849578
+        },
+        {
+          "word": "Dasuz",
+          "start": 56.72,
+          "end": 56.82,
+          "probability": 4.930701538796711e-05
+        },
+        {
+          "word": "bila",
+          "start": 56.82,
+          "end": 56.88,
+          "probability": 0.0026948671438731253
+        },
+        {
+          "word": "sabbu",
+          "start": 56.88,
+          "end": 56.88,
+          "probability": 0.0016216437506955117
+        },
+        {
+          "word": "nekka7",
+          "start": 56.88,
+          "end": 56.88,
+          "probability": 0.18084611084418611
+        },
+        {
+          "word": "toxaojas?",
+          "start": 56.88,
+          "end": 57.04,
+          "probability": 0.00029500383895234944
+        }
+      ]
+    },
+    {
+      "start": 57.04,
+      "end": 58.2,
+      "text": "utam na dhyam karyyapis",
+      "avg_logprob": -0.8818145266601017,
+      "no_speech_prob": 0.10994116216897964,
+      "compression_ratio": 0.7931034482758621,
+      "words": [
+        {
+          "word": "utam",
+          "start": 57.04,
+          "end": 57.4,
+          "probability": 0.11391008831560612
+        },
+        {
+          "word": "na",
+          "start": 57.4,
+          "end": 57.48,
+          "probability": 0.8696011900901794
+        },
+        {
+          "word": "dhyam",
+          "start": 57.48,
+          "end": 57.72,
+          "probability": 0.5611677120129267
+        },
+        {
+          "word": "karyyapis",
+          "start": 57.72,
+          "end": 58.2,
+          "probability": 0.5842086970806122
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.0",
+  "status": "blocked_no_cinematic_generation_backend",
+  "auditedAt": "2026-11-23",
+  "repositoryProviders": [],
+  "credentialChecks": {
+    "OPENAI_API_KEY": false,
+    "REPLICATE_API_TOKEN": false,
+    "RUNWAY_API_KEY": false,
+    "LUMA_API_KEY": false,
+    "PIKA_API_KEY": false,
+    "STABILITY_API_KEY": false,
+    "HUGGINGFACEHUB_API_TOKEN": false,
+    "HF_TOKEN": false,
+    "GOOGLE_API_KEY": false
+  },
+  "localInference": {
+    "torchVersion": "2.15.0+cpu",
+    "cudaAvailable": false,
+    "mpsAvailable": false,
+    "diffusersInstalled": false,
+    "transformersInstalled": false,
+    "comfyuiInstalled": false,
+    "stableVideoDiffusionInstalled": false,
+    "videoGenerationSdkInstalled": false
+  },
+  "requiredUserAction": {
+    "choice": "configure_one_approved_image_and_video_generation_provider",
+    "examples": [
+      "Provide an approved provider API key and billing permission.",
+      "Install and provide a supported local GPU-backed image/video generation stack."
+    ],
+    "not_done": [
+      "No provider request was sent.",
+      "No paid service was invoked.",
+      "No procedural 2D output was relabeled as cinematic AI video."
+    ]
+  }
+}

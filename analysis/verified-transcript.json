@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0",
+  "sourceMediaId": "primary_source-22f5e379254e",
+  "sourceSha256": "22f5e379254e6d569f450d663078a5914cbe3da016b180f4dc4019b149e68e41",
+  "provider": "faster-whisper-base",
+  "modelMode": "local",
+  "language": "gu",
+  "languageProbability": 1,
+  "sourceDurationSeconds": 58.4666875,
+  "candidateSegments": [
+    {
+      "startSeconds": 3.6,
+      "endSeconds": 29.98,
+      "text": "ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا ھا",
+      "meanWordConfidence": 0.9716232057743603,
+      "noSpeechProbability": 0.027083847671747208,
+      "compressionRatio": 20.5,
+      "humanReviewStatus": "required",
+      "verificationReason": "Low confidence, suspicious repetition, or weak word evidence."
+    },
+    {
+      "startSeconds": 29.98,
+      "endSeconds": 32.32,
+      "text": "überzeugखी शहकें ब्Godन केने हैत करहीं मी सेईना को आपता नती धोञा थो हैPoint。",
+      "meanWordConfidence": 0.1594787922367791,
+      "noSpeechProbability": 0.21392056345939636,
+      "compressionRatio": 1.7514792899408285,
+      "humanReviewStatus": "required",
+      "verificationReason": "Low confidence, suspicious repetition, or weak word evidence."
+    },
+    {
+      "startSeconds": 36.88,
+      "endSeconds": 53.26,
+      "text": "करहीं ब़्ागऺिन से किलन्य intrigued लिए कहीं कि रई हे को तत aotsgum robe tha?",
+      "meanWordConfidence": 0.1381251224782626,
+      "noSpeechProbability": 0.21392056345939636,
+      "compressionRatio": 1.7514792899408285,
+      "humanReviewStatus": "required",
+      "verificationReason": "Low confidence, suspicious repetition, or weak word evidence."
+    },
+    {
+      "startSeconds": 55.4,
+      "endSeconds": 57.04,
+      "text": "कहीं और nekko वना द stellt vitamटphin Dasuz bila sabbu nekka7 toxaojas?",
+      "meanWordConfidence": 0.1649950520920148,
+      "noSpeechProbability": 0.21392056345939636,
+      "compressionRatio": 1.7514792899408285,
+      "humanReviewStatus": "required",
+      "verificationReason": "Low confidence, suspicious repetition, or weak word evidence."
+    },
+    {
+      "startSeconds": 57.04,
+      "endSeconds": 58.2,
+      "text": "utam na dhyam karyyapis",
+      "meanWordConfidence": 0.5322219218748311,
+      "noSpeechProbability": 0.10994116216897964,
+      "compressionRatio": 0.7931034482758621,
+      "humanReviewStatus": "required",
+      "verificationReason": "Low confidence, suspicious repetition, or weak word evidence."
+    }
+  ],
+  "verifiedSentenceCount": 0,
+  "manualReviewRequired": true,
+  "cloudProvider": {
+    "configured": false,
+    "status": "not_configured",
+    "chargeAllowed": false
+  },
+  "limitations": [
+    "The base candidate produced repetition in the source interval 3.6–29.98 seconds.",
+    "No sentence is marked verified until human or authoritative transcript confirmation.",
+    "Original language is preserved as Gujarati."
+  ]
+}

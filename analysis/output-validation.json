@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-21T10:58:23.556Z",
-  "outputPath": "output\\final-hybrid-p1-reel.mp4",
+  "generatedAt": "2026-11-21T11:20:51.876Z",
+  "outputPath": "output\\p2-regression-segment.mp4",
   "expected": {
     "width": 2160,
     "height": 3840,
@@ -18,7 +18,7 @@
     "width": 2160,
     "height": 3840,
     "fps": 30,
-    "durationSeconds": 58.466667,
+    "durationSeconds": 6.004898,
     "videoCodec": "h264",
     "pixelFormat": "yuvj420p",
     "audioStreams": 1,
